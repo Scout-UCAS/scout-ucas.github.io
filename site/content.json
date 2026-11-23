@@ -96,7 +96,8 @@
       "authors": ["Dianqiao Lei", "Lianlei Shan"],
       "venue": "ICML", "year": 2026,
       "summary": {"en": "A robot policy learns to stop its internal reasoning when its state is confident enough to decode an action.", "zh": "机器人策略根据中间状态的置信度决定何时停止推理并输出动作。"},
-      "url": "https://proceedings.mlr.press/v306/lei26e.html"
+      "url": "https://proceedings.mlr.press/v306/lei26e.html",
+      "preprint": "https://arxiv.org/abs/2606.15099"
     },
     {
       "id": "self-softcot",
@@ -114,7 +115,8 @@
       "venue": "CVPR", "year": 2026,
       "summary": {"en": "Frequency-specific branches preserve fine boundaries and gather scene context before fusing their features for aerial image segmentation.", "zh": "用不同分支处理高频边界和低频场景信息，再融合两者完成超高分辨率遥感图像分割。"},
       "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_F2Net_A_Frequency-Fused_Network_for_Ultra-High_Resolution_Remote_Sensing_Segmentation_CVPR_2026_paper.html",
-      "preprint": "https://arxiv.org/abs/2506.07847"
+      "preprint": "https://arxiv.org/abs/2506.07847",
+      "code": "https://github.com/easm002/F2Net"
     },
     {
       "id": "ltpo",

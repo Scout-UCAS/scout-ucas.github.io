@@ -27,4 +27,5 @@ GitHub Pages serves the committed `docs/` directory on `main`.
 - The display name, research interests and photograph come from the supplied [Google Scholar profile](https://scholar.google.com/citations?user=V5YWfWgAAAAJ).
 - The biographical details appear in an author's biography in *Physical Communication*. The professional contact address also appears in the ACL paper. [Author biography](https://www.sciencedirect.com/science/article/pii/S1874490726002429) · [ACL paper](https://aclanthology.org/2026.acl-long.1496.pdf)
 - The CT-RL arithmetic example follows the project executor. The two ResponseGuard images come from the first matched evaluation seed for the blue/red pencil pair in the CPU simulation, with training seed 42. [Executor](projects/ct-rl/ct_rl/tasks.py) · [ResponseGuard report](projects/responseguard/docs/Smoke运行报告.md)
+- Each publication thumbnail links to a larger view of the figure. Sources and attribution are listed in the [figure credits](docs/assets/papers/FIGURES.md).
 - The site layout was inspired by [Yingdong Hu’s academic homepage](https://yingdong-hu.github.io/).

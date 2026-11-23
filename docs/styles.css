@@ -123,7 +123,7 @@ time { color: var(--accent); font-size: .88rem; padding-top: .14rem; }
 .paper { display: grid; grid-template-columns: clamp(9rem, 18vw, 13.25rem) minmax(0, 1fr); align-items: start; gap: clamp(1.25rem, 3.5vw, 2.65rem); padding: 1.6rem 0; }
 .paper-figure { align-self: start; background: white; border: 1px solid var(--line); border-radius: .5rem; overflow: hidden; padding: .6rem; }
 .paper-figure img { width: 100%; height: clamp(5.25rem, 9.5vw, 7.6rem); object-fit: contain; }
-.paper-date { align-self: start; }
+.paper-figure:hover { border-color: var(--accent); }
 .venue { font-weight: 500; font-size: .81rem; letter-spacing: .035em; color: var(--accent); margin-bottom: .35rem; }
 .paper h3 { font-size: clamp(1.25rem, 2.25vw, 1.55rem); }
 .paper h3 a { color: var(--ink); text-decoration: none; }
@@ -133,6 +133,7 @@ time { color: var(--accent); font-size: .88rem; padding-top: .14rem; }
 .paper-summary { margin-block: .55rem .6rem; line-height: 1.55; }
 .footer { display: flex; justify-content: space-between; padding: 1.3rem 0 2.3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
 .footer a { color: var(--muted); }
+.footer div { display: flex; gap: 1.15rem; }
 :lang(zh-CN) .focus { letter-spacing: .06em; }
 html[lang="zh-CN"] h2, html[lang="zh-CN"] .research-grid h3 { letter-spacing: .005em; }
 @media (max-width: 48rem) {
@@ -165,7 +166,6 @@ html[lang="zh-CN"] h2, html[lang="zh-CN"] .research-grid h3 { letter-spacing: .0
   .paper { grid-template-columns: 1fr; gap: .75rem; padding-block: 1.25rem; }
   .paper-figure { width: 10rem; }
   .paper-figure img { height: 5rem; }
-  .paper-date { margin-bottom: -.45rem; }
 }
 @media print {
   :root, :root[data-theme="dark"] { --paper: white; --ink: black; --body: #222; --muted: #333; --accent: #143968; --line: #bbb; }

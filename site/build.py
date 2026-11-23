@@ -26,7 +26,7 @@ LABELS = {
         "code": "Code", "report": "Experiment report", "paper": "Paper", "preprint": "Preprint",
         "executor": "Arithmetic executor", "readouts": "Expected readouts", "swap": "swap",
         "blue": "Blue pencil", "red": "Red pencil", "simulator": "CPU simulator · matched seed",
-        "top": "Back to top"
+        "figure": "View figure for", "credits": "Figure credits", "top": "Back to top"
     },
     "zh": {
         "title": "Lianlei Shan | 学术主页",
@@ -41,7 +41,7 @@ LABELS = {
         "code": "源码", "report": "实验报告", "paper": "论文原文", "preprint": "预印本",
         "executor": "算术执行器", "readouts": "预期读出", "swap": "交换",
         "blue": "蓝色铅笔", "red": "红色铅笔", "simulator": "CPU 模拟器 · 相同评测种子",
-        "top": "回到顶部"
+        "figure": "查看论文配图", "credits": "配图来源", "top": "回到顶部"
     }
 }
 
@@ -100,12 +100,15 @@ def paper_row(paper, lang, base, name, labels):
             resources.append(link(paper[key], labels[key]))
     image_path = f"assets/papers/{paper['id']}.webp"
     venue = f"{escape(paper['venue'])} · {paper['year']}"
+    venue_line = f'<p class="venue">{venue}</p>'
     if (DOCS / image_path).is_file():
-        visual = f'<div class="paper-figure"><img src="{base}{image_path}" alt="" loading="lazy"></div>'
-        venue_line = f'<p class="venue">{venue}</p>'
+        figure_label = escape(f"{labels['figure']} {paper['title']}", quote=True)
+        visual = (
+            f'<a class="paper-figure" href="{base}{image_path}" aria-label="{figure_label}">'
+            f'<img src="{base}{image_path}" alt="" loading="lazy"></a>'
+        )
     else:
-        visual = f'<div class="venue paper-date">{venue}</div>'
-        venue_line = ""
+        visual, venue_line = venue_line, ""
     return f"""
       <article class="paper" id="{escape(paper['id'])}">
         {visual}
