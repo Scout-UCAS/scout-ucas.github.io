@@ -1,0 +1,424 @@
+{
+  "status": "passed",
+  "backend": "cpu",
+  "python": "3.11.15",
+  "torch": "2.7.1",
+  "cuda": false,
+  "elapsed_seconds": 35.53858183301054,
+  "full_dataset": {
+    "train": 8000,
+    "val": 1000,
+    "test": 1000
+  },
+  "full_split_audit": {
+    "triples": {
+      "train": 512,
+      "val": 64,
+      "test": 64
+    },
+    "overlap": {
+      "train/val": 0,
+      "train/test": 0,
+      "val/test": 0
+    },
+    "overlap_with_interventions": {
+      "train/val": 0,
+      "train/test": 0,
+      "val/test": 0
+    }
+  },
+  "creative_prompt_bank": 200,
+  "methods": [
+    "flow-grpo",
+    "diversegrpo",
+    "drift",
+    "pair-grpo-adapted",
+    "margin-supervised",
+    "per-prompt",
+    "task-only",
+    "semantic",
+    "diversity",
+    "unprojected",
+    "joint"
+  ],
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "training_runs": 33,
+  "validation_checkpoints": 165,
+  "test_pairs": 8,
+  "k_eval": 16,
+  "test_pair_records": 264,
+  "test_images_read": 8448,
+  "max_decomposition_error": 8.673617379884035e-19,
+  "trained_budgets": {
+    "17": {
+      "denoiser_examples": {
+        "cap": 3072,
+        "comparable_ceilings": 6,
+        "joint_iteration": 2
+      },
+      "denoiser_calls": {
+        "cap": 768,
+        "comparable_ceilings": 9,
+        "joint_iteration": 8
+      },
+      "verifier_questions": {
+        "cap": 2816,
+        "comparable_ceilings": 2,
+        "joint_iteration": 1
+      },
+      "preference_scores": {
+        "cap": 256,
+        "comparable_ceilings": 2,
+        "joint_iteration": 1
+      }
+    },
+    "42": {
+      "denoiser_examples": {
+        "cap": 3072,
+        "comparable_ceilings": 6,
+        "joint_iteration": 2
+      },
+      "denoiser_calls": {
+        "cap": 768,
+        "comparable_ceilings": 9,
+        "joint_iteration": 8
+      },
+      "verifier_questions": {
+        "cap": 2816,
+        "comparable_ceilings": 2,
+        "joint_iteration": 1
+      },
+      "preference_scores": {
+        "cap": 256,
+        "comparable_ceilings": 2,
+        "joint_iteration": 1
+      }
+    },
+    "73": {
+      "denoiser_examples": {
+        "cap": 3072,
+        "comparable_ceilings": 6,
+        "joint_iteration": 2
+      },
+      "denoiser_calls": {
+        "cap": 768,
+        "comparable_ceilings": 9,
+        "joint_iteration": 8
+      },
+      "verifier_questions": {
+        "cap": 2816,
+        "comparable_ceilings": 2,
+        "joint_iteration": 1
+      },
+      "preference_scores": {
+        "cap": 256,
+        "comparable_ceilings": 2,
+        "joint_iteration": 1
+      }
+    }
+  },
+  "common_support": {
+    "members": [
+      {
+        "method": "flow-grpo",
+        "seed": 17
+      },
+      {
+        "method": "flow-grpo",
+        "seed": 42
+      },
+      {
+        "method": "flow-grpo",
+        "seed": 73
+      },
+      {
+        "method": "diversegrpo",
+        "seed": 17
+      },
+      {
+        "method": "diversegrpo",
+        "seed": 42
+      },
+      {
+        "method": "diversegrpo",
+        "seed": 73
+      },
+      {
+        "method": "drift",
+        "seed": 17
+      },
+      {
+        "method": "drift",
+        "seed": 42
+      },
+      {
+        "method": "drift",
+        "seed": 73
+      },
+      {
+        "method": "pair-grpo-adapted",
+        "seed": 17
+      },
+      {
+        "method": "pair-grpo-adapted",
+        "seed": 42
+      },
+      {
+        "method": "pair-grpo-adapted",
+        "seed": 73
+      },
+      {
+        "method": "margin-supervised",
+        "seed": 17
+      },
+      {
+        "method": "margin-supervised",
+        "seed": 42
+      },
+      {
+        "method": "margin-supervised",
+        "seed": 73
+      },
+      {
+        "method": "per-prompt",
+        "seed": 17
+      },
+      {
+        "method": "per-prompt",
+        "seed": 42
+      },
+      {
+        "method": "per-prompt",
+        "seed": 73
+      },
+      {
+        "method": "task-only",
+        "seed": 17
+      },
+      {
+        "method": "task-only",
+        "seed": 42
+      },
+      {
+        "method": "task-only",
+        "seed": 73
+      },
+      {
+        "method": "semantic",
+        "seed": 17
+      },
+      {
+        "method": "semantic",
+        "seed": 42
+      },
+      {
+        "method": "semantic",
+        "seed": 73
+      },
+      {
+        "method": "diversity",
+        "seed": 17
+      },
+      {
+        "method": "diversity",
+        "seed": 42
+      },
+      {
+        "method": "diversity",
+        "seed": 73
+      },
+      {
+        "method": "unprojected",
+        "seed": 17
+      },
+      {
+        "method": "unprojected",
+        "seed": 42
+      },
+      {
+        "method": "unprojected",
+        "seed": 73
+      },
+      {
+        "method": "joint",
+        "seed": 17
+      },
+      {
+        "method": "joint",
+        "seed": 42
+      },
+      {
+        "method": "joint",
+        "seed": 73
+      },
+      {
+        "method": "reference",
+        "seed": null
+      }
+    ],
+    "d_cond": {
+      "n_common": 16,
+      "n_total": 16,
+      "coverage": 1.0,
+      "prompt_digest": "d3caa95d348b1b5f69d86d0caaccda28c7abc291eb289ac5f88c332246043877"
+    },
+    "vendi": {
+      "n_common": 16,
+      "n_total": 16,
+      "coverage": 1.0,
+      "prompt_digest": "d3caa95d348b1b5f69d86d0caaccda28c7abc291eb289ac5f88c332246043877"
+    }
+  },
+  "mixed_iterations_rejected": true,
+  "bit_exact_resume": true,
+  "stress": {
+    "noise": 1.7,
+    "iterations": 16,
+    "max_semantic_cost": 0.17639999091625214,
+    "max_rate_cost": 0.16000000000000003,
+    "max_distance_cost": 2.0249091344834476e-05,
+    "dual_increases": [
+      1,
+      3
+    ]
+  },
+  "validation_trials": 6,
+  "projection": {
+    "all": {
+      "tested": 30,
+      "defined": 30,
+      "coverage": 1.0,
+      "mean_residual_fraction": 0.29352145996542656
+    },
+    "validated_rank": 5,
+    "mean_residual_by_rank": {
+      "1": 0.7319535614443388,
+      "2": 0.5771525297893104,
+      "4": 0.29352145996542656,
+      "5": 0.22797128567844602
+    },
+    "rank_tolerance": 0.05,
+    "reference_distance_coverage": 1.0,
+    "reference_cal_rate": 0.7291666666666666,
+    "reference_below_rho_floor": 0.0,
+    "by_factor": {
+      "object": {
+        "tested": 6,
+        "defined": 6,
+        "coverage": 1.0,
+        "mean_residual_fraction": 0.2659372897282639
+      },
+      "landmark": {
+        "tested": 6,
+        "defined": 6,
+        "coverage": 1.0,
+        "mean_residual_fraction": 0.6150846919081939
+      },
+      "color": {
+        "tested": 6,
+        "defined": 6,
+        "coverage": 1.0,
+        "mean_residual_fraction": 0.08036693287270032
+      },
+      "count": {
+        "tested": 6,
+        "defined": 6,
+        "coverage": 1.0,
+        "mean_residual_fraction": 0.4308808277091672
+      },
+      "relation": {
+        "tested": 6,
+        "defined": 6,
+        "coverage": 1.0,
+        "mean_residual_fraction": 0.07533755760880714
+      }
+    },
+    "anchor_total": 24,
+    "anchor_confirmed": 24,
+    "anchor_precision": 1.0,
+    "feature_space": "tiny_rgb_12",
+    "verifier": "simulator_truth"
+  },
+  "calibration": {
+    "train": "calibration/train/labels.csv",
+    "eval": "calibration/eval/labels.csv"
+  },
+  "blind": {
+    "prompts": 6,
+    "raters": 3,
+    "cards": 18
+  },
+  "human_ratings_collected": 0,
+  "sd3": {
+    "train_methods": [
+      "joint",
+      "drift",
+      "diversegrpo"
+    ],
+    "updates_each": 2,
+    "native_lora_reload": true,
+    "public_interval_roundtrip": [
+      0.0,
+      0.0
+    ],
+    "external_scores_identical": true,
+    "metric_space": "diagnostic_rgb_cosine",
+    "creative_prompts": 2,
+    "creative_summary": {
+      "preference": -0.07473501190543175,
+      "semantic_rate": 0.0,
+      "quality_rate": 0.0,
+      "rho": 0.0,
+      "d_eff": 0.0,
+      "d_cond": null,
+      "vendi": null,
+      "metric_space": "diagnostic_rgb_cosine",
+      "preference_scorer": "sd3/random-models/eval_pick",
+      "counts": {
+        "denoiser_calls": 12,
+        "denoiser_examples": 48,
+        "generated_images": 8,
+        "semantic_questions": 16,
+        "quality_scores": 8,
+        "preference_scores": 8,
+        "feature_images": 8,
+        "evaluation_perceptual_images": 8
+      },
+      "wall_seconds": 0.06521241704467684,
+      "cov2": 0.0,
+      "cov_m": 0.0
+    },
+    "geneval2_fixture": {
+      "prompts": 1,
+      "atoms": 3,
+      "scale": "0 to 1",
+      "soft_tifa_am": 0.4647752046585083,
+      "soft_tifa_gm": 0.46477520465476846,
+      "am_by_skill": {
+        "object": 0.4647744596004486,
+        "count": 0.46477776765823364,
+        "position": 0.46477338671684265
+      },
+      "gm_by_atomicity": {
+        "3": 0.46477520465476846
+      }
+    },
+    "unequal_atom_prompt_am": 0.5,
+    "deltabench_fixture": {
+      "categories": {
+        "color": {
+          "am": 0.5,
+          "gm": 0.4987586552565872,
+          "pairs": 1
+        }
+      },
+      "macro_am": 0.5,
+      "macro_gm": 0.4987586552565872
+    }
+  },
+  "pytest": "...........................                                              [100%]\n27 passed in 5.71s"
+}

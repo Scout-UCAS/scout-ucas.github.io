@@ -1,0 +1,227 @@
+[
+  {
+    "axis": "M1-equal-steps",
+    "seed": 31,
+    "run": "ablations/M1-equal-steps/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 16,
+    "reader_labels": 8,
+    "flops_including_warm_and_search": 1037146928
+  },
+  {
+    "axis": "M1-equal-reads",
+    "seed": 31,
+    "run": "ablations/M1-equal-reads/31",
+    "policy_updates": 16,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 2170061168
+  },
+  {
+    "axis": "M2-equal-steps",
+    "seed": 31,
+    "run": "ablations/M2-equal-steps/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 32,
+    "reader_labels": 16,
+    "flops_including_warm_and_search": 1089381424
+  },
+  {
+    "axis": "M2-equal-reads",
+    "seed": 31,
+    "run": "ablations/M2-equal-reads/31",
+    "policy_updates": 8,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1527362016
+  },
+  {
+    "axis": "M4-equal-steps",
+    "seed": 31,
+    "run": "primary/ct-rl/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1157345456
+  },
+  {
+    "axis": "M4-equal-reads",
+    "seed": 31,
+    "run": "primary/ct-rl/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1157345456
+  },
+  {
+    "axis": "M8-equal-steps",
+    "seed": 31,
+    "run": "ablations/M8-equal-steps/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 128,
+    "reader_labels": 64,
+    "flops_including_warm_and_search": 1346607360
+  },
+  {
+    "axis": "M8-equal-reads",
+    "seed": 31,
+    "run": "ablations/M8-equal-reads/31",
+    "policy_updates": 2,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 991674800
+  },
+  {
+    "axis": "model.latent_steps-2",
+    "seed": 31,
+    "run": "primary/ct-rl/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1157345456
+  },
+  {
+    "axis": "model.latent_steps-4",
+    "seed": 31,
+    "run": "ablations/model.latent_steps-4/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1768806864
+  },
+  {
+    "axis": "model.latent_steps-8",
+    "seed": 31,
+    "run": "ablations/model.latent_steps-8/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 3045534736
+  },
+  {
+    "axis": "model.latent_steps-16",
+    "seed": 31,
+    "run": "ablations/model.latent_steps-16/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 5820633232
+  },
+  {
+    "axis": "model.action_dim-32",
+    "seed": 31,
+    "run": "ablations/model.action_dim-32/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1159090352
+  },
+  {
+    "axis": "model.action_dim-64",
+    "seed": 31,
+    "run": "ablations/model.action_dim-64/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1161416880
+  },
+  {
+    "axis": "model.action_dim-128",
+    "seed": 31,
+    "run": "ablations/model.action_dim-128/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1166069936
+  },
+  {
+    "axis": "rho-0.0",
+    "seed": 31,
+    "run": "ablations/rho-0.0/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1168445568
+  },
+  {
+    "axis": "rho-0.25",
+    "seed": 31,
+    "run": "ablations/rho-0.25/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1167934560
+  },
+  {
+    "axis": "rho-0.5",
+    "seed": 31,
+    "run": "primary/ct-rl/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1157345456
+  },
+  {
+    "axis": "rho-0.75",
+    "seed": 31,
+    "run": "ablations/rho-0.75/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1165820848
+  },
+  {
+    "axis": "k-2",
+    "seed": 31,
+    "run": "primary/ct-rl/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1157345456
+  },
+  {
+    "axis": "k-4",
+    "seed": 31,
+    "run": "ablations/k-4/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 128,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1504497200
+  },
+  {
+    "axis": "k-8",
+    "seed": 31,
+    "run": "ablations/k-8/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 256,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 2198800688
+  },
+  {
+    "axis": "grpo",
+    "seed": 31,
+    "run": "ablations/grpo/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1274330448
+  },
+  {
+    "axis": "beta-zero",
+    "seed": 31,
+    "run": "ablations/beta-zero/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1157345456
+  },
+  {
+    "axis": "no-mining",
+    "seed": 31,
+    "run": "ablations/no-mining/31",
+    "policy_updates": 4,
+    "candidate_suffix_reads": 64,
+    "reader_labels": 32,
+    "flops_including_warm_and_search": 1089659488
+  }
+]

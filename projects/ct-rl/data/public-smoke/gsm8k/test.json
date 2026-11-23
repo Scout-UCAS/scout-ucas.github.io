@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Mico and Marco wanted to get to know each other. They realized that the sum of their ages is 20. What will be the sum of their ages in 10 years?",
+    "answer": "40",
+    "steps": "There will be an additional 10 (for Mico) + 10 9for Marco) = <<10+10=20>>20 to Mico and Marco's current sum of ages in 10 years.\nTherefore, the sum of their ages in 10 years is 20 + 20 = <<20+20=40>>40."
+  },
+  {
+    "question": "If one person can paint half a house in 5 days, how many hours would it take for 5 people to paint a whole house?",
+    "answer": "48",
+    "steps": "First, we need to determine how many days it takes 1 person to paint a whole house. We do this by performing 5*2=<<5*2=10>>10 days to paint the full house.\nSince five people would perform the task 5 times as fast, we find the total amount of time required by performing 10/5= <<10/5=2>>2 days to paint the full house.\nSince there are 24 hours in a day, we perform 24*2=<<24*2=48>>48 hours for them to paint the full house."
+  },
+  {
+    "question": "A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+    "answer": "30",
+    "steps": "Let x represent the number of players on the defense\nOffense:2x\nSpecial Teams:(1/2)x\nTotal:x+2x+(1/2)x=105\n(7/2)x=105\nx=105(2/7)=30 players"
+  }
+]

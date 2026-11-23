@@ -1,0 +1,102 @@
+{
+  "data": "valid",
+  "training_protocol": "matched operator FLOPs",
+  "rank_keys": [
+    "mean CT-Acc",
+    "mean Pair-Both",
+    "mean All-Correct",
+    "name"
+  ],
+  "seeds": [
+    31,
+    41,
+    51
+  ],
+  "ranking": [
+    "placeholder-sft",
+    "multi-query-sft",
+    "latent-grpo",
+    "latent-sft",
+    "ltc",
+    "slpo",
+    "static-compress-sft",
+    "codi",
+    "coconut",
+    "hardness-matched-rl",
+    "random-separating-rl",
+    "random-suffix-rl",
+    "single-readout-rl"
+  ],
+  "scores": {
+    "random-suffix-rl": {
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "single-readout-rl": {
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "hardness-matched-rl": {
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "random-separating-rl": {
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "latent-sft": {
+      "ct_acc": 0.09722222222222222,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "multi-query-sft": {
+      "ct_acc": 0.125,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "static-compress-sft": {
+      "ct_acc": 0.09722222222222222,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "placeholder-sft": {
+      "ct_acc": 0.16666666666666666,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "coconut": {
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "codi": {
+      "ct_acc": 0.08333333333333334,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "latent-grpo": {
+      "ct_acc": 0.09722222222222222,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "slpo": {
+      "ct_acc": 0.09722222222222222,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    },
+    "ltc": {
+      "ct_acc": 0.09722222222222222,
+      "pair_both": 0.0,
+      "all_correct": 0.0
+    }
+  },
+  "promote": [
+    "placeholder-sft",
+    "multi-query-sft",
+    "latent-grpo"
+  ]
+}

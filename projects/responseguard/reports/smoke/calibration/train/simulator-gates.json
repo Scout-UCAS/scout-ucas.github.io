@@ -1,0 +1,8 @@
+{
+  "sem_threshold": 0.9599999785423279,
+  "semantic_balanced_accuracy": 1.0,
+  "semantic_labeled": 384,
+  "quality_threshold": 0.650187075138092,
+  "quality_balanced_accuracy": 1.0,
+  "quality_labeled": 384
+}

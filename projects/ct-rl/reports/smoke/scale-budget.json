@@ -1,0 +1,110 @@
+[
+  {
+    "method": "ct-rl",
+    "seed": 31,
+    "target": 10594997560,
+    "actual": 10350458952,
+    "relative_error": -0.02308057237532768,
+    "within_tolerance": true,
+    "rounds": 7
+  },
+  {
+    "method": "ct-rl",
+    "seed": 41,
+    "target": 10594997560,
+    "actual": 10630944312,
+    "relative_error": 0.0033928041791828623,
+    "within_tolerance": true,
+    "rounds": 7
+  },
+  {
+    "method": "ct-rl",
+    "seed": 51,
+    "target": 10594997560,
+    "actual": 10147384632,
+    "relative_error": -0.042247572542149836,
+    "within_tolerance": true,
+    "rounds": 6
+  },
+  {
+    "method": "placeholder-sft",
+    "seed": 31,
+    "target": 10594997560,
+    "actual": 9962436672,
+    "relative_error": -0.05970373135225149,
+    "within_tolerance": true,
+    "rounds": 47
+  },
+  {
+    "method": "placeholder-sft",
+    "seed": 41,
+    "target": 10594997560,
+    "actual": 9974359464,
+    "relative_error": -0.05857840858247443,
+    "within_tolerance": true,
+    "rounds": 48
+  },
+  {
+    "method": "placeholder-sft",
+    "seed": 51,
+    "target": 10594997560,
+    "actual": 10030743384,
+    "relative_error": -0.05325665936255297,
+    "within_tolerance": true,
+    "rounds": 48
+  },
+  {
+    "method": "multi-query-sft",
+    "seed": 31,
+    "target": 10594997560,
+    "actual": 10109300928,
+    "relative_error": -0.045842071151925734,
+    "within_tolerance": true,
+    "rounds": 16
+  },
+  {
+    "method": "multi-query-sft",
+    "seed": 41,
+    "target": 10594997560,
+    "actual": 9879333912,
+    "relative_error": -0.06754731598069386,
+    "within_tolerance": true,
+    "rounds": 14
+  },
+  {
+    "method": "multi-query-sft",
+    "seed": 51,
+    "target": 10594997560,
+    "actual": 9939738072,
+    "relative_error": -0.06184611976446741,
+    "within_tolerance": true,
+    "rounds": 14
+  },
+  {
+    "method": "latent-grpo",
+    "seed": 31,
+    "target": 10594997560,
+    "actual": 10534851964,
+    "relative_error": -0.005676791868935549,
+    "within_tolerance": true,
+    "rounds": 7
+  },
+  {
+    "method": "latent-grpo",
+    "seed": 41,
+    "target": 10594997560,
+    "actual": 10268709736,
+    "relative_error": -0.030796403883268098,
+    "within_tolerance": true,
+    "rounds": 7
+  },
+  {
+    "method": "latent-grpo",
+    "seed": 51,
+    "target": 10594997560,
+    "actual": 10109726604,
+    "relative_error": -0.045801894078019934,
+    "within_tolerance": true,
+    "rounds": 6
+  }
+]

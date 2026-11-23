@@ -1,0 +1,146 @@
+{
+  "profile": {
+    "name": "Lianlei Shan",
+    "github": "https://github.com/Scout-UCAS",
+    "scholar": "https://scholar.google.com/citations?user=V5YWfWgAAAAJ",
+    "email": "shanlianlei18@mails.ucas.edu.cn",
+    "focus": {
+      "en": "Multimodal learning · Reinforcement learning",
+      "zh": "多模态学习 · 强化学习"
+    },
+    "introduction": {
+      "en": "I study how models reason with language and images, and how a robot can tell when it has reasoned enough to act.",
+      "zh": "我研究模型如何利用语言和图像进行推理，以及机器人如何判断何时可以结束推理、开始行动。"
+    },
+    "biography": {
+      "en": "I earned my PhD in computer science at the University of Chinese Academy of Sciences and carried out postdoctoral research at Tsinghua University. My earlier work focused on semantic segmentation in high-resolution aerial images.",
+      "zh": "我在中国科学院大学获得计算机科学博士学位，之后在清华大学开展博士后研究。早期工作主要研究高分辨率航拍图像的语义分割。"
+    }
+  },
+  "research": [
+    {
+      "name": {"en": "Latent reasoning", "zh": "潜空间推理"},
+      "summary": {
+        "en": "What does a model retain before it writes an answer? I work on training and testing intermediate states, including whether one state can support several follow-up questions.",
+        "zh": "在写出答案之前，模型保留了哪些信息？我研究中间状态的训练和评测，特别关注同一份状态能否支持多个不同的后续问题。"
+      }
+    },
+    {
+      "name": {"en": "Vision, language & action", "zh": "视觉、语言与动作"},
+      "summary": {
+        "en": "I study how robot policies turn visual observations and instructions into actions, from choosing among several internal plans to deciding when to stop deliberating.",
+        "zh": "我研究机器人如何将视觉观测和语言指令转化为动作，包括怎样比较多个内部计划，以及何时结束推理并执行动作。"
+      }
+    },
+    {
+      "name": {"en": "Visual perception", "zh": "视觉感知"},
+      "summary": {
+        "en": "Aerial scenes contain details that can disappear when an image is resized. I study how segmentation models can preserve those details while using the wider scene to interpret them.",
+        "zh": "航拍图像缩小后，一条窄路就可能消失。我研究分割模型怎样保留这样的局部细节，同时利用更大范围的场景信息判断它们属于哪一类。"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "ct-rl",
+      "name": "CT-RL",
+      "subtitle": {"en": "Continuation-Test Reinforcement Learning", "zh": "续算测试强化学习"},
+      "summary": {
+        "en": "A model reads a prefix once, then uses the same latent state to answer several continuations. Arithmetic, graph walks and rule systems provide answers that can be checked by execution.",
+        "zh": "模型只读一次前缀，再用同一份潜状态回答多个后续问题。算术、图遍历和规则推理三类任务都有执行器，可以逐题核对答案。"
+      },
+      "validation": {
+        "en": "The CPU smoke run compared 19 methods. CT-RL scored 0% on in-distribution continuation accuracy under matched compute. Full-scale Qwen runs are pending.",
+        "zh": "CPU 小规模验证比较了 19 种方法。在等算力设置下，CT-RL 的同分布续算准确率为 0%。正式规模的 Qwen 实验尚待运行。"
+      },
+      "source": "projects/ct-rl",
+      "report": "projects/ct-rl/reports/smoke/REPORT.md"
+    },
+    {
+      "id": "responseguard",
+      "name": "ResponseGuard",
+      "subtitle": {"en": "Controllability and diversity in image generation", "zh": "图像生成的语义可控性与多样性"},
+      "summary": {
+        "en": "Change one attribute in a prompt and compare the resulting images. The evaluation measures whether the requested change appears and how much variation remains among valid images.",
+        "zh": "每次只改动提示词中的一个属性，再比较生成图像。评测既检查指定的改动是否出现，也衡量符合提示词的图像之间还保留多少差异。"
+      },
+      "validation": {
+        "en": "The CPU simulation covered 11 settings and three seeds. Separate checks used randomly initialized SD3 components. Full-scale SD3.5 Medium training is pending.",
+        "zh": "CPU 模拟器覆盖了 11 种设置和 3 个随机种子，另用随机初始化的小型 SD3 组件验证训练与导出。正式的 SD3.5 Medium 训练尚待运行。"
+      },
+      "source": "projects/responseguard",
+      "report": "projects/responseguard/docs/Smoke运行报告.md"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-11",
+      "text": {"en": "Our new preprint studies whether keyboard and mouse events from human gameplay can help pretrain a robot policy.", "zh": "我们发布了游戏数据预训练预印本，研究玩家的键盘和鼠标操作能否帮助训练机器人策略。"},
+      "links": [{"name": {"en": "Preprint", "zh": "预印本"}, "url": "https://arxiv.org/abs/2611.13819"}]
+    },
+    {
+      "date": "2026-09",
+      "text": {"en": "We updated MPCoT with experiments on a bimanual robot. The policy compares several latent plans before decoding an action.", "zh": "MPCoT 更新了双臂机器人的实机实验。策略会先比较多条潜在计划，再解码动作。"},
+      "links": [{"name": {"en": "MPCoT", "zh": "MPCoT 预印本"}, "url": "https://arxiv.org/abs/2606.06245"}, {"name": {"en": "Code", "zh": "代码"}, "url": "https://github.com/Scout-UCAS/MPCoT"}]
+    },
+    {
+      "date": "2026-07",
+      "text": {"en": "Two papers on latent reasoning appeared at ICML and ACL, one on early exit for robot policies and one on soft reasoning tokens for language models.", "zh": "两项潜空间推理工作分别发表于 ICML 和 ACL，研究机器人策略中的提前退出，以及语言模型中的连续推理表示。"},
+      "links": [{"name": {"en": "ICML paper", "zh": "ICML 论文"}, "url": "https://proceedings.mlr.press/v306/lei26e.html"}, {"name": {"en": "ACL paper", "zh": "ACL 论文"}, "url": "https://aclanthology.org/2026.acl-long.1496/"}]
+    }
+  ],
+  "papers": [
+    {
+      "id": "ava-vla",
+      "title": "Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models",
+      "authors": ["Dianqiao Lei", "Lianlei Shan"],
+      "venue": "ICML", "year": 2026,
+      "summary": {"en": "A robot policy learns to stop its internal reasoning when its state is confident enough to decode an action.", "zh": "机器人策略根据中间状态的置信度决定何时停止推理并输出动作。"},
+      "url": "https://proceedings.mlr.press/v306/lei26e.html"
+    },
+    {
+      "id": "self-softcot",
+      "title": "Self-SoftCoT: A Self-Consistent Framework via Position-Aware Latent Space Reinforcement Learning",
+      "authors": ["Liangliang Dong", "Lianlei Shan", "Shuaimin Li"],
+      "venue": "ACL", "year": 2026,
+      "summary": {"en": "A frozen language model generates and consumes its own continuous reasoning tokens. Position-specific projections give successive thoughts distinct representations.", "zh": "冻结的语言模型生成并读取自己的连续推理表示。不同位置采用独立投影，使相邻推理步骤能够保留不同的信息。"},
+      "url": "https://aclanthology.org/2026.acl-long.1496/",
+      "code": "https://github.com/haha34342/Self-SoftCoT-Code"
+    },
+    {
+      "id": "f2net",
+      "title": "F2Net: A Frequency-Fused Network for Ultra-High Resolution Remote Sensing Segmentation",
+      "authors": ["Hengzhi Chen", "Liqian Feng", "Wenhua Wu", "Xiaogang Zhu", "Qiuxia Wu", "Lianlei Shan", "Kun Hu"],
+      "venue": "CVPR", "year": 2026,
+      "summary": {"en": "Frequency-specific branches preserve fine boundaries and gather scene context before fusing their features for aerial image segmentation.", "zh": "用不同分支处理高频边界和低频场景信息，再融合两者完成超高分辨率遥感图像分割。"},
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_F2Net_A_Frequency-Fused_Network_for_Ultra-High_Resolution_Remote_Sensing_Segmentation_CVPR_2026_paper.html",
+      "preprint": "https://arxiv.org/abs/2506.07847"
+    },
+    {
+      "id": "ltpo",
+      "title": "Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization",
+      "authors": ["Wengao Ye", "Yan Liang", "Lianlei Shan"],
+      "venue": "ICLR", "year": 2026,
+      "summary": {"en": "LTPO refines latent thought vectors for each new problem using a reward derived from the model’s own output confidence.", "zh": "LTPO 在测试时利用模型自身的输出置信度作为奖励，针对每道新题优化潜在思维向量。"},
+      "url": "https://openreview.net/forum?id=r1WEQzkCQv",
+      "preprint": "https://arxiv.org/abs/2510.04182",
+      "code": "https://github.com/ltpo2025/LTPO"
+    },
+    {
+      "id": "dlr",
+      "title": "Latent-Space Contrastive Reinforcement Learning for Stable and Efficient LLM Reasoning",
+      "authors": ["Lianlei Shan", "Han Chen", "Yixuan Wang", "Zhenjie Liu", "Wei Li"],
+      "venue": "arXiv", "year": 2026,
+      "summary": {"en": "A small assistant samples candidate reasoning states. Rewards and a contrastive objective guide which states a frozen language model decodes.", "zh": "小型辅助模型采样候选推理状态，再通过奖励和对比学习目标选择交给冻结语言模型解码的状态。"},
+      "url": "https://arxiv.org/abs/2601.17275"
+    },
+    {
+      "id": "memory",
+      "title": "Cognitive Memory in Large Language Models",
+      "authors": ["Lianlei Shan", "Shixian Luo", "Zezhou Zhu", "Yu Yuan", "Yong Wu"],
+      "venue": "arXiv", "year": 2025,
+      "summary": {"en": "A survey of how language models store, update and retrieve information through text, key–value caches, model parameters and hidden states.", "zh": "综述语言模型如何通过文本、键值缓存、模型参数和隐藏状态存储、更新及检索信息。"},
+      "url": "https://arxiv.org/abs/2504.02441"
+    }
+  ]
+}

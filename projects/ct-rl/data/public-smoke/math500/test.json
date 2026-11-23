@@ -1,0 +1,17 @@
+[
+  {
+    "question": "The arithmetic mean of 7, 2, $x$ and 10 is 9. What is the value of $x$?",
+    "answer": "17",
+    "steps": "If those 4 numbers average to 9, they must sum to $4\\times 9 = 36$.  Then, we simply subtract the other three numbers from 36: $36 - 7 - 2 - 10 = \\boxed{17} = x$."
+  },
+  {
+    "question": "If we write $\\sqrt{2}+\\frac{1}{\\sqrt{2}} + \\sqrt{3} + \\frac{1}{\\sqrt{3}}$ in the form $\\dfrac{a\\sqrt{2} + b\\sqrt{3}}{c}$ such that $a$, $b$, and $c$ are positive integers and $c$ is as small as possible, then what is $a+b+c$?",
+    "answer": "23",
+    "steps": "The common denominator desired is $\\sqrt{2}\\cdot\\sqrt{3} = \\sqrt{6}$. So, this expression becomes $\\frac{\\sqrt{2}\\cdot(\\sqrt{2}\\cdot\\sqrt{3})+1\\cdot\\sqrt{3}+\\sqrt{3}\\cdot(\\sqrt{2}\\cdot\\sqrt{3})+1\\cdot\\sqrt{2}}{\\sqrt{6}}$. Simplifying this gives $\\frac{2\\sqrt{3}+\\sqrt{3}+3\\sqrt{2}+\\sqrt{2}}{\\sqrt{6}} = \\frac{4\\sqrt{2}+3\\sqrt{3}}{\\sqrt{6}}$. To rationalize, multiply numerator and denominator by $\\sqrt{6}$ to get $\\frac{4\\sqrt{2}\\sqrt{6}+3\\sqrt{3}\\sqrt{6}}{6}$. Simplifying yields ${\\frac{9\\sqrt{2}+8\\sqrt{3}}{6}}$, so the desired sum is $9+8+6=\\boxed{23}$."
+  },
+  {
+    "question": "Evaluate $\\lceil (3.6)^2 \\rceil - ( \\lceil 3.6 \\rceil ) ^2$.",
+    "answer": "-3",
+    "steps": "$\\lceil (3.6)^2 \\rceil = \\lceil 12.96 \\rceil = 13$ because the least integer greater than $12.96$ is $13$. $( \\lceil 3.6 \\rceil ) ^2 = 4^2 = 16$ because the least integer greater than $3.6$ is $4$. Therefore, the answer is $13-16=\\boxed{-3}$."
+  }
+]

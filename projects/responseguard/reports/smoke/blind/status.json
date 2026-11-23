@@ -1,0 +1,31 @@
+{
+  "methods": [
+    "flow-grpo",
+    "joint"
+  ],
+  "raters": 3,
+  "n": 6,
+  "seed": 913,
+  "complete_ratings": 0,
+  "expected_ratings": 18,
+  "outcomes": {
+    "semantic": {
+      "method_0": 0,
+      "method_1": 0,
+      "tie": 0,
+      "rated_prompts": 0
+    },
+    "quality": {
+      "method_0": 0,
+      "method_1": 0,
+      "tie": 0,
+      "rated_prompts": 0
+    },
+    "diversity": {
+      "method_0": 0,
+      "method_1": 0,
+      "tie": 0,
+      "rated_prompts": 0
+    }
+  }
+}

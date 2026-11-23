@@ -1,0 +1,14 @@
+{
+  "command": "python -m ct_rl.paper --profile smoke --out runs/verified-smoke-v2",
+  "first_run_exit_code": 0,
+  "started": "2026-11-23T21:31:52.196367+08:00",
+  "finished": "2026-11-23T21:41:21.055840+08:00",
+  "end_to_end_wall_seconds": 568.8559839170193,
+  "device": "cpu",
+  "rerun_exit_code": 0,
+  "all_checkpoint_files_unchanged": true,
+  "checkpoint_files": 252,
+  "combined_checkpoint_digest": "b2fd8ff623328266916b360df91abe4346b14f49330d1c98653d2818837af01f",
+  "unit_tests": "51 passed in 2.95s",
+  "audit_passed": true
+}

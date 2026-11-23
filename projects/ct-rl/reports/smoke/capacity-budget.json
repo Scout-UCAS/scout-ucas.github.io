@@ -1,0 +1,110 @@
+[
+  {
+    "method": "M4-equal-steps",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5745791408,
+    "relative_error": -0.012858020943244286,
+    "within_tolerance": true,
+    "rounds": 17
+  },
+  {
+    "method": "model.latent_steps-2",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5745791408,
+    "relative_error": -0.012858020943244286,
+    "within_tolerance": true,
+    "rounds": 17
+  },
+  {
+    "method": "model.latent_steps-4",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5467580368,
+    "relative_error": -0.06065540464893526,
+    "within_tolerance": true,
+    "rounds": 14
+  },
+  {
+    "method": "model.latent_steps-8",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5649634224,
+    "relative_error": -0.029378076436752942,
+    "within_tolerance": true,
+    "rounds": 10
+  },
+  {
+    "method": "model.latent_steps-16",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5486710992,
+    "relative_error": -0.0573687134527221,
+    "within_tolerance": true,
+    "rounds": 1
+  },
+  {
+    "method": "model.action_dim-32",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5753987504,
+    "relative_error": -0.01144991023203501,
+    "within_tolerance": true,
+    "rounds": 17
+  },
+  {
+    "method": "model.action_dim-64",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5764915632,
+    "relative_error": -0.009572429283756012,
+    "within_tolerance": true,
+    "rounds": 17
+  },
+  {
+    "method": "model.action_dim-128",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5418707504,
+    "relative_error": -0.06905189040091708,
+    "within_tolerance": true,
+    "rounds": 16
+  },
+  {
+    "method": "rho-0.0",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5463435312,
+    "relative_error": -0.06136753610178336,
+    "within_tolerance": true,
+    "rounds": 16
+  },
+  {
+    "method": "rho-0.25",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5424640432,
+    "relative_error": -0.06803259786632099,
+    "within_tolerance": true,
+    "rounds": 16
+  },
+  {
+    "method": "rho-0.5",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5745791408,
+    "relative_error": -0.012858020943244286,
+    "within_tolerance": true,
+    "rounds": 17
+  },
+  {
+    "method": "rho-0.75",
+    "seed": 31,
+    "target": 5820633232,
+    "actual": 5673054672,
+    "relative_error": -0.025354382266977393,
+    "within_tolerance": true,
+    "rounds": 17
+  }
+]

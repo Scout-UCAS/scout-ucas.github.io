@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Carla spends 10 minutes sharpening her knife and 3 times that amount of time peeling vegetables. How much time does she spend on these activities total?",
+    "answer": "40",
+    "steps": "First find the total time Carla spends peeling vegetables: 10 minutes * 3 = <<10*3=30>>30 minutes\nThen add the time she spent sharpening her knife: 30 minutes + 10 minutes = <<30+10=40>>40 minutes"
+  },
+  {
+    "question": "Aliya and her classmates are sent by their teacher to the field to collect insects for science class study. The Boys collected 200 insects and the girls collected 300 insects. The teacher decided to divide the class equally into four groups that each get an equal number of insects so that each group could study together. What was the number of insects given to each group?",
+    "answer": "125",
+    "steps": "The total number of insects collected is 200 insects + 300 insects = <<200+300=500>>500 insects.\nWhen the teacher divided the class into four groups, each group got 500 insects / 4 groups = <<500/4=125>>125 insects/group"
+  },
+  {
+    "question": "Jack has 65 pounds of sugar today. Tomorrow he will use 18 pounds of sugar and the following day he will buy 50 more pounds of sugar. How many pounds will he have in the end?",
+    "answer": "97",
+    "steps": "Jack will have 65-18 = <<65-18=47>>47 pounds of sugar tomorrow.\nJack will have 47+50 = <<47+50=97>>97 pounds of sugar the following day."
+  }
+]

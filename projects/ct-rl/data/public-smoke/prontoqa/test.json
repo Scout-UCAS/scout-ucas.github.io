@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Yumpuses are floral. Wumpuses are moderate. Dumpuses are liquid. Each grimpus is a wumpus. Gorpuses are tumpuses. Each grimpus is not opaque. Each tumpus is a zumpus. Every gorpus is a jompus. Jompuses are not sunny. Every lorpus is blue. Every grimpus is a lorpus. Wumpuses are gorpuses. Wumpuses are dumpuses. Each gorpus is feisty. Every tumpus is not temperate. Each shumpus is not sour. Tumpuses are impuses. Shumpuses are sterpuses. Each rompus is loud. Every zumpus is a rompus. Zumpuses are numpuses. Impuses are large. Each zumpus is not floral. Sam is a shumpus. Sam is a grimpus. True or false: Sam is not floral.",
+    "answer": "True",
+    "steps": "Sam is a grimpus.\nEach grimpus is a wumpus.\nSam is a wumpus.\nWumpuses are gorpuses.\nSam is a gorpus.\nGorpuses are tumpuses.\nSam is a tumpus.\nEach tumpus is a zumpus.\nSam is a zumpus.\nEach zumpus is not floral.\nSam is not floral."
+  },
+  {
+    "question": "Each rompus is a numpus. Wumpuses are cold. Brimpuses are lempuses. Brimpuses are kind. Every brimpus is a shumpus. Dumpuses are small. Lorpuses are bright. Shumpuses are zumpuses. Shumpuses are dumpuses. Tumpuses are not melodic. Vumpuses are gorpuses. Every shumpus is luminous. Yumpuses are rompuses. Each lempus is not windy. Every yumpus is a lorpus. Each rompus is melodic. Every sterpus is earthy. Each rompus is a sterpus. Every vumpus is red. Zumpuses are not happy. Dumpuses are yumpuses. Yumpuses are transparent. Every dumpus is a wumpus. Stella is a vumpus. Stella is a brimpus. True or false: Stella is melodic.",
+    "answer": "True",
+    "steps": "Stella is a brimpus.\nEvery brimpus is a shumpus.\nStella is a shumpus.\nShumpuses are dumpuses.\nStella is a dumpus.\nDumpuses are yumpuses.\nStella is a yumpus.\nYumpuses are rompuses.\nStella is a rompus.\nEach rompus is melodic.\nStella is melodic."
+  },
+  {
+    "question": "Lempuses are rompuses. Zumpuses are grimpuses. Every vumpus is a yumpus. Every lorpus is opaque. Every sterpus is a lorpus. Every sterpus is orange. Impuses are lempuses. Sterpuses are vumpuses. Every vumpus is a zumpus. Each yumpus is not aggressive. Wumpuses are earthy. Every lempus is a sterpus. Each impus is a wumpus. Tumpuses are not slow. Grimpuses are not metallic. Each jompus is a numpus. Impuses are nervous. Each rompus is not discordant. Each vumpus is sunny. Lempuses are large. Zumpuses are gorpuses. Jompuses are not spicy. Each zumpus is slow. Sam is a jompus. Sam is an impus. True or false: Sam is slow.",
+    "answer": "True",
+    "steps": "Sam is an impus.\nImpuses are lempuses.\nSam is a lempus.\nEvery lempus is a sterpus.\nSam is a sterpus.\nSterpuses are vumpuses.\nSam is a vumpus.\nEvery vumpus is a zumpus.\nSam is a zumpus.\nEach zumpus is slow.\nSam is slow."
+  }
+]

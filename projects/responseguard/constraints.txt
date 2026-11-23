@@ -1,0 +1,13 @@
+# Versions used for the local CPU and reduced-size SD3 integration tests (Python 3.11).
+torch==2.7.1
+torchvision==0.22.1
+diffusers==0.35.2
+transformers==4.55.4
+peft==0.17.1
+accelerate==1.16.0
+huggingface-hub==0.36.2
+tokenizers==0.21.4
+dreamsim==0.2.1
+open-clip-torch==4.2.2
+numpy==2.2.6
+matplotlib==3.10.7

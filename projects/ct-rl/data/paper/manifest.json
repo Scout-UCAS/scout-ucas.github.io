@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "seed": 120,
+  "splits": {
+    "train": {
+      "pairs": 30000,
+      "sha256": "d368612e576c2a4fda150b089b028a6c42a288b6a75b9a9e04d627d44f8fa904"
+    },
+    "valid": {
+      "pairs": 1500,
+      "sha256": "ad5beb6a122d5a236e8cf0bdd7d0d2441d84dd3c3c1da214b67acb6579735ccf"
+    },
+    "id": {
+      "pairs": 1500,
+      "sha256": "4db5c9185470ea1e7d3d836daacb6d9b1a18f1c3fb97038436f958ef76c318de"
+    },
+    "comp": {
+      "pairs": 1500,
+      "sha256": "2699cfde997b7afc78adb1fdd90bf08fbe95eb7fa3440e6385b0bd38b11fb11c"
+    },
+    "prefix_length": {
+      "pairs": 1500,
+      "sha256": "c01ece0331b5c954d3940c5aeed3785d89f4636dc2d6070e0c95c5fc7144cbe6"
+    },
+    "suffix_length": {
+      "pairs": 1500,
+      "sha256": "f2292674b70a7dfe1a51366aa1fdad9da16a5cc9df881a79337c48c7eea9dbd5"
+    },
+    "scale": {
+      "pairs": 1000,
+      "sha256": "90c4d21da42f71d3d05d93f63490616299065800657210e16d130f5f3239e88a"
+    }
+  }
+}

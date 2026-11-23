@@ -1,0 +1,967 @@
+{
+  "format": 1,
+  "dataset_sha256": "56416d7f37e1898a9e4ae20ac8d075798a2dd0c15633006abf16803d00187eee",
+  "checkpoint_sha256": "6212df700d3126d25032f4b4c5c42bcc113aaf7f5dfe3904cd96575aabf7e822",
+  "reports": [
+    {
+      "pairs": 3,
+      "macro": {
+        "ct_acc": 0.0,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.8333333333333334
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.5
+        },
+        "graph": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0
+        },
+        "rules": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.0,
+          0.0
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.8333333333333333,
+          0.8333333333333333
+        ]
+      },
+      "split": "id",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "normal",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.0037485010689124465,
+          "continuations": 0.00517220888286829,
+          "probe": 0.0012032920494675636
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.00037169624799086404,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 0.16666666666666666,
+        "interface_bytes_per_prefix": 256,
+        "peak_kv_tensor_bytes": 90112,
+        "model_work_including_probe": {
+          "policy_forwards": 6,
+          "policy_padded_tokens": 654,
+          "reader_forwards": 8,
+          "reader_padded_tokens": 1200,
+          "logit_positions": 40,
+          "generated_answer_tokens": 6
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 36,
+        "oracle_cpu_seconds": 9.799999997994746e-05
+      },
+      "rows": [
+        {
+          "group": "d7a5ef9bee4613a8df73ae8cf5af0c6dc3d063ad192c92fb3e62a0cae0a685d9",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.5,
+          "answers": [
+            [
+              "",
+              "1",
+              "1",
+              ""
+            ],
+            [
+              "",
+              "1",
+              "1",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4791970736d0c5dd450a776ae10e34f70f08d5c7c259cd836a9b38ecd5494b31",
+          "family": "graph",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "",
+            ""
+          ]
+        },
+        {
+          "group": "709cdd73842f66c2695ec4e626ef5c8313120edc542c6076d872ea7e3263e4f6",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.0
+    },
+    {
+      "pairs": 3,
+      "macro": {
+        "ct_acc": 0.08333333333333333,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.16666666666666666
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "graph": {
+          "ct_acc": 0.25,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.5
+        },
+        "rules": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.16666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "split": "id",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "remove",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.0035145399160683155,
+          "continuations": 0.007038124022074044,
+          "probe": 0.0014907498843967915
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0004396943307559316,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 0.8333333333333334,
+        "interface_bytes_per_prefix": 0,
+        "peak_kv_tensor_bytes": 86016,
+        "model_work_including_probe": {
+          "policy_forwards": 6,
+          "policy_padded_tokens": 654,
+          "reader_forwards": 11,
+          "reader_padded_tokens": 1158,
+          "logit_positions": 58,
+          "generated_answer_tokens": 24
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 36,
+        "oracle_cpu_seconds": 0.00010099999997237319
+      },
+      "rows": [
+        {
+          "group": "d7a5ef9bee4613a8df73ae8cf5af0c6dc3d063ad192c92fb3e62a0cae0a685d9",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4791970736d0c5dd450a776ae10e34f70f08d5c7c259cd836a9b38ecd5494b31",
+          "family": "graph",
+          "ct_acc": 0.25,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.5,
+          "answers": [
+            [
+              "1",
+              "",
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "",
+              "1",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "",
+            ""
+          ]
+        },
+        {
+          "group": "709cdd73842f66c2695ec4e626ef5c8313120edc542c6076d872ea7e3263e4f6",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.0
+    },
+    {
+      "pairs": 3,
+      "macro": {
+        "ct_acc": 0.125,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.08333333333333333
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "graph": {
+          "ct_acc": 0.375,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.25
+        },
+        "rules": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.125,
+          0.125
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "split": "id",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "zeros",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.003697750042192638,
+          "continuations": 0.007285667932592332,
+          "probe": 0.0013915819581598043
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0004576424156160404,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 0.9166666666666666,
+        "interface_bytes_per_prefix": 256,
+        "peak_kv_tensor_bytes": 90112,
+        "model_work_including_probe": {
+          "policy_forwards": 6,
+          "policy_padded_tokens": 654,
+          "reader_forwards": 11,
+          "reader_padded_tokens": 1218,
+          "logit_positions": 58,
+          "generated_answer_tokens": 26
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 36,
+        "oracle_cpu_seconds": 0.00010000000003174137
+      },
+      "rows": [
+        {
+          "group": "d7a5ef9bee4613a8df73ae8cf5af0c6dc3d063ad192c92fb3e62a0cae0a685d9",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4791970736d0c5dd450a776ae10e34f70f08d5c7c259cd836a9b38ecd5494b31",
+          "family": "graph",
+          "ct_acc": 0.375,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.25,
+          "answers": [
+            [
+              "1",
+              "",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "",
+            ""
+          ]
+        },
+        {
+          "group": "709cdd73842f66c2695ec4e626ef5c8313120edc542c6076d872ea7e3263e4f6",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.0
+    },
+    {
+      "pairs": 3,
+      "macro": {
+        "ct_acc": 0.0,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.8333333333333334
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.5
+        },
+        "graph": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0
+        },
+        "rules": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.0,
+          0.0
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.8333333333333333,
+          0.8333333333333333
+        ]
+      },
+      "split": "id",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "shuffle",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.0035167079186066985,
+          "continuations": 0.004974625073373318,
+          "probe": 0.0012028330238536
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0003538055413325007,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 0.16666666666666666,
+        "interface_bytes_per_prefix": 256,
+        "peak_kv_tensor_bytes": 90112,
+        "model_work_including_probe": {
+          "policy_forwards": 6,
+          "policy_padded_tokens": 654,
+          "reader_forwards": 8,
+          "reader_padded_tokens": 1200,
+          "logit_positions": 40,
+          "generated_answer_tokens": 6
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 36,
+        "oracle_cpu_seconds": 8.800000000519503e-05
+      },
+      "rows": [
+        {
+          "group": "d7a5ef9bee4613a8df73ae8cf5af0c6dc3d063ad192c92fb3e62a0cae0a685d9",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.5,
+          "answers": [
+            [
+              "",
+              "1",
+              "1",
+              ""
+            ],
+            [
+              "",
+              "1",
+              "1",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4791970736d0c5dd450a776ae10e34f70f08d5c7c259cd836a9b38ecd5494b31",
+          "family": "graph",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "",
+            ""
+          ]
+        },
+        {
+          "group": "709cdd73842f66c2695ec4e626ef5c8313120edc542c6076d872ea7e3263e4f6",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.0
+    },
+    {
+      "pairs": 3,
+      "macro": {
+        "ct_acc": 0.0,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.8333333333333334
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.5
+        },
+        "graph": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0
+        },
+        "rules": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.0,
+          0.0
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.8333333333333333,
+          0.8333333333333333
+        ]
+      },
+      "split": "id",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "swap",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.0034367910120636225,
+          "continuations": 0.004903373075649142,
+          "probe": 0.0011629589134827256
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.00034750683698803186,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 0.16666666666666666,
+        "interface_bytes_per_prefix": 256,
+        "peak_kv_tensor_bytes": 90112,
+        "model_work_including_probe": {
+          "policy_forwards": 6,
+          "policy_padded_tokens": 654,
+          "reader_forwards": 8,
+          "reader_padded_tokens": 1200,
+          "logit_positions": 40,
+          "generated_answer_tokens": 6
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 36,
+        "oracle_cpu_seconds": 9.300000004941467e-05
+      },
+      "rows": [
+        {
+          "group": "d7a5ef9bee4613a8df73ae8cf5af0c6dc3d063ad192c92fb3e62a0cae0a685d9",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.5,
+          "answers": [
+            [
+              "",
+              "1",
+              "1",
+              ""
+            ],
+            [
+              "",
+              "1",
+              "1",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4791970736d0c5dd450a776ae10e34f70f08d5c7c259cd836a9b38ecd5494b31",
+          "family": "graph",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "",
+            ""
+          ]
+        },
+        {
+          "group": "709cdd73842f66c2695ec4e626ef5c8313120edc542c6076d872ea7e3263e4f6",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "probe_answers": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.0
+    },
+    {
+      "pairs": 3,
+      "macro": {
+        "ct_acc": 0.16666666666666666,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.0
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "graph": {
+          "ct_acc": 0.5,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "rules": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.0,
+          0.0
+        ]
+      },
+      "split": "id",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "prefix-cache",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.0034914580173790455,
+          "continuations": 0.011041874997317791,
+          "probe": 0.006417208001948893
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0006055555422790349,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 1.0,
+        "interface_bytes_per_prefix": 256,
+        "peak_kv_tensor_bytes": 395264,
+        "model_work_including_probe": {
+          "policy_forwards": 12,
+          "policy_padded_tokens": 3894,
+          "reader_forwards": 12,
+          "reader_padded_tokens": 1220,
+          "logit_positions": 60,
+          "generated_answer_tokens": 30
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 36,
+        "oracle_cpu_seconds": 9.699999998247222e-05
+      },
+      "rows": [
+        {
+          "group": "d7a5ef9bee4613a8df73ae8cf5af0c6dc3d063ad192c92fb3e62a0cae0a685d9",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4791970736d0c5dd450a776ae10e34f70f08d5c7c259cd836a9b38ecd5494b31",
+          "family": "graph",
+          "ct_acc": 0.5,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "709cdd73842f66c2695ec4e626ef5c8313120edc542c6076d872ea7e3263e4f6",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.0
+    }
+  ]
+}

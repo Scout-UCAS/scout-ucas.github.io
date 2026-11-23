@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Lianlei Shan | Research</title>
+  <meta name="description" content="Lianlei Shan’s academic homepage. Research, publications and software on latent reasoning, vision–language–action models and computer vision.">
+  <link rel="canonical" href="https://scout-ucas.github.io/">
+  <link rel="alternate" hreflang="en" href="https://scout-ucas.github.io/">
+  <link rel="alternate" hreflang="zh-CN" href="https://scout-ucas.github.io/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://scout-ucas.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Lianlei Shan | Research">
+  <meta property="og:description" content="Lianlei Shan’s academic homepage. Research, publications and software on latent reasoning, vision–language–action models and computer vision.">
+  <meta property="og:image" content="https://scout-ucas.github.io/assets/profile.jpg">
+  <meta property="og:url" content="https://scout-ucas.github.io/">
+  <link rel="icon" type="image/jpeg" href="assets/profile.jpg">
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="wordmark" href="#top">Lianlei Shan</a>
+      <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#projects">Projects</a><a href="#news">News</a><a href="#publications">Publications</a></nav>
+      <div class="settings">
+        <a class="language" href="zh/" lang="zh-CN" hreflang="zh-CN">中文</a>
+        <button class="theme" type="button" hidden aria-label="Switch to dark theme" data-dark="Switch to dark theme" data-light="Switch to light theme">
+          <span aria-hidden="true" class="theme-symbol">◐</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="shell">
+    <section class="hero" aria-labelledby="profile-name">
+      <div class="hero-copy">
+        <p class="focus">Multimodal learning · Reinforcement learning</p>
+        <h1 id="profile-name">Lianlei Shan</h1>
+        <p class="lead">I study how models reason with language and images, and how a robot can tell when it has reasoned enough to act.</p>
+        <p class="bio">I earned my PhD in computer science at the University of Chinese Academy of Sciences and carried out postdoctoral research at Tsinghua University. My earlier work focused on semantic segmentation in high-resolution aerial images.</p>
+        <div class="profile-links">
+          <a class="pill pill-primary" href="https://scholar.google.com/citations?user=V5YWfWgAAAAJ&amp;hl=en">Google Scholar</a>
+          <a class="pill" href="https://github.com/Scout-UCAS">GitHub</a>
+          <a class="pill" href="mailto:shanlianlei18@mails.ucas.edu.cn">Email</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <img class="portrait" src="assets/profile.jpg" alt="Portrait of Lianlei Shan" width="256" height="251" fetchpriority="high">
+      </div>
+    </section>
+    <section class="section" id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <div class="research-grid"><article><h3>Latent reasoning</h3><p>What does a model retain before it writes an answer? I work on training and testing intermediate states, including whether one state can support several follow-up questions.</p></article>
+<article><h3>Vision, language &amp; action</h3><p>I study how robot policies turn visual observations and instructions into actions, from choosing among several internal plans to deciding when to stop deliberating.</p></article>
+<article><h3>Visual perception</h3><p>Aerial scenes contain details that can disappear when an image is resized. I study how segmentation models can preserve those details while using the wider scene to interpret them.</p></article></div>
+    </section>
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Research software</h2>
+      <div class="project-grid">
+      <article class="project" id="ct-rl">
+        
+        <figure class="project-figure arithmetic">
+          <figcaption>Arithmetic executor</figcaption>
+          <div class="registers"><code>(2, 3)</code><span class="operator">swap</span><code>(3, 2)</code></div>
+          <div class="readouts"><span>Expected readouts</span><code>left = 3</code><code>diff = 1</code></div>
+        </figure>
+        <div class="project-copy">
+          <h3>CT-RL</h3>
+          <p class="subtitle">Continuation-Test Reinforcement Learning</p>
+          <p>A model reads a prefix once, then uses the same latent state to answer several continuations. Arithmetic, graph walks and rule systems provide answers that can be checked by execution.</p>
+          <p class="validation">The CPU smoke run compared 19 methods. CT-RL scored 0% on in-distribution continuation accuracy under matched compute. Full-scale Qwen runs are pending.</p>
+          <div class="resource-links"><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/tree/main/projects/ct-rl">Code</a><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/blob/main/projects/ct-rl/reports/smoke/REPORT.md">Experiment report</a></div>
+        </div>
+      </article>
+      <article class="project" id="responseguard">
+        
+        <figure class="project-figure image-pair">
+          <figcaption>CPU simulator · matched seed</figcaption>
+          <div class="samples">
+            <div><img src="assets/responseguard-blue.png" alt="" width="64" height="64"><span>Blue pencil</span></div>
+            <div><img src="assets/responseguard-red.png" alt="" width="64" height="64"><span>Red pencil</span></div>
+          </div>
+        </figure>
+        <div class="project-copy">
+          <h3>ResponseGuard</h3>
+          <p class="subtitle">Controllability and diversity in image generation</p>
+          <p>Change one attribute in a prompt and compare the resulting images. The evaluation measures whether the requested change appears and how much variation remains among valid images.</p>
+          <p class="validation">The CPU simulation covered 11 settings and three seeds. Separate checks used randomly initialized SD3 components. Full-scale SD3.5 Medium training is pending.</p>
+          <div class="resource-links"><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/tree/main/projects/responseguard">Code</a><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/blob/main/projects/responseguard/docs/Smoke%E8%BF%90%E8%A1%8C%E6%8A%A5%E5%91%8A.md">Experiment report</a></div>
+        </div>
+      </article></div>
+    </section>
+    <section class="section" id="news" aria-labelledby="news-title">
+      <h2 id="news-title">News</h2>
+      <ul class="news-list">
+      <li><time datetime="2026-11">2026.11</time>
+        <div>Our new preprint studies whether keyboard and mouse events from human gameplay can help pretrain a robot policy. <span class="news-links"><a href="https://arxiv.org/abs/2611.13819">Preprint</a></span></div></li>
+      <li><time datetime="2026-09">2026.09</time>
+        <div>We updated MPCoT with experiments on a bimanual robot. The policy compares several latent plans before decoding an action. <span class="news-links"><a href="https://arxiv.org/abs/2606.06245">MPCoT</a> <a href="https://github.com/Scout-UCAS/MPCoT">Code</a></span></div></li>
+      <li><time datetime="2026-07">2026.07</time>
+        <div>Two papers on latent reasoning appeared at ICML and ACL, one on early exit for robot policies and one on soft reasoning tokens for language models. <span class="news-links"><a href="https://proceedings.mlr.press/v306/lei26e.html">ICML paper</a> <a href="https://aclanthology.org/2026.acl-long.1496/">ACL paper</a></span></div></li></ul>
+    </section>
+    <section class="section" id="publications" aria-labelledby="papers-title">
+      <div class="section-header">
+        <h2 id="papers-title">Selected publications</h2>
+        <a class="text-link" href="https://scholar.google.com/citations?user=V5YWfWgAAAAJ&amp;hl=en">All publications on Google Scholar</a>
+      </div>
+      <div class="papers">
+      <article class="paper" id="ava-vla">
+        <div class="venue paper-date">ICML · 2026</div>
+        <div class="paper-copy">
+          
+          <h3 lang="en"><a href="https://proceedings.mlr.press/v306/lei26e.html">Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models</a></h3>
+          <p class="authors" lang="en">Dianqiao Lei, <strong>Lianlei Shan</strong></p>
+          <p class="paper-summary">A robot policy learns to stop its internal reasoning when its state is confident enough to decode an action.</p>
+          <div class="resource-links"><a href="https://proceedings.mlr.press/v306/lei26e.html">Paper</a></div>
+        </div>
+      </article>
+      <article class="paper" id="self-softcot">
+        <div class="venue paper-date">ACL · 2026</div>
+        <div class="paper-copy">
+          
+          <h3 lang="en"><a href="https://aclanthology.org/2026.acl-long.1496/">Self-SoftCoT: A Self-Consistent Framework via Position-Aware Latent Space Reinforcement Learning</a></h3>
+          <p class="authors" lang="en">Liangliang Dong, <strong>Lianlei Shan</strong>, Shuaimin Li</p>
+          <p class="paper-summary">A frozen language model generates and consumes its own continuous reasoning tokens. Position-specific projections give successive thoughts distinct representations.</p>
+          <div class="resource-links"><a href="https://aclanthology.org/2026.acl-long.1496/">Paper</a><a href="https://github.com/haha34342/Self-SoftCoT-Code">Code</a></div>
+        </div>
+      </article>
+      <article class="paper" id="f2net">
+        <div class="venue paper-date">CVPR · 2026</div>
+        <div class="paper-copy">
+          
+          <h3 lang="en"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Chen_F2Net_A_Frequency-Fused_Network_for_Ultra-High_Resolution_Remote_Sensing_Segmentation_CVPR_2026_paper.html">F2Net: A Frequency-Fused Network for Ultra-High Resolution Remote Sensing Segmentation</a></h3>
+          <p class="authors" lang="en">Hengzhi Chen, Liqian Feng, Wenhua Wu, Xiaogang Zhu, Qiuxia Wu, <strong>Lianlei Shan</strong>, Kun Hu</p>
+          <p class="paper-summary">Frequency-specific branches preserve fine boundaries and gather scene context before fusing their features for aerial image segmentation.</p>
+          <div class="resource-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Chen_F2Net_A_Frequency-Fused_Network_for_Ultra-High_Resolution_Remote_Sensing_Segmentation_CVPR_2026_paper.html">Paper</a><a href="https://arxiv.org/abs/2506.07847">Preprint</a></div>
+        </div>
+      </article>
+      <article class="paper" id="ltpo">
+        <div class="venue paper-date">ICLR · 2026</div>
+        <div class="paper-copy">
+          
+          <h3 lang="en"><a href="https://openreview.net/forum?id=r1WEQzkCQv">Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization</a></h3>
+          <p class="authors" lang="en">Wengao Ye, Yan Liang, <strong>Lianlei Shan</strong></p>
+          <p class="paper-summary">LTPO refines latent thought vectors for each new problem using a reward derived from the model’s own output confidence.</p>
+          <div class="resource-links"><a href="https://openreview.net/forum?id=r1WEQzkCQv">Paper</a><a href="https://github.com/ltpo2025/LTPO">Code</a><a href="https://arxiv.org/abs/2510.04182">Preprint</a></div>
+        </div>
+      </article>
+      <article class="paper" id="dlr">
+        <div class="venue paper-date">arXiv · 2026</div>
+        <div class="paper-copy">
+          
+          <h3 lang="en"><a href="https://arxiv.org/abs/2601.17275">Latent-Space Contrastive Reinforcement Learning for Stable and Efficient LLM Reasoning</a></h3>
+          <p class="authors" lang="en"><strong>Lianlei Shan</strong>, Han Chen, Yixuan Wang, Zhenjie Liu, Wei Li</p>
+          <p class="paper-summary">A small assistant samples candidate reasoning states. Rewards and a contrastive objective guide which states a frozen language model decodes.</p>
+          <div class="resource-links"><a href="https://arxiv.org/abs/2601.17275">Preprint</a></div>
+        </div>
+      </article>
+      <article class="paper" id="memory">
+        <div class="venue paper-date">arXiv · 2025</div>
+        <div class="paper-copy">
+          
+          <h3 lang="en"><a href="https://arxiv.org/abs/2504.02441">Cognitive Memory in Large Language Models</a></h3>
+          <p class="authors" lang="en"><strong>Lianlei Shan</strong>, Shixian Luo, Zezhou Zhu, Yu Yuan, Yong Wu</p>
+          <p class="paper-summary">A survey of how language models store, update and retrieve information through text, key–value caches, model parameters and hidden states.</p>
+          <div class="resource-links"><a href="https://arxiv.org/abs/2504.02441">Preprint</a></div>
+        </div>
+      </article></div>
+    </section>
+  </main>
+  <footer class="shell footer">
+    <span>Lianlei Shan</span><a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>

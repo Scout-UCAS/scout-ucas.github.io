@@ -1,0 +1,1151 @@
+{
+  "targets": {
+    "low": 2246685.3333333335,
+    "medium": 3398924.6666666665,
+    "high": 13378047.333333334
+  },
+  "decisions": [
+    {
+      "method": "ct-rl",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": 8
+    },
+    {
+      "method": "ct-rl",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "ct-rl",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "random-suffix-rl",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": 8
+    },
+    {
+      "method": "random-suffix-rl",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "random-suffix-rl",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "single-readout-rl",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": 8
+    },
+    {
+      "method": "single-readout-rl",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "single-readout-rl",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "hardness-matched-rl",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "hardness-matched-rl",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "hardness-matched-rl",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "random-separating-rl",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": 8
+    },
+    {
+      "method": "random-separating-rl",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "random-separating-rl",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "latent-sft",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "latent-sft",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "latent-sft",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "multi-query-sft",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "multi-query-sft",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "multi-query-sft",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "static-compress-sft",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "static-compress-sft",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "static-compress-sft",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "placeholder-sft",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": 8
+    },
+    {
+      "method": "placeholder-sft",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "placeholder-sft",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "coconut",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": 8
+    },
+    {
+      "method": "coconut",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "coconut",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "codi",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "codi",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "codi",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "latent-grpo",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "latent-grpo",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "latent-grpo",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "slpo",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "slpo",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "slpo",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "ltc",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "ltc",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "ltc",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "direct",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "direct",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": 8
+    },
+    {
+      "method": "direct",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "cot",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "cot",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": null
+    },
+    {
+      "method": "cot",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 32
+    },
+    {
+      "method": "loop-grpo",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "loop-grpo",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": null
+    },
+    {
+      "method": "loop-grpo",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "rltt",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "rltt",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": null
+    },
+    {
+      "method": "rltt",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    },
+    {
+      "method": "loop-ct-rl",
+      "seed": 31,
+      "tier": "low",
+      "cap": 2246685.3333333335,
+      "selected_tokens": null
+    },
+    {
+      "method": "loop-ct-rl",
+      "seed": 31,
+      "tier": "medium",
+      "cap": 3398924.6666666665,
+      "selected_tokens": null
+    },
+    {
+      "method": "loop-ct-rl",
+      "seed": 31,
+      "tier": "high",
+      "cap": 13378047.333333334,
+      "selected_tokens": 8
+    }
+  ],
+  "trials": [
+    {
+      "method": "ct-rl",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.0025570155848981813,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "ct-rl",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.0025384896240818002,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "ct-rl",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.002514432334767965,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "random-suffix-rl",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.002578225665880988,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "random-suffix-rl",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.002551066039207702,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "random-suffix-rl",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.002530675289259913,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "single-readout-rl",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.0025403472051645317,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "single-readout-rl",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.0025153472185290107,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "single-readout-rl",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.0025220712608036897,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "hardness-matched-rl",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2248667.0,
+      "amortized_seconds_per_query": 0.0026187117910012603,
+      "visible_output_tokens_per_query": 0.041666666666666664,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "hardness-matched-rl",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2248667.0,
+      "amortized_seconds_per_query": 0.002583821211980345,
+      "visible_output_tokens_per_query": 0.041666666666666664,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "hardness-matched-rl",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2248667.0,
+      "amortized_seconds_per_query": 0.0025749496320107332,
+      "visible_output_tokens_per_query": 0.041666666666666664,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "random-separating-rl",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.0025598749537797025,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "random-separating-rl",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.002533076466837277,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "random-separating-rl",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.0025147430763657517,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "latent-sft",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2295504.0,
+      "amortized_seconds_per_query": 0.003925840244240438,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "latent-sft",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2295504.0,
+      "amortized_seconds_per_query": 0.003909737875801511,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "latent-sft",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2295504.0,
+      "amortized_seconds_per_query": 0.003905454922157029,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "multi-query-sft",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2295504.0,
+      "amortized_seconds_per_query": 0.003910963506010982,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "multi-query-sft",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2295504.0,
+      "amortized_seconds_per_query": 0.00392589071028245,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "multi-query-sft",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2295504.0,
+      "amortized_seconds_per_query": 0.003938357588291789,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "static-compress-sft",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2284984.6666666665,
+      "amortized_seconds_per_query": 0.0035312587133375928,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 12800,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "static-compress-sft",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2284984.6666666665,
+      "amortized_seconds_per_query": 0.003532173626202469,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 12800,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "static-compress-sft",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2284984.6666666665,
+      "amortized_seconds_per_query": 0.0035035694939627624,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 12800,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "placeholder-sft",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.125,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 1215426.6666666667,
+      "amortized_seconds_per_query": 0.003801928823425745,
+      "visible_output_tokens_per_query": 1.5,
+      "peak_kv_tensor_bytes": 12800,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "placeholder-sft",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.125,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 1215426.6666666667,
+      "amortized_seconds_per_query": 0.0038117257063277066,
+      "visible_output_tokens_per_query": 1.5,
+      "peak_kv_tensor_bytes": 12800,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "placeholder-sft",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.125,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 1215426.6666666667,
+      "amortized_seconds_per_query": 0.003827595447849793,
+      "visible_output_tokens_per_query": 1.5,
+      "peak_kv_tensor_bytes": 12800,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "coconut",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.0024913106996488446,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "coconut",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.002461614586839763,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "coconut",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2246685.3333333335,
+      "amortized_seconds_per_query": 0.002457345506021132,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "codi",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2297552.0,
+      "amortized_seconds_per_query": 0.003929862835017654,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "codi",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2297552.0,
+      "amortized_seconds_per_query": 0.003933340286797223,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "codi",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2297552.0,
+      "amortized_seconds_per_query": 0.0039703263707148535,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "latent-grpo",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2304956.0,
+      "amortized_seconds_per_query": 0.0039808645863862084,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "latent-grpo",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2304956.0,
+      "amortized_seconds_per_query": 0.005453625043931727,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "latent-grpo",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2304956.0,
+      "amortized_seconds_per_query": 0.003925111038067068,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "slpo",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2285256.6666666665,
+      "amortized_seconds_per_query": 0.003577678799047135,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 37888,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "slpo",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2285256.6666666665,
+      "amortized_seconds_per_query": 0.0035635207993133613,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 37888,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "slpo",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2285256.6666666665,
+      "amortized_seconds_per_query": 0.0035549132201898224,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 37888,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "ltc",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2304956.0,
+      "amortized_seconds_per_query": 0.0039800086233299226,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "ltc",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2304956.0,
+      "amortized_seconds_per_query": 0.003992147627286613,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "ltc",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 2304956.0,
+      "amortized_seconds_per_query": 0.003984718748445933,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 38144,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "direct",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 3398924.6666666665,
+      "amortized_seconds_per_query": 0.0032354097541732094,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 56064,
+      "interface_bytes_per_prefix": 0,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "direct",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 3398924.6666666665,
+      "amortized_seconds_per_query": 0.003167354162239159,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 56064,
+      "interface_bytes_per_prefix": 0,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "direct",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 3398924.6666666665,
+      "amortized_seconds_per_query": 0.0031671701678230115,
+      "visible_output_tokens_per_query": 0.0,
+      "peak_kv_tensor_bytes": 56064,
+      "interface_bytes_per_prefix": 0,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "cot",
+      "seed": 31,
+      "tokens": 32,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 6059775.333333333,
+      "amortized_seconds_per_query": 0.04613930038370503,
+      "visible_output_tokens_per_query": 32.0,
+      "peak_kv_tensor_bytes": 66560,
+      "interface_bytes_per_prefix": 0,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "cot",
+      "seed": 31,
+      "tokens": 64,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 8368127.333333333,
+      "amortized_seconds_per_query": 0.09049520824919455,
+      "visible_output_tokens_per_query": 64.0,
+      "peak_kv_tensor_bytes": 74752,
+      "interface_bytes_per_prefix": 0,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "cot",
+      "seed": 31,
+      "tokens": 128,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 13378047.333333334,
+      "amortized_seconds_per_query": 0.180458142417289,
+      "visible_output_tokens_per_query": 128.0,
+      "peak_kv_tensor_bytes": 91136,
+      "interface_bytes_per_prefix": 0,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "loop-grpo",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.007343223963592512,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "loop-grpo",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.0073022256741145,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "loop-grpo",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.007315531208102281,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "rltt",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.007330251707268569,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "rltt",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.0074693437830622616,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "rltt",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.0,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.007374168383345629,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "loop-ct-rl",
+      "seed": 31,
+      "tokens": 8,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.007352527745145683,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "loop-ct-rl",
+      "seed": 31,
+      "tokens": 12,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.007299520870825897,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    },
+    {
+      "method": "loop-ct-rl",
+      "seed": 31,
+      "tokens": 16,
+      "ct_acc": 0.041666666666666664,
+      "pair_both": 0.0,
+      "amortized_flops_per_query": 4557088.0,
+      "amortized_seconds_per_query": 0.0073583090415922925,
+      "visible_output_tokens_per_query": 1.0,
+      "peak_kv_tensor_bytes": 76288,
+      "interface_bytes_per_prefix": 256,
+      "cuda_peak_bytes": null
+    }
+  ]
+}

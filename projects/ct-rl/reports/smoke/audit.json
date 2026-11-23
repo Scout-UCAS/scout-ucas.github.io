@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "source_sha256": "c822c40ce7a164f195c09f69f388f17806c1fece686acab58d7f028bba604dc3",
+  "training_compute_checks": 86,
+  "recomputed_controlled_pair_scores": 2746,
+  "recomputed_public_answers": 483,
+  "reachable_controlled_answers_including_probes": 28942,
+  "reachable_public_answers_including_eos": 483,
+  "checked_inference_decode_trials": 57,
+  "public_adaptations_verified": 69,
+  "heldout_group_sets_verified": 7,
+  "core_pool_groups": 25,
+  "core_mean_hard_draws_by_round": [
+    0.0,
+    3.5,
+    3.6666666666666665
+  ],
+  "inference_cases_feasible_on_validation": 40,
+  "inference_cases_within_cap_on_test": 40,
+  "python": "3.12.13",
+  "installed": {
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pytest": "8.4.2",
+    "math-verify": "0.8.0",
+    "pyarrow": "20.0.0",
+    "tokenizers": "0.22.2"
+  }
+}

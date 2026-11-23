@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Every lempus is fruity. Each vumpus is a brimpus. Vumpuses are sterpuses. Zumpuses are impuses. Every rompus is a grimpus. Tumpuses are temperate. Every impus is liquid. Each impus is a dumpus. Each wumpus is not snowy. Dumpuses are gorpuses. Dumpuses are lorpuses. Each lorpus is muffled. Numpuses are brown. Each rompus is nervous. Every zumpus is not small. Every zumpus is a tumpus. Every brimpus is a lempus. Brimpuses are fast. Each vumpus is not transparent. Each brimpus is a zumpus. Every impus is a wumpus. Every sterpus is bright. Dumpuses are not brown. Alex is a vumpus. Alex is a rompus. True or false: Alex is not brown.",
+    "answer": "True",
+    "steps": "Alex is a vumpus.\nEach vumpus is a brimpus.\nAlex is a brimpus.\nEach brimpus is a zumpus.\nAlex is a zumpus.\nZumpuses are impuses.\nAlex is an impus.\nEach impus is a dumpus.\nAlex is a dumpus.\nDumpuses are not brown.\nAlex is not brown."
+  },
+  {
+    "question": "Yumpuses are zumpuses. Every impus is not fast. Every tumpus is rainy. Jompuses are yumpuses. Every yumpus is sour. Vumpuses are red. Every lorpus is not amenable. Each rompus is dull. Sterpuses are transparent. Each tumpus is a brimpus. Wumpuses are floral. Each lorpus is an impus. Shumpuses are amenable. Tumpuses are vumpuses. Every yumpus is a tumpus. Every zumpus is feisty. Jompuses are liquid. Each brimpus is small. Every jompus is a rompus. Each brimpus is a lorpus. Lorpuses are numpuses. Brimpuses are wumpuses. Each sterpus is a gorpus. Sam is a sterpus. Sam is a jompus. True or false: Sam is not amenable.",
+    "answer": "True",
+    "steps": "Sam is a jompus.\nJompuses are yumpuses.\nSam is a yumpus.\nEvery yumpus is a tumpus.\nSam is a tumpus.\nEach tumpus is a brimpus.\nSam is a brimpus.\nEach brimpus is a lorpus.\nSam is a lorpus.\nEvery lorpus is not amenable.\nSam is not amenable."
+  },
+  {
+    "question": "Zumpuses are snowy. Every tumpus is melodic. Each impus is a dumpus. Wumpuses are opaque. Every grimpus is orange. Every numpus is a brimpus. Shumpuses are rompuses. Lorpuses are slow. Each jompus is a yumpus. Every numpus is bright. Each shumpus is temperate. Every impus is not wooden. Each yumpus is an impus. Dumpuses are large. Impuses are shumpuses. Yumpuses are happy. Jompuses are not kind. Every shumpus is a grimpus. Every lorpus is a tumpus. Every lorpus is a jompus. Sterpuses are not temperate. Every yumpus is a zumpus. Jompuses are wumpuses. Wren is a lorpus. Wren is a numpus. True or false: Wren is temperate.",
+    "answer": "True",
+    "steps": "Wren is a lorpus.\nEvery lorpus is a jompus.\nWren is a jompus.\nEach jompus is a yumpus.\nWren is a yumpus.\nEach yumpus is an impus.\nWren is an impus.\nImpuses are shumpuses.\nWren is a shumpus.\nEach shumpus is temperate.\nWren is temperate."
+  }
+]

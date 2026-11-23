@@ -1,0 +1,56 @@
+{
+  "all": {
+    "tested": 30,
+    "defined": 30,
+    "coverage": 1.0,
+    "mean_residual_fraction": 0.29352145996542656
+  },
+  "validated_rank": 5,
+  "mean_residual_by_rank": {
+    "1": 0.7319535614443388,
+    "2": 0.5771525297893104,
+    "4": 0.29352145996542656,
+    "5": 0.22797128567844602
+  },
+  "rank_tolerance": 0.05,
+  "reference_distance_coverage": 1.0,
+  "reference_cal_rate": 0.7291666666666666,
+  "reference_below_rho_floor": 0.0,
+  "by_factor": {
+    "object": {
+      "tested": 6,
+      "defined": 6,
+      "coverage": 1.0,
+      "mean_residual_fraction": 0.2659372897282639
+    },
+    "landmark": {
+      "tested": 6,
+      "defined": 6,
+      "coverage": 1.0,
+      "mean_residual_fraction": 0.6150846919081939
+    },
+    "color": {
+      "tested": 6,
+      "defined": 6,
+      "coverage": 1.0,
+      "mean_residual_fraction": 0.08036693287270032
+    },
+    "count": {
+      "tested": 6,
+      "defined": 6,
+      "coverage": 1.0,
+      "mean_residual_fraction": 0.4308808277091672
+    },
+    "relation": {
+      "tested": 6,
+      "defined": 6,
+      "coverage": 1.0,
+      "mean_residual_fraction": 0.07533755760880714
+    }
+  },
+  "anchor_total": 24,
+  "anchor_confirmed": 24,
+  "anchor_precision": 1.0,
+  "feature_space": "tiny_rgb_12",
+  "verifier": "simulator_truth"
+}

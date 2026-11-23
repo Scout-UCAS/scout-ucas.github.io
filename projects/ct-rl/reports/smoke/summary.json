@@ -1,0 +1,84 @@
+{
+  "complete": true,
+  "profile": "smoke",
+  "seeds": [
+    31,
+    41,
+    51
+  ],
+  "secondary_seeds": [
+    31
+  ],
+  "stages": {
+    "primary": 57,
+    "scale-confirmation": 12,
+    "matched": 57,
+    "ablations": 20,
+    "capacity-matched": 12
+  },
+  "controlled_scores": 790,
+  "public_evaluations": 161,
+  "public_adaptations": 69,
+  "public_test_examples_per_dataset": {
+    "gsm8k": 3,
+    "math500": 3,
+    "prontoqa": 3,
+    "prosqa": 3
+  },
+  "ct_rl_id": {
+    "ct_acc": {
+      "mean": 0.0,
+      "sample_sd": 0.0
+    },
+    "all_correct": {
+      "mean": 0.0,
+      "sample_sd": 0.0
+    },
+    "pair_both": {
+      "mean": 0.0,
+      "sample_sd": 0.0
+    },
+    "invalid_rate": {
+      "mean": 0.9444444444444444,
+      "sample_sd": 0.0962250448649376
+    },
+    "id_minus_split": {
+      "mean": 0.0,
+      "sample_sd": 0.0
+    }
+  },
+  "main_public_first_seed": {
+    "gsm8k": 0.0,
+    "math500": 0.0,
+    "prontoqa": 0.0,
+    "prosqa": 0.0
+  },
+  "promoted": [
+    "placeholder-sft",
+    "multi-query-sft",
+    "latent-grpo"
+  ],
+  "stored_training_checkpoints": 181,
+  "ablation_settings": 25,
+  "matched_budget_arms": 62,
+  "max_budget_error": 0.06939100076728111,
+  "equal_read_budget": 64,
+  "rl_rounds_with_nonzero_advantage": 612,
+  "rl_rounds_total": 985,
+  "public_selection": {
+    "gsm8k": "coconut-native",
+    "prontoqa": "coconut-native",
+    "prosqa": "coconut-native"
+  },
+  "wall_seconds_training_measured": 275.9213678119704,
+  "scale_budget_error": 0.06754731598069386,
+  "capacity_budget_error": 0.06905189040091708,
+  "public_max_budget_error": 0.09996889184074653,
+  "inference_budget_cases": 57,
+  "core_demo_id": {
+    "ct_acc": 0.18055555555555555,
+    "all_correct": 0.05555555555555555,
+    "pair_both": 0.0,
+    "invalid_rate": 0.0
+  }
+}

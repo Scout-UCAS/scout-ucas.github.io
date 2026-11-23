@@ -1,0 +1,11 @@
+{
+  "noise": 1.7,
+  "iterations": 16,
+  "max_semantic_cost": 0.17639999091625214,
+  "max_rate_cost": 0.16000000000000003,
+  "max_distance_cost": 2.0249091344834476e-05,
+  "dual_increases": [
+    1,
+    3
+  ]
+}

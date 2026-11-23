@@ -1,0 +1,68 @@
+{
+  "manifest_sha256": "0d7d647c5210aae7e05d40e1e70da6626b255c70bf0423b3eb37d911c1a65382",
+  "independent_groups": 38500,
+  "splits": {
+    "train": {
+      "pairs": 30000,
+      "prefixes": 60000,
+      "pairs_by_family": {
+        "arithmetic": 10000,
+        "graph": 10000,
+        "rules": 10000
+      }
+    },
+    "valid": {
+      "pairs": 1500,
+      "prefixes": 3000,
+      "pairs_by_family": {
+        "arithmetic": 500,
+        "graph": 500,
+        "rules": 500
+      }
+    },
+    "id": {
+      "pairs": 1500,
+      "prefixes": 3000,
+      "pairs_by_family": {
+        "arithmetic": 500,
+        "graph": 500,
+        "rules": 500
+      }
+    },
+    "comp": {
+      "pairs": 1500,
+      "prefixes": 3000,
+      "pairs_by_family": {
+        "arithmetic": 500,
+        "graph": 500,
+        "rules": 500
+      }
+    },
+    "prefix_length": {
+      "pairs": 1500,
+      "prefixes": 3000,
+      "pairs_by_family": {
+        "arithmetic": 500,
+        "graph": 500,
+        "rules": 500
+      }
+    },
+    "suffix_length": {
+      "pairs": 1500,
+      "prefixes": 3000,
+      "pairs_by_family": {
+        "arithmetic": 500,
+        "graph": 500,
+        "rules": 500
+      }
+    },
+    "scale": {
+      "pairs": 1000,
+      "prefixes": 2000,
+      "pairs_by_family": {
+        "graph": 500,
+        "rules": 500
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "model": {"backbone": "tiny", "hidden_size": 48, "layers": 2, "heads": 4,
+            "latent_steps": 3, "action_dim": 8, "adapter_rank": 8, "max_answer_tokens": 8},
+  "device": "cpu",
+  "algorithm": "rloo",
+  "method": "ct-rl"
+}

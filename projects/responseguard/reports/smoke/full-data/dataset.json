@@ -1,0 +1,26 @@
+{
+  "seed": 1203,
+  "pair_counts": {
+    "train": 8000,
+    "val": 1000,
+    "test": 1000
+  },
+  "generator": "object-color-relation-v2",
+  "audit": {
+    "triples": {
+      "train": 512,
+      "val": 64,
+      "test": 64
+    },
+    "overlap": {
+      "train/val": 0,
+      "train/test": 0,
+      "val/test": 0
+    },
+    "overlap_with_interventions": {
+      "train/val": 0,
+      "train/test": 0,
+      "val/test": 0
+    }
+  }
+}

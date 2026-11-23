@@ -1,0 +1,220 @@
+{
+  "individual_winners": {
+    "joint": 0.008,
+    "flow-grpo": 0.004
+  },
+  "base": "461aea9f541da8aa85c1b02b097f46e33d5b5bc4fe5acba7797c61a7b0406b43",
+  "training_data": "6097836ceedbcabf418f9f69192d3102dc702fe5d4da8ec7dd1caf83488a71d8",
+  "validation_data": "7052dc8a949a1de1513e06d73780cbeb36b3d89f3408274860db46d2a6fb0826",
+  "evaluation_config": "461aea9f541da8aa85c1b02b097f46e33d5b5bc4fe5acba7797c61a7b0406b43",
+  "trials": [
+    {
+      "method": "joint",
+      "lr": 0.002,
+      "scores": {
+        "n_pairs": 3,
+        "n_prompts": 6,
+        "pair_sr": 0.9583333333333334,
+        "retention": 1.0,
+        "correction": 0.0,
+        "ref_correct": 46,
+        "ref_wrong": 2,
+        "response_correct": 1.0,
+        "unchanged_pass": 0.9583333333333334,
+        "valid_pair_fraction": 0.5263888888888889,
+        "cov2": 1.0,
+        "cov_m": 1.0,
+        "rho": 0.71875,
+        "semantic_rate": 0.9791666666666666,
+        "quality_rate": 0.7395833333333334,
+        "preference": 0.2521181603272756,
+        "d_cond": 0.004619438364206851,
+        "d_eff": 0.0023378391697781165,
+        "vendi": 1.0246333336984703,
+        "aux_d_cond": 0.004366521157841819
+      },
+      "shortfall": 0.0,
+      "cost": {
+        "denoiser_examples": 1920,
+        "denoiser_calls": 288,
+        "verifier_questions": 4576,
+        "preference_scores": 416,
+        "gpu_hours": 0.0
+      }
+    },
+    {
+      "method": "joint",
+      "lr": 0.004,
+      "scores": {
+        "n_pairs": 3,
+        "n_prompts": 6,
+        "pair_sr": 0.9583333333333334,
+        "retention": 1.0,
+        "correction": 0.0,
+        "ref_correct": 46,
+        "ref_wrong": 2,
+        "response_correct": 1.0,
+        "unchanged_pass": 0.9583333333333334,
+        "valid_pair_fraction": 0.5472222222222222,
+        "cov2": 1.0,
+        "cov_m": 1.0,
+        "rho": 0.7291666666666666,
+        "semantic_rate": 0.9791666666666666,
+        "quality_rate": 0.75,
+        "preference": 0.25207187483708066,
+        "d_cond": 0.004576166639283161,
+        "d_eff": 0.0023785694321678,
+        "vendi": 1.0245928150910455,
+        "aux_d_cond": 0.004324278080404296
+      },
+      "shortfall": 0.0,
+      "cost": {
+        "denoiser_examples": 1920,
+        "denoiser_calls": 288,
+        "verifier_questions": 4576,
+        "preference_scores": 416,
+        "gpu_hours": 0.0
+      }
+    },
+    {
+      "method": "joint",
+      "lr": 0.008,
+      "scores": {
+        "n_pairs": 3,
+        "n_prompts": 6,
+        "pair_sr": 0.9583333333333334,
+        "retention": 1.0,
+        "correction": 0.0,
+        "ref_correct": 46,
+        "ref_wrong": 2,
+        "response_correct": 1.0,
+        "unchanged_pass": 0.9583333333333334,
+        "valid_pair_fraction": 0.5652777777777778,
+        "cov2": 1.0,
+        "cov_m": 1.0,
+        "rho": 0.7395833333333334,
+        "semantic_rate": 0.9791666666666666,
+        "quality_rate": 0.7604166666666666,
+        "preference": 0.25217732787132263,
+        "d_cond": 0.004607781133031292,
+        "d_eff": 0.002503454262903508,
+        "vendi": 1.0248212339486937,
+        "aux_d_cond": 0.004354209314315262
+      },
+      "shortfall": 0.0,
+      "cost": {
+        "denoiser_examples": 1920,
+        "denoiser_calls": 288,
+        "verifier_questions": 4576,
+        "preference_scores": 416,
+        "gpu_hours": 0.0
+      }
+    },
+    {
+      "method": "flow-grpo",
+      "lr": 0.002,
+      "scores": {
+        "n_pairs": 3,
+        "n_prompts": 6,
+        "pair_sr": 0.9583333333333334,
+        "retention": 1.0,
+        "correction": 0.0,
+        "ref_correct": 46,
+        "ref_wrong": 2,
+        "response_correct": 1.0,
+        "unchanged_pass": 0.9583333333333334,
+        "valid_pair_fraction": 0.5472222222222222,
+        "cov2": 1.0,
+        "cov_m": 1.0,
+        "rho": 0.7291666666666666,
+        "semantic_rate": 0.9791666666666666,
+        "quality_rate": 0.75,
+        "preference": 0.25213751445213956,
+        "d_cond": 0.004581682088664674,
+        "d_eff": 0.0023765985427088364,
+        "vendi": 1.0247807257377952,
+        "aux_d_cond": 0.004328057547676314
+      },
+      "shortfall": 0.0,
+      "cost": {
+        "denoiser_examples": 640,
+        "denoiser_calls": 160,
+        "verifier_questions": 352,
+        "preference_scores": 32,
+        "gpu_hours": 0.0
+      }
+    },
+    {
+      "method": "flow-grpo",
+      "lr": 0.004,
+      "scores": {
+        "n_pairs": 3,
+        "n_prompts": 6,
+        "pair_sr": 0.9583333333333334,
+        "retention": 1.0,
+        "correction": 0.0,
+        "ref_correct": 46,
+        "ref_wrong": 2,
+        "response_correct": 1.0,
+        "unchanged_pass": 0.9583333333333334,
+        "valid_pair_fraction": 0.5472222222222222,
+        "cov2": 1.0,
+        "cov_m": 1.0,
+        "rho": 0.7291666666666666,
+        "semantic_rate": 0.9791666666666666,
+        "quality_rate": 0.75,
+        "preference": 0.25219278037548065,
+        "d_cond": 0.004591084188520741,
+        "d_eff": 0.0023857054327530583,
+        "vendi": 1.0246085264358953,
+        "aux_d_cond": 0.004334949507340945
+      },
+      "shortfall": 0.0,
+      "cost": {
+        "denoiser_examples": 640,
+        "denoiser_calls": 160,
+        "verifier_questions": 352,
+        "preference_scores": 32,
+        "gpu_hours": 0.0
+      }
+    },
+    {
+      "method": "flow-grpo",
+      "lr": 0.008,
+      "scores": {
+        "n_pairs": 3,
+        "n_prompts": 6,
+        "pair_sr": 0.9583333333333334,
+        "retention": 1.0,
+        "correction": 0.0,
+        "ref_correct": 46,
+        "ref_wrong": 2,
+        "response_correct": 1.0,
+        "unchanged_pass": 0.9583333333333334,
+        "valid_pair_fraction": 0.5652777777777778,
+        "cov2": 1.0,
+        "cov_m": 1.0,
+        "rho": 0.7395833333333334,
+        "semantic_rate": 0.9791666666666666,
+        "quality_rate": 0.7604166666666666,
+        "preference": 0.2521664500236511,
+        "d_cond": 0.004600750003507625,
+        "d_eff": 0.0025012137763549117,
+        "vendi": 1.0245540950724619,
+        "aux_d_cond": 0.004343952399636882
+      },
+      "shortfall": 0.0,
+      "cost": {
+        "denoiser_examples": 640,
+        "denoiser_calls": 160,
+        "verifier_questions": 352,
+        "preference_scores": 32,
+        "gpu_hours": 0.0
+      }
+    }
+  ],
+  "learning_rates": {
+    "joint": 0.008,
+    "flow-grpo": 0.004
+  }
+}

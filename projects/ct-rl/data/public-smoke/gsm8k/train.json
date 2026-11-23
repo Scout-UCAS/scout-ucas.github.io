@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Mary is trying to count the animals in the petting zoo, but they kept moving around so she double-counts 7 sheep and forgets to count 3 pigs. If Mary thinks there are 60 animals, how many are there really?",
+    "answer": "56",
+    "steps": "First subtract the 7 double-counted animals from Mary's total: 60 animals - 7 animals = <<60-7=53>>53 animals\nThen add the animals she missed to find the real total: 53 animals + 3 pigs = <<53+3=56>>56 animals"
+  },
+  {
+    "question": "Salem is 15 times the size of Leesburg. Leesburg has 58940 people. If 130000 people move out of Salem, and half of Salem's population is women, how many women live in Salem?",
+    "answer": "377050",
+    "steps": "The number of inhabitants of Salem is 15 * 58940 = <<15*58940=884100>>884100 inhabitants.\nBut some have moved, so there are 884100 - 130000 = <<884100-130000=754100>>754100 inhabitants left\nOf these, 754100/2 = <<754100/2=377050>>377050 are women."
+  },
+  {
+    "question": "Carla needs to dry-clean 80 pieces of laundry by noon. If she starts work at 8 AM, how many pieces of laundry does she need to clean per hour?",
+    "answer": "20",
+    "steps": "First find how many hours Carla has to work: 12:00 - 8:00 = 4 hours\nThen divide the total amount of laundry by the number of hours to find how many pieces Carla has to clean per hour: 80 pieces / 4 hours = <<80/4=20>>20 pieces/hour"
+  },
+  {
+    "question": "Carl caused a car accident that resulted in $40,000 worth of property damage and $70,000 worth of medical bills. If Carl's insurance company will pay 80% of the costs, leaving Carl to pay the remaining 20%, how much does Carl personally owe?",
+    "answer": "22000",
+    "steps": "First find the total cost of the accident: $40,000 + $70,000 = $<<40000+70000=110000>>110,000\nThen multiply the total cost by the percentage Carl has to pay to find his personal cost: $110,000 * .2 = $<<110000*.2=22000>>22,000"
+  },
+  {
+    "question": "Jean needs to buy 10 new pairs of pants.  A store is running a sale for 20% off.  If the pants normally retail for $45 each how much will she need to pay for all of them after paying a 10% tax?",
+    "answer": "396",
+    "steps": "The discount is 45*.2=$<<45*.2=9>>9 off each pair\nSo she pays 45-9= $<<45-9=36>>36 each\nSo it will cost 36*10=$<<36*10=360>>360 before tax\nThe tax will add 360*.1=$<<360*.1=36>>36\nSo she has to pay 360+36=$<<360+36=396>>396"
+  },
+  {
+    "question": "Mr. Jesiah is a dairy cow farmer with cows producing 200 gallons of milk every day. The expenses for maintenance of the dairy farm and purchase of feeds is $3000 per month. Calculate his total income in June if he sells 1 gallon of milk at $3.55.",
+    "answer": "18300",
+    "steps": "In a day, Mr. Jesiah's total income from the sale of the milk is $3.55/gallon * 200 gallons/day = $<<3.55*200=710>>710/day\nIn June, his total income is $710/day * 30 days = $<<710*30=21300>>21300\nThe net income from the sale is $21300 - $3000 = $<<21300-3000=18300>>18300"
+  },
+  {
+    "question": "In a school garden, there are flowers in different colors. In total there are 96 flowers of four colors: green, red, blue, and yellow. There are 9 green flowers and three times more red flowers. Blue flowers make up to 50% of the total flower count. How many yellow flowers are there?",
+    "answer": "12",
+    "steps": "There are 3 * 9 = <<3*9=27>>27 red flowers.\n50/100 * 96 = <<50/100*96=48>>48 flowers are blue.\nKnowing that, there are 96 - 48 - 27 - 9 = <<96-48-27-9=12>>12 yellow flowers in a school's garden."
+  },
+  {
+    "question": "Chelsea made 4 batches of cupcakes for the bake sale. The cupcakes took 20 minutes to bake and 30 minutes to ice per batch. How long did it take Chelsea to make the cupcakes?",
+    "answer": "200",
+    "steps": "Chelsea baked 4 batches of cupcakes x 20 minutes each = <<4*20=80>>80 minutes of baking.\nShe iced 4 batches of cupcakes x 30 minutes each = <<4*30=120>>120 minutes.\nIt took Chelsea 80 + 120 = <<80+120=200>>200 minutes to make the cupcakes for the bake sale."
+  }
+]

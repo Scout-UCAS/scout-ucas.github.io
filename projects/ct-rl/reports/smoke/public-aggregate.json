@@ -1,0 +1,1451 @@
+[
+  {
+    "method": "ct-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-suffix-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "single-readout-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "hardness-matched-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-separating-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-sft",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "multi-query-sft",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "static-compress-sft",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "placeholder-sft",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "direct",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "cot",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "gsm8k",
+    "synthetic": false,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "gsm8k",
+    "synthetic": false,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-suffix-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "single-readout-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "hardness-matched-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-separating-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-sft",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "multi-query-sft",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "static-compress-sft",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "placeholder-sft",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "direct",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "cot",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "prontoqa",
+    "synthetic": false,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "prontoqa",
+    "synthetic": false,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-suffix-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "single-readout-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "hardness-matched-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-separating-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-sft",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "multi-query-sft",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "static-compress-sft",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "placeholder-sft",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "direct",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "cot",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "prosqa",
+    "synthetic": false,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "prosqa",
+    "synthetic": false,
+    "split": "valid",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-suffix-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-suffix-rl",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "single-readout-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "single-readout-rl",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "hardness-matched-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "hardness-matched-rl",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-separating-rl",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-separating-rl",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-sft",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-sft",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "multi-query-sft",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "multi-query-sft",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "static-compress-sft",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "static-compress-sft",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "placeholder-sft",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "placeholder-sft",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "direct",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "direct",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "cot",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "cot",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi-native",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo-native",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo-native",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc-native",
+    "dataset": "gsm8k",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc-native",
+    "dataset": "math500",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "gsm8k",
+    "synthetic": false,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "math500",
+    "synthetic": false,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "gsm8k",
+    "synthetic": false,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "math500",
+    "synthetic": false,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-suffix-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "single-readout-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "hardness-matched-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-separating-rl",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-sft",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "multi-query-sft",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "static-compress-sft",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "placeholder-sft",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "direct",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "cot",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc-native",
+    "dataset": "prontoqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "prontoqa",
+    "synthetic": false,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "prontoqa",
+    "synthetic": false,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-suffix-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "single-readout-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "hardness-matched-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "random-separating-rl",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-sft",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "multi-query-sft",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "static-compress-sft",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "placeholder-sft",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "direct",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "cot",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "codi-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "latent-grpo-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "slpo-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ltc-native",
+    "dataset": "prosqa",
+    "synthetic": true,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "ct-rl",
+    "dataset": "prosqa",
+    "synthetic": false,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  },
+  {
+    "method": "coconut-native",
+    "dataset": "prosqa",
+    "synthetic": false,
+    "split": "test",
+    "seeds": 1,
+    "mean": 0.0,
+    "sample_sd": null
+  }
+]

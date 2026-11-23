@@ -1,0 +1,1819 @@
+{
+  "format": 1,
+  "dataset_sha256": "a3c1265ca287d73631069d20333defe3038e8aa6aa3f115d7ba71575b7c5f505",
+  "checkpoint_sha256": "d5ae6217e48db2a4137c98aa5987646821c7287b7ebc63ef8ba998f3ff5945ca",
+  "reports": [
+    {
+      "pairs": 9,
+      "macro": {
+        "ct_acc": 0.125,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.0
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.08333333333333333,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "graph": {
+          "ct_acc": 0.2916666666666667,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "rules": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.09722222222222221,
+          0.1527777777777778
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.0,
+          0.0
+        ]
+      },
+      "split": "valid",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "normal",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.017914668074809015,
+          "continuations": 0.10038704378530383,
+          "probe": 0.010194542002864182
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0016430793313904563,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 1.6388888888888888,
+        "interface_bytes_per_prefix": 576,
+        "peak_kv_tensor_bytes": 350208,
+        "model_work_including_probe": {
+          "policy_forwards": 27,
+          "policy_padded_tokens": 1826,
+          "reader_forwards": 54,
+          "reader_padded_tokens": 3826,
+          "logit_positions": 294,
+          "generated_answer_tokens": 145
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 108,
+        "oracle_cpu_seconds": 0.00035199999999946385
+      },
+      "rows": [
+        {
+          "group": "757ac0fc4a72fbc42928200d64b76c216e2215cc3edb60a6c2bd55364ecf5091",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "-1",
+              "-1",
+              "-1"
+            ],
+            [
+              "-1",
+              "-1",
+              "-1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "group": "68c8fa867f5ee82c7a562274ffac2c9bcfc488c486f7949cf7fd15eb5f622497",
+          "family": "arithmetic",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "-1",
+              "-1",
+              "-1"
+            ],
+            [
+              "-1",
+              "-1",
+              "-1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "group": "cc01dbe0fcf2405a81432077cae55fafa6b52b65b3afb8672b425bd3c2510d67",
+          "family": "arithmetic",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "-1",
+              "1",
+              "1"
+            ],
+            [
+              "-1",
+              "-1",
+              "-1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "group": "e0b773888aeb1d7dc3f3771af50cec4ea3977c77f52cfa66fdc2d093a1ba14be",
+          "family": "graph",
+          "ct_acc": 0.25,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "d901d156b330193ee652963531650f9cd6805c68282fafc68109f874e606ca7e",
+          "family": "graph",
+          "ct_acc": 0.25,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "group": "ecd59762b7df0cc9d822527a67d232f98013c375eb64a219eff6af1d37ea3164",
+          "family": "graph",
+          "ct_acc": 0.375,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "group": "89b7540ef822f617043d76032ae4267af2c86fd1cb60145b403aef275dcfa70e",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "11",
+              "1111"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "3281babc3c829fdfecc97c0b223048b7de88db55058a5c62ee4c2f42f50ba3ac",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "111",
+              "1",
+              "1",
+              "11"
+            ],
+            [
+              "111",
+              "1",
+              "1",
+              "11"
+            ]
+          ],
+          "probe_answers": [
+            "11",
+            "111"
+          ]
+        },
+        {
+          "group": "ce2d1f7e2d96a64eba4b105b2846b9627f5373f61362f86a3b681d7af9924938",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1111",
+              "11111",
+              "1",
+              "1"
+            ],
+            [
+              "11111",
+              "111111",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.05555555555555555
+    },
+    {
+      "pairs": 9,
+      "macro": {
+        "ct_acc": 0.18055555555555555,
+        "all_correct": 0.05555555555555555,
+        "pair_both": 0.0,
+        "invalid_rate": 0.0
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.041666666666666664,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "graph": {
+          "ct_acc": 0.4166666666666667,
+          "all_correct": 0.16666666666666666,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "rules": {
+          "ct_acc": 0.08333333333333333,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.10381944444444444,
+          0.25729166666666653
+        ],
+        "all_correct": [
+          0.0,
+          0.16666666666666666
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.0,
+          0.0
+        ]
+      },
+      "split": "id",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "normal",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.02324470703024417,
+          "continuations": 0.04225187411066145,
+          "probe": 0.008200626936741173
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0009096747380681336,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 1.4166666666666667,
+        "interface_bytes_per_prefix": 576,
+        "peak_kv_tensor_bytes": 337920,
+        "model_work_including_probe": {
+          "policy_forwards": 27,
+          "policy_padded_tokens": 1782,
+          "reader_forwards": 47,
+          "reader_padded_tokens": 3934,
+          "logit_positions": 262,
+          "generated_answer_tokens": 122
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 102,
+        "oracle_cpu_seconds": 0.0002579999999987592
+      },
+      "rows": [
+        {
+          "group": "d7a5ef9bee4613a8df73ae8cf5af0c6dc3d063ad192c92fb3e62a0cae0a685d9",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "-1",
+              "1",
+              "-1"
+            ],
+            [
+              "-1",
+              "-1",
+              "-1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "8f9ad4e173e6d640eccf9b42066d8db7a3822a61d78a087880687ceeb47e4ec4",
+          "family": "arithmetic",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "-1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "group": "cd09e9936cfd9770954010f502c7b74f27ff881ed0f9919b3eb0e8bd7442a183",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "-1",
+              "-1",
+              "-1"
+            ],
+            [
+              "-1",
+              "-1",
+              "-1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4791970736d0c5dd450a776ae10e34f70f08d5c7c259cd836a9b38ecd5494b31",
+          "family": "graph",
+          "ct_acc": 0.5,
+          "all_correct": 0.5,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "08a17661115e02e38238ccb957bd4a4558ea23d5e7f4fd53cbf36e2509dd0c04",
+          "family": "graph",
+          "ct_acc": 0.5,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "group": "1f6a97dddf404d514dab2812099002d73c167e78cba91e9c9652339586bed6a6",
+          "family": "graph",
+          "ct_acc": 0.25,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "group": "709cdd73842f66c2695ec4e626ef5c8313120edc542c6076d872ea7e3263e4f6",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "11",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "5274bca3b1e56fe9142b8d677ad6d385153e8372092d3e57051c456bb5cbb0e4",
+          "family": "rules",
+          "ct_acc": 0.25,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1111",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1111",
+              "1",
+              "0",
+              "11"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "2be283d1520d4f8d2f4ba7d0877f22943f53e534b38fbdcffb090506fc20bb43",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1111",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "111",
+              "0",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.0
+    },
+    {
+      "pairs": 9,
+      "macro": {
+        "ct_acc": 0.18055555555555555,
+        "all_correct": 0.05555555555555555,
+        "pair_both": 0.0,
+        "invalid_rate": 0.0
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "graph": {
+          "ct_acc": 0.3333333333333333,
+          "all_correct": 0.16666666666666666,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "rules": {
+          "ct_acc": 0.20833333333333334,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.1111111111111111,
+          0.25
+        ],
+        "all_correct": [
+          0.0,
+          0.16666666666666666
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.0,
+          0.0
+        ]
+      },
+      "split": "comp",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "normal",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.020580542157404125,
+          "continuations": 0.03180408210027963,
+          "probe": 0.010292375111021101
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0007275642258011632,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 1.25,
+        "interface_bytes_per_prefix": 576,
+        "peak_kv_tensor_bytes": 294912,
+        "model_work_including_probe": {
+          "policy_forwards": 27,
+          "policy_padded_tokens": 1930,
+          "reader_forwards": 47,
+          "reader_padded_tokens": 3720,
+          "logit_positions": 220,
+          "generated_answer_tokens": 122
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 106,
+        "oracle_cpu_seconds": 0.00035399999999441434
+      },
+      "rows": [
+        {
+          "group": "2e30900b86522a69679f2ec9d123f653f0a42cafc41f1b789e268ca404df8ecc",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "1",
+              "1",
+              "-1"
+            ],
+            [
+              "-1",
+              "1",
+              "1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "group": "7df4bc89b3e339150042b93a075a1b9b191e4a3ec1c2f05937111081ff9f6ab9",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "-1",
+              "-1",
+              "-1"
+            ],
+            [
+              "-1",
+              "-1",
+              "-1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "group": "0404a71dc076908d4719d3a2af9741269c1d71e66dd6093aff060cf8f6b75004",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "-1",
+              "-1",
+              "-1"
+            ],
+            [
+              "1",
+              "-1",
+              "-1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "group": "4b39079149f8a13b1018aadf959ec4ee65a3ff474bca3eabfab4a2b52c9ae513",
+          "family": "graph",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "fb9379b9bda5e9ccc07c8202e8c8491410dd4730120badf0d33c05f6f5fec174",
+          "family": "graph",
+          "ct_acc": 0.5,
+          "all_correct": 0.5,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "6a5d1f3bef544f2cc5db52a7eb016798f72b51c3fe22f583a34378207fee2fae",
+          "family": "graph",
+          "ct_acc": 0.375,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "3dfeba2191d93afbc1f3da9ebfe8790750bf1b0635af719d69d5799e0e94be8e",
+          "family": "rules",
+          "ct_acc": 0.375,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1111",
+            "111111"
+          ]
+        },
+        {
+          "group": "6ca89b2b464c9628900e43300136c77e1d9b6a0d3bfdbc87e2f863a49695b6d0",
+          "family": "rules",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "501f70a185a9a3e7de2c3ac79b897c2dbe2134bf699b705158085db94ccd26e4",
+          "family": "rules",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.0
+    },
+    {
+      "pairs": 9,
+      "macro": {
+        "ct_acc": 0.08333333333333333,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.0
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "graph": {
+          "ct_acc": 0.16666666666666666,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "rules": {
+          "ct_acc": 0.08333333333333333,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.048263888888888884,
+          0.1111111111111111
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.0,
+          0.0
+        ]
+      },
+      "split": "prefix_length",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "normal",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.024766540271230042,
+          "continuations": 0.03797020995989442,
+          "probe": 0.009609124972485006
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0008713437532100619,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 1.4166666666666667,
+        "interface_bytes_per_prefix": 576,
+        "peak_kv_tensor_bytes": 337920,
+        "model_work_including_probe": {
+          "policy_forwards": 27,
+          "policy_padded_tokens": 2452,
+          "reader_forwards": 50,
+          "reader_padded_tokens": 3838,
+          "logit_positions": 256,
+          "generated_answer_tokens": 130
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 94,
+        "oracle_cpu_seconds": 0.0003399999999977865
+      },
+      "rows": [
+        {
+          "group": "161fd48b0a2a253a9574334f1270b74f71d4c694f8117947e7c92f7f14ac8565",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "-1",
+              "1",
+              "-1"
+            ],
+            [
+              "-1",
+              "-1",
+              "1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "-1"
+          ]
+        },
+        {
+          "group": "493acecf41d294ce78d9be9c802c390432fa9423fa24a74790f4fa741f58c004",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "-1",
+              "1",
+              "-1"
+            ],
+            [
+              "1",
+              "-1",
+              "1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "f92ce9217a0cab06f5617284160d8a3d42305126996b6326ebb05153216961db",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "-1",
+              "-1",
+              "1",
+              "-1"
+            ],
+            [
+              "-1",
+              "-1",
+              "1",
+              "-6"
+            ]
+          ],
+          "probe_answers": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "group": "d4fbd5531e2a59018b04ddee9f63a8685a0ae1b40ebb13374ea392b74ae65b19",
+          "family": "graph",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "e2bcdd27e5429021cb187d30b928a477e9aa88f38701ac713637c7615db0181b",
+          "family": "graph",
+          "ct_acc": 0.25,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "group": "9529215160361619656bbbeb52d42fbcfaba30f98fd7194d2fe43cafaa57b950",
+          "family": "graph",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "group": "7dde8fe537d95a9172ee76313352013d18cd4e138cb15533c6d2f5724cc45e9a",
+          "family": "rules",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "111",
+              "11",
+              "1",
+              "0"
+            ],
+            [
+              "111",
+              "111",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "d1465c03b7335d059b6b1cc18a7bbbd6d9a22af653035f328aeb522690e2c344",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "11",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1111",
+            "11111"
+          ]
+        },
+        {
+          "group": "3b3c7d7de251dd59c3be331433a8705ffe8f1b74e8af5c0efbe3b1b8673c0c60",
+          "family": "rules",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "11",
+              "111",
+              "0",
+              "1"
+            ],
+            [
+              "11",
+              "111",
+              "0",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.09722222222222222
+    },
+    {
+      "pairs": 9,
+      "macro": {
+        "ct_acc": 0.16666666666666666,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.3333333333333333
+      },
+      "by_family": {
+        "arithmetic": {
+          "ct_acc": 0.041666666666666664,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "graph": {
+          "ct_acc": 0.4583333333333333,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "rules": {
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.05555555555555555,
+          0.2361111111111111
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      "split": "suffix_length",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "normal",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.016633540973998606,
+          "continuations": 0.05753641587216407,
+          "probe": 0.01422808412462473
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0010301382895300372,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 3.375,
+        "interface_bytes_per_prefix": 576,
+        "peak_kv_tensor_bytes": 577536,
+        "model_work_including_probe": {
+          "policy_forwards": 27,
+          "policy_padded_tokens": 1834,
+          "reader_forwards": 73,
+          "reader_padded_tokens": 6176,
+          "logit_positions": 368,
+          "generated_answer_tokens": 303
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 96,
+        "oracle_cpu_seconds": 0.0004360000000112052
+      },
+      "rows": [
+        {
+          "group": "0f3968c1324db94f2caa16eef79a704ac6df4849b78423358280d4c4d0110e59",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "-1"
+            ],
+            [
+              "-1",
+              "1",
+              "1",
+              "-1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "753015e9f3b9393bf7c9348c24f686f5e110ce88702a6ad0f382766bb7d41193",
+          "family": "arithmetic",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4bb46e633b4f1763144aed04ebf7eb71fcb2ad9ec7a55912e92c9564404ef49b",
+          "family": "arithmetic",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "c721c339c08ca5794b78db55724679102e168d5f51854b51a5376b80ff14e62d",
+          "family": "graph",
+          "ct_acc": 0.625,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "cb428b839dd75a746b892610dfae6f37e600f89fb82aec239f6549f34c7aca2d",
+          "family": "graph",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "group": "0d4cca175af5d64ae0847e51ca0e4a8faa9356d1c2c87a8e8469858d4e9aecd6",
+          "family": "graph",
+          "ct_acc": 0.625,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "a6056d094ed87ba62446e1ca1ca6adb220da0e60384ea6265a491e934eed4755",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null
+            ]
+          ],
+          "probe_answers": [
+            null,
+            null
+          ]
+        },
+        {
+          "group": "66ba48458ed57a3d38fea206bee0e6b976b8085cc5e896dcf71475fd87712e98",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null
+            ]
+          ],
+          "probe_answers": [
+            null,
+            null
+          ]
+        },
+        {
+          "group": "4aa428a13cf527c762ce423c9faeae8e23554da6f39f7ef06dfa03d48a2d38ba",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 1.0,
+          "answers": [
+            [
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null
+            ]
+          ],
+          "probe_answers": [
+            null,
+            null
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.013888888888888895
+    },
+    {
+      "pairs": 6,
+      "macro": {
+        "ct_acc": 0.14583333333333334,
+        "all_correct": 0.0,
+        "pair_both": 0.0,
+        "invalid_rate": 0.0
+      },
+      "by_family": {
+        "graph": {
+          "ct_acc": 0.20833333333333334,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        },
+        "rules": {
+          "ct_acc": 0.08333333333333333,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0
+        }
+      },
+      "paired_bootstrap_95": {
+        "ct_acc": [
+          0.0625,
+          0.22916666666666669
+        ],
+        "all_correct": [
+          0.0,
+          0.0
+        ],
+        "pair_both": [
+          0.0,
+          0.0
+        ],
+        "invalid_rate": [
+          0.0,
+          0.0
+        ]
+      },
+      "split": "scale",
+      "method": "ct-rl",
+      "training_seed": 31,
+      "eval_seed": 1729,
+      "m": 4,
+      "intervention": "normal",
+      "model_serial": false,
+      "interface": "strict latent",
+      "costs": {
+        "seconds": {
+          "prefix": 0.011638250784017146,
+          "continuations": 0.028253333875909448,
+          "probe": 0.00560145708732307
+        },
+        "operator_flops": null,
+        "amortized_seconds_per_query": 0.0008310746804151373,
+        "amortized_flops_per_query": null,
+        "visible_output_tokens_per_query": 1.25,
+        "interface_bytes_per_prefix": 576,
+        "peak_kv_tensor_bytes": 356352,
+        "model_work_including_probe": {
+          "policy_forwards": 18,
+          "policy_padded_tokens": 1978,
+          "reader_forwards": 30,
+          "reader_padded_tokens": 2432,
+          "logit_positions": 168,
+          "generated_answer_tokens": 72
+        },
+        "cuda_peak_bytes": null,
+        "oracle_calls": 76,
+        "oracle_cpu_seconds": 0.0003290000000077953
+      },
+      "rows": [
+        {
+          "group": "19708473873526e9e92a9f404edbcd64e2247148a1e251a1b88ffa92e5839d5c",
+          "family": "graph",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "80e4292f7a958aa50206da9698d9eedb962f137b2b2142806801adba62b980ad",
+          "family": "graph",
+          "ct_acc": 0.375,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          ],
+          "probe_answers": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "group": "c904f293ae04a146d8d892009f7ed47c902fd905f2afbacbb6a3844273323e91",
+          "family": "graph",
+          "ct_acc": 0.125,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "a488c9ad88ef2b8824ab57c09cf3def2e97263ce0d63c0fb39009461e53f3b2d",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1111111"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1111111"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "d2eef259c706c6b0be06565d55a2f8f2ab55b1e3318cf804f57684af5ec3800a",
+          "family": "rules",
+          "ct_acc": 0.0,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "group": "4edbb8673edb48d806de3af957c8e4177a8816686f43b6348562634b690a4526",
+          "family": "rules",
+          "ct_acc": 0.25,
+          "all_correct": 0.0,
+          "pair_both": 0.0,
+          "invalid_rate": 0.0,
+          "answers": [
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          ],
+          "probe_answers": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "ct_acc_drop_from_id": 0.10416666666666666
+    }
+  ]
+}

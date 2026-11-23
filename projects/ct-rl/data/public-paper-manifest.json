@@ -1,0 +1,93 @@
+{
+  "profile": "paper",
+  "seed": 120,
+  "upstream": {
+    "gsm_train.jsonl": [
+      "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/train.jsonl",
+      "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465"
+    ],
+    "gsm_test.jsonl": [
+      "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl",
+      "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    ],
+    "pros_train.json": [
+      "https://raw.githubusercontent.com/facebookresearch/coconut/27273cb8cca4bb763c041a63b036d0c3b7cbbb48/data/prosqa_train.json",
+      "99e40ce7e9107fd02e35bcd78a7a4479bd57f415bab0a6efd37cc11a72e594f6"
+    ],
+    "pros_valid.json": [
+      "https://raw.githubusercontent.com/facebookresearch/coconut/27273cb8cca4bb763c041a63b036d0c3b7cbbb48/data/prosqa_valid.json",
+      "c74e0de24f1e90ec48b1a993e6458a7be4caeef3928f5104e3c2e45d689a5249"
+    ],
+    "pros_test.json": [
+      "https://raw.githubusercontent.com/facebookresearch/coconut/27273cb8cca4bb763c041a63b036d0c3b7cbbb48/data/prosqa_test.json",
+      "82ddc0afe6ee30eb31bb16fa208e293e55278a20fa987098d48519cae7e12680"
+    ],
+    "math.jsonl": [
+      "https://huggingface.co/datasets/HuggingFaceH4/MATH-500/resolve/6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be/test.jsonl",
+      "35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132"
+    ]
+  },
+  "pronto_generator": "https://raw.githubusercontent.com/asaparov/prontoqa/f0145b867b3c106285ec9ea1941a3f6eb7c6162d/",
+  "generator_files": {
+    "run_experiment.py": "5f6a60f62abba6c58f16ac8feced5e73aea996194a058550e181be08808eb461",
+    "syntax.py": "53b0979f30f34d5f12da4ef8a17ca2d62a8e9def6c8c45e80ff8fb7cff52cc84",
+    "theory.py": "7b9d2284948fa336ad5e5fb940fb0e6ce3129c9002d7b9ae9634fb8603058e98",
+    "proof.py": "30581dcd872660378d49c80b9645f7091694ab0ae43e989ca86348ea71456790",
+    "prompt.py": "40e6e498de96ef08074f15313c3ddbd2d4489160a573624d848bb2ddbefacd51",
+    "fol.py": "50fc3cd1c10daab9500d834f5212f126360081427cc331cc3380bf8bea6ea18c",
+    "bad_patterns.txt": "a0a05bc48adae8181a51a836ed47179eef2d1a761b033b398ca0523d4ac9f632"
+  },
+  "generated_questions_sha256": "56a34a9e91fdfbe695c417758fe62b9eae2fc53c46b097fe82fbd75e19405623",
+  "splits": {
+    "gsm8k/test.json": {
+      "count": 1319,
+      "source_count": 1319,
+      "sha256": "75fe3db2838f242e2cff6c70e834eefadc2635ac49bbcf164e55cd8f27d94c21"
+    },
+    "gsm8k/valid.json": {
+      "count": 500,
+      "source_count": 500,
+      "sha256": "680c7c1af15240354f3678f0707f99ff8846c81c83ff6222f271ec12ff916049"
+    },
+    "gsm8k/train.json": {
+      "count": 6973,
+      "source_count": 6973,
+      "sha256": "eca58c8abdf7c377e33931a22cdfb5b181b533b01959c559d1c408c67404bd8d"
+    },
+    "prontoqa/test.json": {
+      "count": 500,
+      "source_count": 500,
+      "sha256": "9b6a2957e96b9e4e80a85242b2b4b43d9b36d7b1e40f9c17aad26c28183d9d1a"
+    },
+    "prontoqa/valid.json": {
+      "count": 500,
+      "source_count": 500,
+      "sha256": "663d8f60883f2ccae27dc16d2327c88a35425599f7a1ee4c9af45f2de37d64ec"
+    },
+    "prontoqa/train.json": {
+      "count": 9000,
+      "source_count": 9000,
+      "sha256": "eddf66798645fe16ade71830bc14e6dd69594b129515fe23fa0e857efff60a69"
+    },
+    "prosqa/test.json": {
+      "count": 500,
+      "source_count": 500,
+      "sha256": "bece78a300f27d93daf133ceadf3a2864fdb03dfbcdc98e2952941c39d13ebbe"
+    },
+    "prosqa/valid.json": {
+      "count": 300,
+      "source_count": 300,
+      "sha256": "4aab38fbedc1e3f027c1cd37b173b873c262289a50e9168cb66f03b1ee355646"
+    },
+    "prosqa/train.json": {
+      "count": 17886,
+      "source_count": 17886,
+      "sha256": "3f3069fa79594eb9a318dc6dc8d96e24abd41768645395674314a5fdb8efe510"
+    },
+    "math500/test.json": {
+      "count": 500,
+      "source_count": 500,
+      "sha256": "462f1dcee08ad245ec636f95425432e2fceb404c388d2a9550dcd16b043b069a"
+    }
+  }
+}

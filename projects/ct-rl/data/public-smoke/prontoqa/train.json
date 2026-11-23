@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Each wumpus is a vumpus. Wumpuses are not slow. Tumpuses are melodic. Each dumpus is a zumpus. Shumpuses are not melodic. Every yumpus is metallic. Each zumpus is brown. Each dumpus is a tumpus. Lorpuses are not opaque. Sterpuses are sweet. Every brimpus is not overcast. Gorpuses are numpuses. Gorpuses are shy. Every dumpus is bright. Sterpuses are brimpuses. Gorpuses are rompuses. Sterpuses are dumpuses. Numpuses are yumpuses. Every tumpus is a lempus. Every rompus is hot. Numpuses are not fruity. Tumpuses are lorpuses. Numpuses are sterpuses. Fae is a wumpus. Fae is a gorpus. True or false: Fae is not melodic.",
+    "answer": "False",
+    "steps": "Fae is a gorpus.\nGorpuses are numpuses.\nFae is a numpus.\nNumpuses are sterpuses.\nFae is a sterpus.\nSterpuses are dumpuses.\nFae is a dumpus.\nEach dumpus is a tumpus.\nFae is a tumpus.\nTumpuses are melodic.\nFae is melodic."
+  },
+  {
+    "question": "Sterpuses are not temperate. Each gorpus is a dumpus. Dumpuses are sterpuses. Every wumpus is not opaque. Yumpuses are grimpuses. Each grimpus is not feisty. Each yumpus is kind. Each impus is orange. Numpuses are lorpuses. Every dumpus is large. Every yumpus is a gorpus. Lorpuses are dull. Every shumpus is a lempus. Vumpuses are opaque. Each vumpus is a zumpus. Numpuses are not moderate. Each shumpus is not metallic. Vumpuses are jompuses. Jompuses are spicy. Numpuses are yumpuses. Gorpuses are impuses. Every dumpus is a vumpus. Every gorpus is not loud. Rex is a numpus. Rex is a shumpus. True or false: Rex is opaque.",
+    "answer": "True",
+    "steps": "Rex is a numpus.\nNumpuses are yumpuses.\nRex is a yumpus.\nEvery yumpus is a gorpus.\nRex is a gorpus.\nEach gorpus is a dumpus.\nRex is a dumpus.\nEvery dumpus is a vumpus.\nRex is a vumpus.\nVumpuses are opaque.\nRex is opaque."
+  },
+  {
+    "question": "Tumpuses are dull. Every lempus is a dumpus. Lempuses are brimpuses. Rompuses are not fast. Grimpuses are small. Each vumpus is snowy. Gorpuses are tumpuses. Numpuses are not blue. Gorpuses are numpuses. Lorpuses are opaque. Zumpuses are loud. Shumpuses are lempuses. Every dumpus is mean. Every tumpus is a grimpus. Each shumpus is not hot. Each lorpus is a shumpus. Each shumpus is a zumpus. Each rompus is a yumpus. Each gorpus is not earthy. Every tumpus is a lorpus. Every lempus is spicy. Every lorpus is a vumpus. Every wumpus is not spicy. Polly is a gorpus. Polly is a rompus. True or false: Polly is spicy.",
+    "answer": "True",
+    "steps": "Polly is a gorpus.\nGorpuses are tumpuses.\nPolly is a tumpus.\nEvery tumpus is a lorpus.\nPolly is a lorpus.\nEach lorpus is a shumpus.\nPolly is a shumpus.\nShumpuses are lempuses.\nPolly is a lempus.\nEvery lempus is spicy.\nPolly is spicy."
+  },
+  {
+    "question": "Each shumpus is large. Tumpuses are sour. Each dumpus is a shumpus. Jompuses are grimpuses. Every dumpus is windy. Lempuses are sterpuses. Every vumpus is a jompus. Wumpuses are gorpuses. Lempuses are tumpuses. Jompuses are brimpuses. Each wumpus is not blue. Yumpuses are melodic. Zumpuses are not temperate. Every rompus is kind. Dumpuses are vumpuses. Sterpuses are dumpuses. Sterpuses are bright. Sterpuses are rompuses. Lempuses are earthy. Every vumpus is nervous. Jompuses are temperate. Vumpuses are yumpuses. Grimpuses are not liquid. Max is a lempus. Max is a wumpus. True or false: Max is temperate.",
+    "answer": "True",
+    "steps": "Max is a lempus.\nLempuses are sterpuses.\nMax is a sterpus.\nSterpuses are dumpuses.\nMax is a dumpus.\nDumpuses are vumpuses.\nMax is a vumpus.\nEvery vumpus is a jompus.\nMax is a jompus.\nJompuses are temperate.\nMax is temperate."
+  },
+  {
+    "question": "Each impus is a rompus. Every numpus is a zumpus. Dumpuses are lempuses. Each lempus is a gorpus. Every yumpus is a dumpus. Each lempus is an impus. Vumpuses are not fast. Shumpuses are cold. Every shumpus is a lorpus. Numpuses are tumpuses. Each brimpus is dull. Impuses are numpuses. Every lempus is earthy. Each dumpus is a brimpus. Each yumpus is a sterpus. Every numpus is fast. Each gorpus is large. Each yumpus is liquid. Every rompus is spicy. Tumpuses are not mean. Every dumpus is blue. Each sterpus is not transparent. Impuses are sunny. Max is a yumpus. Max is a shumpus. True or false: Max is not fast.",
+    "answer": "False",
+    "steps": "Max is a yumpus.\nEvery yumpus is a dumpus.\nMax is a dumpus.\nDumpuses are lempuses.\nMax is a lempus.\nEach lempus is an impus.\nMax is an impus.\nImpuses are numpuses.\nMax is a numpus.\nEvery numpus is fast.\nMax is fast."
+  },
+  {
+    "question": "Jompuses are shumpuses. Impuses are slow. Each vumpus is red. Every jompus is a lempus. Every gorpus is melodic. Tumpuses are feisty. Shumpuses are grimpuses. Impuses are brimpuses. Impuses are sterpuses. Brimpuses are not floral. Each jompus is transparent. Dumpuses are sour. Every zumpus is temperate. Every shumpus is a dumpus. Each grimpus is a zumpus. Lempuses are not kind. Every zumpus is a tumpus. Grimpuses are gorpuses. Each vumpus is a wumpus. Grimpuses are overcast. Zumpuses are impuses. Every shumpus is not small. Numpuses are not slow. Sam is a vumpus. Sam is a jompus. True or false: Sam is not slow.",
+    "answer": "False",
+    "steps": "Sam is a jompus.\nJompuses are shumpuses.\nSam is a shumpus.\nShumpuses are grimpuses.\nSam is a grimpus.\nEach grimpus is a zumpus.\nSam is a zumpus.\nZumpuses are impuses.\nSam is an impus.\nImpuses are slow.\nSam is slow."
+  },
+  {
+    "question": "Each grimpus is floral. Every vumpus is not sunny. Every gorpus is a numpus. Every grimpus is a sterpus. Yumpuses are not mean. Rompuses are not small. Wumpuses are blue. Lorpuses are grimpuses. Rompuses are shumpuses. Lorpuses are transparent. Each sterpus is not hot. Yumpuses are impuses. Each dumpus is not sour. Wumpuses are lorpuses. Yumpuses are gorpuses. Lorpuses are lempuses. Each grimpus is a yumpus. Each wumpus is a dumpus. Every lempus is dull. Impuses are not metallic. Gorpuses are brimpuses. Each numpus is not melodic. Each gorpus is sunny. Max is a rompus. Max is a wumpus. True or false: Max is not sunny.",
+    "answer": "False",
+    "steps": "Max is a wumpus.\nWumpuses are lorpuses.\nMax is a lorpus.\nLorpuses are grimpuses.\nMax is a grimpus.\nEach grimpus is a yumpus.\nMax is a yumpus.\nYumpuses are gorpuses.\nMax is a gorpus.\nEach gorpus is sunny.\nMax is sunny."
+  },
+  {
+    "question": "Each brimpus is rainy. Each shumpus is a lorpus. Every numpus is bright. Every dumpus is not mean. Each impus is not metallic. Tumpuses are yumpuses. Lorpuses are brown. Every gorpus is feisty. Each yumpus is temperate. Every dumpus is a zumpus. Every shumpus is a tumpus. Zumpuses are small. Each sterpus is not muffled. Yumpuses are sterpuses. Shumpuses are not fruity. Impuses are vumpuses. Rompuses are not small. Zumpuses are brimpuses. Dumpuses are gorpuses. Tumpuses are bitter. Every yumpus is a dumpus. Every tumpus is a numpus. Every zumpus is a grimpus. Stella is a shumpus. Stella is an impus. True or false: Stella is not small.",
+    "answer": "False",
+    "steps": "Stella is a shumpus.\nEvery shumpus is a tumpus.\nStella is a tumpus.\nTumpuses are yumpuses.\nStella is a yumpus.\nEvery yumpus is a dumpus.\nStella is a dumpus.\nEvery dumpus is a zumpus.\nStella is a zumpus.\nZumpuses are small.\nStella is small."
+  }
+]

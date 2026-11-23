@@ -1,0 +1,14 @@
+# Local tooling and generated research runs
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+projects/*/runs/
+projects/*/cache/
+projects/*/build/
+projects/*/dist/
+projects/ct-rl/data/public-paper/
+projects/responseguard/data/

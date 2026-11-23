@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Every scrompus is a jompus. Every yumpus is a gerpus. Polly is a zhorpus. Every boompus is a gerpus. Every brimpus is a gwompus. Polly is a brimpus. Every zhorpus is a yumpus. Every tumpus is a terpus. Every scrompus is a terpus. Carol is a jelpus. Every brimpus is a boompus. Every boompus is a jompus. Every jelpus is a terpus. Every worpus is a gerpus. Every worpus is a boompus. Sally is a impus. Sally is a scrompus. Every worpus is a yumpus. Every worpus is a zhorpus. Every scrompus is a shumpus. Every scrompus is a zumpus. Every terpus is a shumpus. Carol is a chorpus. Every tumpus is a dumpus. Every zhorpus is a jompus. Every zhorpus is a impus. Every yumpus is a boompus. Carol is a rorpus. Every rorpus is a tumpus. Every brimpus is a zhorpus. Every brimpus is a dumpus. Every brimpus is a worpus. Every tumpus is a scrompus. Every rorpus is a chorpus. Every yumpus is a jompus. Every dumpus is a gwompus. Rex is a gwompus. Is Carol a impus or zumpus?",
+    "answer": "Carol is a zumpus.",
+    "steps": "Carol is a rorpus.\nEvery rorpus is a tumpus.\nEvery tumpus is a scrompus.\nEvery scrompus is a zumpus."
+  },
+  {
+    "question": "Every gerpus is a bompus. Every yerpus is a rompus. Every kerpus is a rompus. Bob is a fompus. Sam is a jelpus. Sam is a yerpus. Every kerpus is a yerpus. Every kerpus is a yumpus. Every kerpus is a jelpus. Every storpus is a felpus. Every gwompus is a shumpus. Jack is a felpus. Every yerpus is a jelpus. Every quimpus is a zhorpus. Every kerpus is a quimpus. Every yumpus is a gwompus. Sam is a kerpus. Every timpus is a jelpus. Fae is a rompus. Every jelpus is a zhorpus. Every sterpus is a felpus. Every gerpus is a rompus. Every storpus is a vumpus. Every gerpus is a fompus. Jack is a storpus. Jack is a bompus. Every jelpus is a yumpus. Every yerpus is a zhorpus. Every yumpus is a terpus. Every fompus is a sterpus. Every bompus is a felpus. Every gerpus is a storpus. Every lorpus is a timpus. Sam is a lorpus. Sam is a yumpus. Jack is a gerpus. Is Sam a felpus or shumpus?",
+    "answer": "Sam is a shumpus.",
+    "steps": "Sam is a yumpus.\nEvery yumpus is a gwompus.\nEvery gwompus is a shumpus."
+  },
+  {
+    "question": "Every scrompus is a terpus. Every grimpus is a jelpus. Every boompus is a lorpus. Every worpus is a lorpus. Every gerpus is a yerpus. Every scrompus is a kerpus. Every kerpus is a yimpus. Every tumpus is a timpus. Max is a storpus. Every quimpus is a terpus. Every shumpus is a fompus. Every gerpus is a chorpus. Every gerpus is a shumpus. Every felpus is a worpus. Every yerpus is a lorpus. Every grimpus is a dumpus. Every rompus is a jelpus. Jack is a gerpus. Every chorpus is a tumpus. Every tumpus is a storpus. Every gerpus is a fompus. Every tumpus is a terpus. Every fompus is a tumpus. Every timpus is a jompus. Max is a dumpus. Every jompus is a terpus. Every rompus is a wumpus. Every rompus is a grimpus. Max is a grimpus. Max is a rompus. Every felpus is a boompus. Every shumpus is a quimpus. Every jelpus is a felpus. Every chorpus is a kerpus. Every shumpus is a scrompus. Is Jack a terpus or wumpus?",
+    "answer": "Jack is a terpus.",
+    "steps": "Jack is a gerpus.\nEvery gerpus is a chorpus.\nEvery chorpus is a tumpus.\nEvery tumpus is a terpus."
+  }
+]
