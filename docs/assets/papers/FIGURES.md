@@ -10,6 +10,12 @@ Lianlei Shan, Han Jin, Yaunchao Ma, Xinpeng Chen, Linhao Zhou, and Xin Bin, *Gam
 
 Boyang Zhang and Lianlei Shan, *MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action* (arXiv 2606.06245v3). Figure 1 illustrates how MPCoT combines several latent reasoning paths before decoding an action. [Archived WebP](../projects/mpcot.webp) · [Original PNG](https://arxiv.org/html/2606.06245v3/Figure1.png) · [Paper and caption](https://arxiv.org/html/2606.06245v3)
 
+## MOSAIC
+
+[mosaic.webp](./mosaic.webp) · 720 × 387 px
+
+Yuncheng Yang, Feiyang Ye, Shixian Luo, Yinna Zhu, Lianlei Shan, Wangcai Zhao, Kuo Zhang, Yan Chen, Yong Wu, and Yan Xie, *MOSAIC: Adaptive Inter-layer Composition for Efficient Heterogeneous Vision-Language Models* (ACM Multimedia 2026). Figure 2 shows how MOSAIC searches for layer configurations under a latency budget and restores performance through two-stage distillation. The thumbnail is a resized WebP of the authors’ diagram. [Original PNG](https://arxiv.org/html/2607.09029v1/figure2_v6.png) · [Figure 2 and caption](https://arxiv.org/html/2607.09029v1#S3.F2) · [ACM proceedings](https://doi.org/10.1145/3767308.3835387)
+
 ## AVA-VLA
 
 [ava-vla.webp](./ava-vla.webp) · 720 × 402 px

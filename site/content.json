@@ -78,6 +78,16 @@
   ],
   "papers": [
     {
+      "id": "mosaic",
+      "title": "MOSAIC: Adaptive Inter-layer Composition for Efficient Heterogeneous Vision-Language Models",
+      "authors": ["Yuncheng Yang", "Feiyang Ye", "Shixian Luo", "Yinna Zhu", "Lianlei Shan", "Wangcai Zhao", "Kuo Zhang", "Yan Chen", "Yong Wu", "Yan Xie"],
+      "venue": "ACM Multimedia", "year": 2026,
+      "summary": {"en": "MOSAIC selects an attention mechanism and a feed-forward network width for each layer of a vision-language model to meet a latency budget on the target hardware. It then uses two stages of distillation to recover model performance.", "zh": "MOSAIC 按目标硬件的推理延迟预算，为视觉语言模型的每一层选择注意力机制和前馈网络宽度，再通过两阶段知识蒸馏恢复模型性能。"},
+      "url": "https://doi.org/10.1145/3767308.3835387",
+      "preprint": "https://arxiv.org/abs/2607.09029",
+      "model": "https://huggingface.co/LiAuto-DSR/MOSAIC-4B"
+    },
+    {
       "id": "ava-vla",
       "title": "Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models",
       "authors": ["Dianqiao Lei", "Lianlei Shan"],

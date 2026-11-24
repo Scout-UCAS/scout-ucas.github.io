@@ -22,7 +22,7 @@ LABELS = {
         "nav_publications": "Publications", "all_publications": "All publications on Google Scholar",
         "email_label": "Email", "portrait_alt": "Portrait of Lianlei Shan",
         "code": "Code", "paper": "Paper", "preprint": "Preprint", "project": "Project page", "oral": "Oral presentation",
-        "conference_abstract": "Conference abstract",
+        "conference_abstract": "Conference abstract", "model": "Model weights",
         "figure": "View figure for", "credits": "Figure credits", "top": "Back to top"
     },
     "zh": {
@@ -36,7 +36,7 @@ LABELS = {
         "nav_publications": "论文", "all_publications": "在 Google Scholar 查看全部论文",
         "email_label": "邮件联系", "portrait_alt": "Lianlei Shan 的头像",
         "code": "源码", "paper": "论文原文", "preprint": "预印本", "project": "项目页", "oral": "口头报告",
-        "conference_abstract": "会议摘要",
+        "conference_abstract": "会议摘要", "model": "模型权重",
         "figure": "查看论文配图", "credits": "配图来源", "top": "回到顶部"
     }
 }
@@ -65,7 +65,7 @@ def news_row(item, lang):
 def paper_row(paper, lang, base, profile_names, labels):
     authors = ", ".join(f"<strong>{escape(a)}</strong>" if a in profile_names else escape(a) for a in paper["authors"])
     resources = [link(paper["url"], labels["preprint"] if paper["venue"] == "arXiv" else labels["paper"])]
-    for key in ("code", "preprint", "project", "conference_abstract"):
+    for key in ("code", "preprint", "model", "project", "conference_abstract"):
         if key in paper:
             resources.append(link(paper[key], labels[key]))
     image_path = f"assets/papers/{paper['id']}.webp"
