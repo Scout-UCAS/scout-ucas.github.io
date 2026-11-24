@@ -4,7 +4,9 @@ The selected publication thumbnails are 720 pixels wide. The archived project fi
 
 ## Game-enhanced pretraining
 
-Lianlei Shan, Han Jin, Yaunchao Ma, Xinpeng Chen, Linhao Zhou, and Xin Bin, *Game-Enhanced Embodied Learning with Event and Foresight Pretraining* (arXiv 2611.13819v1). Figure 2 shows two game recordings sampled at five times over one second. [Archived WebP](../projects/game-pretraining.webp) · [Original PNG](https://arxiv.org/html/2611.13819v1/real_game_training_samples.png) · [Paper and caption](https://arxiv.org/html/2611.13819v1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+[game-pretraining.webp](./game-pretraining.webp) · 720 × 318 px
+
+Lianlei Shan, Han Jin, Yaunchao Ma, Xinpeng Chen, Linhao Zhou, and Xin Bin, *Game-Enhanced Embodied Learning with Event and Foresight Pretraining* (arXiv 2611.13819v1). Figure 2 shows two game recordings sampled at five times over one second. [Archived WebP](../projects/game-pretraining.webp) · [Original PNG](https://arxiv.org/html/2611.13819v1/real_game_training_samples.png) · [Figure 2 and caption](https://arxiv.org/html/2611.13819v1#S4.F2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## MPCoT
 
@@ -46,11 +48,17 @@ Hengzhi Chen, Liqian Feng, Wenhua Wu, Xiaogang Zhu, Qiuxia Wu, Lianlei Shan, and
 
 Ellen Yi-Ge and Leo Shawn, *FlexDataset: Crafting Annotated Dataset Generation for Diverse Applications* (AAAI 2025). The authors’ example shows how object layouts guide image generation, with segmentation masks and depth maps for each scene. The thumbnail is a resized WebP of the project figure. © 2024 Ellen Yi-Ge. [Original PNG](https://github.com/EllenYiGe/FlexDataset/blob/378dcc15d8691827a940d95c52b4925d55e0dfaf/assets/img-exp.png) · [MIT license](https://github.com/EllenYiGe/FlexDataset/blob/378dcc15d8691827a940d95c52b4925d55e0dfaf/LICENSE) · [AAAI proceedings](https://doi.org/10.1609/aaai.v39i9.33027)
 
-## DeepLatent Reasoning (DLR)
+## NewtonGS
 
-[dlr.webp](./dlr.webp) · 720 × 480 px
+[newtongs.webp](./newtongs.webp) · 720 × 473 px
 
-Lianlei Shan, Han Chen, Yixuan Wang, Zhenjie Liu, and Wei Li, *Latent-Space Contrastive Reinforcement Learning for Stable and Efficient LLM Reasoning* (arXiv 2601.17275v1, 2026). Figure 1 shows how an assistant samples latent reasoning trajectories, how rewards filter them for decoding by a frozen model, and how contrastive training updates the assistant. The resized thumbnail carries the source figure’s CC BY-SA 4.0 license. [Original PNG](https://arxiv.org/html/2601.17275v1/framework.png) · [Figure 1 and caption](https://arxiv.org/html/2601.17275v1#S3.F1) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+Lianlei Shan, Feiyang Ye, Yan Chen, and Yong Wu, *NewtonGS: Physics-Structured Object-Level Neural Newtonian Dynamics for Gaussian Scene Animation* (arXiv 2608.07598v1). Figure 1 shows how NewtonGS predicts an object's motion and uses it to animate a Gaussian scene. [Original PNG](https://arxiv.org/html/2608.07598v1/NewtonGS_overview_TeX_consistent.png) · [Figure 1 and caption](https://arxiv.org/html/2608.07598v1#S3.F1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+## Masked diffusion decoding
+
+[masked-diffusion.webp](./masked-diffusion.webp) · 720 × 356 px
+
+Weitian Wang, Lianlei Shan, Shubham Rai, Cecilia De La Parra, and Akash Kumar, *Masked Diffusion Decoding as x-Prediction Flow* (arXiv 2606.29066v1). Figure 1 compares discrete decoding with continuous updates in token embedding space. The resized WebP is shared under the source figure’s CC BY-NC-SA 4.0 license. [Original PNG](https://arxiv.org/html/2606.29066v1/decodings.png) · [Figure 1 and caption](https://arxiv.org/html/2606.29066v1#S1.F1) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Cognitive Memory in Large Language Models
 

@@ -129,12 +129,28 @@
       "oral_program": "https://aaai.org/wp-content/uploads/2025/02/AAAI-25-Main-Track-Oral-Talks-Schedule-2.22.pdf#page=13"
     },
     {
-      "id": "dlr",
-      "title": "Latent-Space Contrastive Reinforcement Learning for Stable and Efficient LLM Reasoning",
-      "authors": ["Lianlei Shan", "Han Chen", "Yixuan Wang", "Zhenjie Liu", "Wei Li"],
+      "id": "game-pretraining",
+      "title": "Game-Enhanced Embodied Learning with Event and Foresight Pretraining",
+      "authors": ["Lianlei Shan", "Han Jin", "Yaunchao Ma", "Xinpeng Chen", "Linhao Zhou", "Xin Bin"],
       "venue": "arXiv", "year": 2026,
-      "summary": {"en": "A small assistant samples candidate reasoning states. Rewards and a contrastive objective guide which states a frozen language model decodes.", "zh": "小型辅助模型采样候选推理状态，再通过奖励和对比学习目标选择交给冻结语言模型解码的状态。"},
-      "url": "https://arxiv.org/abs/2601.17275"
+      "summary": {"en": "A robot policy learns from gameplay recordings to anticipate the player’s next keyboard or mouse input and how the scene will change. We then fine-tune the policy on robot demonstrations and evaluate it on manipulation tasks in LIBERO.", "zh": "我们用游戏录像预训练机器人策略，让它预测玩家接下来的键鼠操作和画面变化，再用机器人示范微调，并在 LIBERO 的操作任务上评估迁移效果。"},
+      "url": "https://arxiv.org/abs/2611.13819"
+    },
+    {
+      "id": "newtongs",
+      "title": "NewtonGS: Physics-Structured Object-Level Neural Newtonian Dynamics for Gaussian Scene Animation",
+      "authors": ["Lianlei Shan", "Feiyang Ye", "Yan Chen", "Yong Wu"],
+      "venue": "arXiv", "year": 2026,
+      "summary": {"en": "NewtonGS combines Newtonian mechanics with learned corrections to predict each object’s motion and contact with the floor. It uses the resulting poses and scales to animate objects in a 3D Gaussian scene.", "zh": "NewtonGS 结合牛顿力学和从数据中学到的修正项，预测物体如何运动、如何与地面接触，再用预测的姿态和尺度驱动三维高斯场景中的物体动画。"},
+      "url": "https://arxiv.org/abs/2608.07598"
+    },
+    {
+      "id": "masked-diffusion",
+      "title": "Masked Diffusion Decoding as x-Prediction Flow",
+      "authors": ["Weitian Wang", "Lianlei Shan", "Shubham Rai", "Cecilia De La Parra", "Akash Kumar"],
+      "venue": "arXiv", "year": 2026,
+      "summary": {"en": "A masked diffusion language model refines each token’s representation over several decoding steps. Confidence sets the pace at each position, so the model can revise earlier predictions as the surrounding text takes shape.", "zh": "掩码扩散语言模型在多个解码步骤中逐步更新每个词元的表示。各位置的更新速度取决于预测置信度，模型可以随上下文逐渐明朗而修正先前的预测。"},
+      "url": "https://arxiv.org/abs/2606.29066v1"
     },
     {
       "id": "memory",
