@@ -34,6 +34,12 @@ Wengao Ye, Yan Liang, and Lianlei Shan, *Thinking on the Fly: Test-Time Reasonin
 
 Hengzhi Chen, Liqian Feng, Wenhua Wu, Xiaogang Zhu, Qiuxia Wu, Lianlei Shan, and Kun Hu, *F2Net: A Frequency-Fused Network for Ultra-High Resolution Remote Sensing Segmentation* (CVPR 2026). The authors’ repository diagram shows the architecture in Figure 1 of the CVPR paper. An aerial image is split into high- and low-frequency branches, then their features are fused to produce a segmentation map. © 2026 The F2Net Authors. [Original PNG](https://github.com/easm002/F2Net/blob/6b8c88b9d84e0fd88c19ab34f01ab474046d5cdb/resources/framework.png) · [CVPR Figure 1 and caption](https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_F2Net_A_Frequency-Fused_Network_for_Ultra-High_Resolution_Remote_Sensing_Segmentation_CVPR_2026_paper.pdf#page=4) · [Repository license](https://github.com/easm002/F2Net/blob/main/LICENSE)
 
+## FlexDataset
+
+[flexdataset.webp](./flexdataset.webp) · 720 × 441 px
+
+Ellen Yi-Ge and Leo Shawn, *FlexDataset: Crafting Annotated Dataset Generation for Diverse Applications* (AAAI 2025). The authors’ example shows how object layouts guide image generation, with segmentation masks and depth maps for each scene. The thumbnail is a resized WebP of the project figure. © 2024 Ellen Yi-Ge. [Original PNG](https://github.com/EllenYiGe/FlexDataset/blob/378dcc15d8691827a940d95c52b4925d55e0dfaf/assets/img-exp.png) · [MIT license](https://github.com/EllenYiGe/FlexDataset/blob/378dcc15d8691827a940d95c52b4925d55e0dfaf/LICENSE) · [AAAI proceedings](https://doi.org/10.1609/aaai.v39i9.33027)
+
 ## DeepLatent Reasoning (DLR)
 
 [dlr.webp](./dlr.webp) · 720 × 480 px

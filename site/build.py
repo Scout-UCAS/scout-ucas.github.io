@@ -21,7 +21,7 @@ LABELS = {
         "nav_projects": "Vision", "news_title": "News", "publications_title": "Selected publications",
         "nav_publications": "Publications", "all_publications": "All publications on Google Scholar",
         "email_label": "Email", "portrait_alt": "Portrait of Lianlei Shan",
-        "code": "Code", "paper": "Paper", "preprint": "Preprint",
+        "code": "Code", "paper": "Paper", "preprint": "Preprint", "project": "Project page", "oral": "Oral presentation",
         "figure": "View figure for", "credits": "Figure credits", "top": "Back to top"
     },
     "zh": {
@@ -34,7 +34,7 @@ LABELS = {
         "nav_projects": "愿景", "news_title": "近期动态", "publications_title": "代表论文",
         "nav_publications": "论文", "all_publications": "在 Google Scholar 查看全部论文",
         "email_label": "邮件联系", "portrait_alt": "Lianlei Shan 的头像",
-        "code": "源码", "paper": "论文原文", "preprint": "预印本",
+        "code": "源码", "paper": "论文原文", "preprint": "预印本", "project": "项目页", "oral": "口头报告",
         "figure": "查看论文配图", "credits": "配图来源", "top": "回到顶部"
     }
 }
@@ -60,14 +60,16 @@ def news_row(item, lang):
         <div>{escape(item['text'][lang])} <span class="news-links">{links}</span></div></li>"""
 
 
-def paper_row(paper, lang, base, name, labels):
-    authors = ", ".join(f"<strong>{escape(a)}</strong>" if a == name else escape(a) for a in paper["authors"])
+def paper_row(paper, lang, base, profile_names, labels):
+    authors = ", ".join(f"<strong>{escape(a)}</strong>" if a in profile_names else escape(a) for a in paper["authors"])
     resources = [link(paper["url"], labels["preprint"] if paper["venue"] == "arXiv" else labels["paper"])]
-    for key in ("code", "preprint"):
+    for key in ("code", "preprint", "project"):
         if key in paper:
             resources.append(link(paper[key], labels[key]))
     image_path = f"assets/papers/{paper['id']}.webp"
     venue = f"{escape(paper['venue'])} · {paper['year']}"
+    if "oral_program" in paper:
+        venue += " · " + link(paper["oral_program"], labels["oral"])
     venue_line = f'<p class="venue">{venue}</p>'
     if (DOCS / image_path).is_file():
         figure_label = escape(f"{labels['figure']} {paper['title']}", quote=True)
@@ -94,6 +96,7 @@ def build():
     content = json.loads((HERE / "content.json").read_text(encoding="utf-8"))
     template = Template((HERE / "page.html").read_text(encoding="utf-8"))
     profile = content["profile"]
+    profile_names = {profile["name"], *profile.get("publication_aliases", [])}
     for lang, labels in LABELS.items():
         base = "../" if lang == "zh" else ""
         output = DOCS / ("zh" if lang == "zh" else "") / "index.html"
@@ -114,7 +117,7 @@ def build():
             research_items="\n".join(research),
             project_items="".join(project_card(p, lang) for p in content["projects"]),
             news_items="".join(news_row(item, lang) for item in content["news"]),
-            paper_items="".join(paper_row(p, lang, base, profile["name"], labels) for p in content["papers"])
+            paper_items="".join(paper_row(p, lang, base, profile_names, labels) for p in content["papers"])
         )
         output.write_text(html, encoding="utf-8")
 

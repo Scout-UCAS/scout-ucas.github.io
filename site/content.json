@@ -1,6 +1,7 @@
 {
   "profile": {
     "name": "Lianlei Shan",
+    "publication_aliases": ["Leo Shawn"],
     "github": "https://github.com/Scout-UCAS",
     "scholar": "https://scholar.google.com/citations?user=V5YWfWgAAAAJ",
     "email": "shanlianlei18@mails.ucas.edu.cn",
@@ -113,6 +114,16 @@
       "url": "https://openreview.net/forum?id=r1WEQzkCQv",
       "preprint": "https://arxiv.org/abs/2510.04182",
       "code": "https://github.com/ltpo2025/LTPO"
+    },
+    {
+      "id": "flexdataset",
+      "title": "FlexDataset: Crafting Annotated Dataset Generation for Diverse Applications",
+      "authors": ["Ellen Yi-Ge", "Leo Shawn"],
+      "venue": "AAAI", "year": 2025,
+      "summary": {"en": "Given object categories and bounding boxes, FlexDataset generates scenes containing multiple objects along with pixel-level annotations such as segmentation masks and depth maps.", "zh": "给定物体类别和边界框，FlexDataset 可以生成包含多个物体的场景图像，以及与图像对应的分割掩码、深度图等像素级标注。"},
+      "url": "https://doi.org/10.1609/aaai.v39i9.33027",
+      "project": "https://www.ellenyige.com/FlexDataset/",
+      "oral_program": "https://aaai.org/wp-content/uploads/2025/02/AAAI-25-Main-Track-Oral-Talks-Schedule-2.22.pdf#page=13"
     },
     {
       "id": "dlr",
