@@ -57,38 +57,28 @@
 <article><h3>Visual perception</h3><p>Aerial scenes contain details that can disappear when an image is resized. I study how segmentation models can preserve those details while using the wider scene to interpret them.</p></article></div>
     </section>
     <section class="section" id="projects" aria-labelledby="projects-title">
-      <h2 id="projects-title">Research software</h2>
+      <h2 id="projects-title">Research projects</h2>
       <div class="project-grid">
-      <article class="project" id="ct-rl">
-        
-        <figure class="project-figure arithmetic">
-          <figcaption>Arithmetic executor</figcaption>
-          <div class="registers"><code>(2, 3)</code><span class="operator">swap</span><code>(3, 2)</code></div>
-          <div class="readouts"><span>Expected readouts</span><code>left = 3</code><code>diff = 1</code></div>
-        </figure>
+      <article class="project" id="embodied-pretraining">
+        <a class="project-figure" href="assets/projects/game-pretraining.webp">
+          <img src="assets/projects/game-pretraining.webp" alt="Enlarge two training samples showing gameplay frames at five time offsets alongside counts of recorded inputs." loading="lazy">
+        </a>
         <div class="project-copy">
-          <h3>CT-RL</h3>
-          <p class="subtitle">Continuation-Test Reinforcement Learning</p>
-          <p>A model reads a prefix once, then uses the same latent state to answer several continuations. Arithmetic, graph walks and rule systems provide answers that can be checked by execution.</p>
-          <p class="validation">The CPU smoke run compared 19 methods. CT-RL scored 0% on in-distribution continuation accuracy under matched compute. Full-scale Qwen runs are pending.</p>
-          <div class="resource-links"><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/tree/main/projects/ct-rl">Code</a><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/blob/main/projects/ct-rl/reports/smoke/REPORT.md">Experiment report</a></div>
+          <h3>Pretraining embodied foundation models</h3>
+          <p class="question">What can a robot learn from human gameplay?</p>
+          <p>We align gameplay footage with keyboard and mouse inputs to pretrain InternVLA-A1.5. The model learns to anticipate both the player’s next inputs and how the scene will change. We then fine-tune it on robot demonstrations and test transfer on 40 simulated manipulation tasks in LIBERO.</p>
+          <div class="resource-links"><a href="https://arxiv.org/abs/2611.13819">Pretraining paper</a> <a href="https://arxiv.org/html/2611.13819v1#A3">Task-level results</a></div>
         </div>
       </article>
-      <article class="project" id="responseguard">
-        
-        <figure class="project-figure image-pair">
-          <figcaption>CPU simulator · matched seed</figcaption>
-          <div class="samples">
-            <div><img src="assets/responseguard-blue.png" alt="" width="64" height="64"><span>Blue pencil</span></div>
-            <div><img src="assets/responseguard-red.png" alt="" width="64" height="64"><span>Red pencil</span></div>
-          </div>
-        </figure>
+      <article class="project" id="frontier-research">
+        <a class="project-figure" href="assets/projects/mpcot.webp">
+          <img src="assets/projects/mpcot.webp" alt="Enlarge the MPCoT diagram showing parallel reasoning paths merging before the model generates a robot action." loading="lazy">
+        </a>
         <div class="project-copy">
-          <h3>ResponseGuard</h3>
-          <p class="subtitle">Controllability and diversity in image generation</p>
-          <p>Change one attribute in a prompt and compare the resulting images. The evaluation measures whether the requested change appears and how much variation remains among valid images.</p>
-          <p class="validation">The CPU simulation covered 11 settings and three seeds. Separate checks used randomly initialized SD3 components. Full-scale SD3.5 Medium training is pending.</p>
-          <div class="resource-links"><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/tree/main/projects/responseguard">Code</a><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/blob/main/projects/responseguard/docs/Smoke%E8%BF%90%E8%A1%8C%E6%8A%A5%E5%91%8A.md">Experiment report</a></div>
+          <h3>Frontier research</h3>
+          <p class="question">How many plans should a robot consider, and when should it act?</p>
+          <p>MPCoT explores several possible plans in parallel, then combines their latent representations to choose an action. AVA-VLA uses the confidence of its intermediate state to decide whether to keep reasoning or start moving.</p>
+          <div class="resource-links"><a href="https://arxiv.org/abs/2606.06245">MPCoT paper</a> <a href="https://github.com/Scout-UCAS/MPCoT">MPCoT code</a> <a href="https://proceedings.mlr.press/v306/lei26e.html">AVA-VLA paper</a></div>
         </div>
       </article></div>
     </section>

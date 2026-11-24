@@ -59,36 +59,26 @@
     <section class="section" id="projects" aria-labelledby="projects-title">
       <h2 id="projects-title">研究项目</h2>
       <div class="project-grid">
-      <article class="project" id="ct-rl">
-        
-        <figure class="project-figure arithmetic">
-          <figcaption>算术执行器</figcaption>
-          <div class="registers"><code>(2, 3)</code><span class="operator">交换</span><code>(3, 2)</code></div>
-          <div class="readouts"><span>预期读出</span><code>left = 3</code><code>diff = 1</code></div>
-        </figure>
+      <article class="project" id="embodied-pretraining">
+        <a class="project-figure" href="../assets/projects/game-pretraining.webp">
+          <img src="../assets/projects/game-pretraining.webp" alt="放大查看两段游戏的训练样本，图中按五个时间点排列画面，并列出对应的操作事件数。" loading="lazy">
+        </a>
         <div class="project-copy">
-          <h3>CT-RL</h3>
-          <p class="subtitle">续算测试强化学习</p>
-          <p>模型只读一次前缀，再用同一份潜状态回答多个后续问题。算术、图遍历和规则推理三类任务都有执行器，可以逐题核对答案。</p>
-          <p class="validation">CPU 小规模验证比较了 19 种方法。在等算力设置下，CT-RL 的同分布续算准确率为 0%。正式规模的 Qwen 实验尚待运行。</p>
-          <div class="resource-links"><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/tree/main/projects/ct-rl">源码</a><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/blob/main/projects/ct-rl/reports/smoke/REPORT.md">实验报告</a></div>
+          <h3>具身大脑模型的预训练</h3>
+          <p class="question">机器人能从玩家的操作中学到什么？</p>
+          <p>我们将游戏画面与玩家的键盘和鼠标操作按时间对齐，用这些记录预训练 InternVLA-A1.5，让模型预测接下来的操作和画面变化。随后用机器人示范进行微调，在 LIBERO 的 40 项仿真操作任务上检验迁移效果。</p>
+          <div class="resource-links"><a href="https://arxiv.org/abs/2611.13819">预训练论文</a> <a href="https://arxiv.org/html/2611.13819v1#A3">逐任务评测结果</a></div>
         </div>
       </article>
-      <article class="project" id="responseguard">
-        
-        <figure class="project-figure image-pair">
-          <figcaption>CPU 模拟器 · 相同评测种子</figcaption>
-          <div class="samples">
-            <div><img src="../assets/responseguard-blue.png" alt="" width="64" height="64"><span>蓝色铅笔</span></div>
-            <div><img src="../assets/responseguard-red.png" alt="" width="64" height="64"><span>红色铅笔</span></div>
-          </div>
-        </figure>
+      <article class="project" id="frontier-research">
+        <a class="project-figure" href="../assets/projects/mpcot.webp">
+          <img src="../assets/projects/mpcot.webp" alt="放大查看 MPCoT 方法图，图中多条并行推理路径在机器人生成动作前汇合。" loading="lazy">
+        </a>
         <div class="project-copy">
-          <h3>ResponseGuard</h3>
-          <p class="subtitle">图像生成的语义可控性与多样性</p>
-          <p>每次只改动提示词中的一个属性，再比较生成图像。评测既检查指定的改动是否出现，也衡量符合提示词的图像之间还保留多少差异。</p>
-          <p class="validation">CPU 模拟器覆盖了 11 种设置和 3 个随机种子，另用随机初始化的小型 SD3 组件验证训练与导出。正式的 SD3.5 Medium 训练尚待运行。</p>
-          <div class="resource-links"><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/tree/main/projects/responseguard">源码</a><a href="https://github.com/Scout-UCAS/scout-ucas.github.io/blob/main/projects/responseguard/docs/Smoke%E8%BF%90%E8%A1%8C%E6%8A%A5%E5%91%8A.md">实验报告</a></div>
+          <h3>前沿探索</h3>
+          <p class="question">机器人要考虑多少种方案，何时该行动？</p>
+          <p>MPCoT 在潜空间中同时推演多种方案，将它们的表示加权融合后生成动作。AVA-VLA 则根据中间状态的置信度，决定是继续推理，还是开始行动。</p>
+          <div class="resource-links"><a href="https://arxiv.org/abs/2606.06245">MPCoT 论文</a> <a href="https://github.com/Scout-UCAS/MPCoT">MPCoT 源码</a> <a href="https://proceedings.mlr.press/v306/lei26e.html">AVA-VLA 论文</a></div>
         </div>
       </article></div>
     </section>

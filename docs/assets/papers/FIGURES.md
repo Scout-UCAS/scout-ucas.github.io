@@ -1,6 +1,14 @@
-# Publication figures
+# Figure credits
 
-The thumbnails preserve each figure's proportions at 720 pixels wide. Transparent areas are rendered on white.
+The research project figures retain their original dimensions. The selected publication thumbnails are 720 pixels wide. All figures preserve their proportions, with transparent areas rendered on white.
+
+## Game-enhanced pretraining
+
+Lianlei Shan, Han Jin, Yaunchao Ma, Xinpeng Chen, Linhao Zhou, and Xin Bin, *Game-Enhanced Embodied Learning with Event and Foresight Pretraining* (arXiv 2611.13819v1). Figure 2 shows two game recordings sampled at five times over one second. The homepage uses a WebP conversion of the authors’ figure. [Homepage figure](../projects/game-pretraining.webp) · [Original PNG](https://arxiv.org/html/2611.13819v1/real_game_training_samples.png) · [Paper and caption](https://arxiv.org/html/2611.13819v1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+## MPCoT
+
+Boyang Zhang and Lianlei Shan, *MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action* (arXiv 2606.06245v3). Figure 1 illustrates how MPCoT combines several latent reasoning paths before decoding an action. The homepage uses a WebP conversion of the authors’ figure. [Homepage figure](../projects/mpcot.webp) · [Original PNG](https://arxiv.org/html/2606.06245v3/Figure1.png) · [Paper and caption](https://arxiv.org/html/2606.06245v3)
 
 ## AVA-VLA
 

@@ -42,34 +42,39 @@
   ],
   "projects": [
     {
-      "id": "ct-rl",
-      "name": "CT-RL",
-      "subtitle": {"en": "Continuation-Test Reinforcement Learning", "zh": "续算测试强化学习"},
+      "id": "embodied-pretraining",
+      "name": {"en": "Pretraining embodied foundation models", "zh": "具身大脑模型的预训练"},
+      "question": {"en": "What can a robot learn from human gameplay?", "zh": "机器人能从玩家的操作中学到什么？"},
       "summary": {
-        "en": "A model reads a prefix once, then uses the same latent state to answer several continuations. Arithmetic, graph walks and rule systems provide answers that can be checked by execution.",
-        "zh": "模型只读一次前缀，再用同一份潜状态回答多个后续问题。算术、图遍历和规则推理三类任务都有执行器，可以逐题核对答案。"
+        "en": "We align gameplay footage with keyboard and mouse inputs to pretrain InternVLA-A1.5. The model learns to anticipate both the player’s next inputs and how the scene will change. We then fine-tune it on robot demonstrations and test transfer on 40 simulated manipulation tasks in LIBERO.",
+        "zh": "我们将游戏画面与玩家的键盘和鼠标操作按时间对齐，用这些记录预训练 InternVLA-A1.5，让模型预测接下来的操作和画面变化。随后用机器人示范进行微调，在 LIBERO 的 40 项仿真操作任务上检验迁移效果。"
       },
-      "validation": {
-        "en": "The CPU smoke run compared 19 methods. CT-RL scored 0% on in-distribution continuation accuracy under matched compute. Full-scale Qwen runs are pending.",
-        "zh": "CPU 小规模验证比较了 19 种方法。在等算力设置下，CT-RL 的同分布续算准确率为 0%。正式规模的 Qwen 实验尚待运行。"
+      "image": {
+        "src": "assets/projects/game-pretraining.webp",
+        "alt": {"en": "Enlarge two training samples showing gameplay frames at five time offsets alongside counts of recorded inputs.", "zh": "放大查看两段游戏的训练样本，图中按五个时间点排列画面，并列出对应的操作事件数。"}
       },
-      "source": "projects/ct-rl",
-      "report": "projects/ct-rl/reports/smoke/REPORT.md"
+      "links": [
+        {"name": {"en": "Pretraining paper", "zh": "预训练论文"}, "url": "https://arxiv.org/abs/2611.13819"},
+        {"name": {"en": "Task-level results", "zh": "逐任务评测结果"}, "url": "https://arxiv.org/html/2611.13819v1#A3"}
+      ]
     },
     {
-      "id": "responseguard",
-      "name": "ResponseGuard",
-      "subtitle": {"en": "Controllability and diversity in image generation", "zh": "图像生成的语义可控性与多样性"},
+      "id": "frontier-research",
+      "name": {"en": "Frontier research", "zh": "前沿探索"},
+      "question": {"en": "How many plans should a robot consider, and when should it act?", "zh": "机器人要考虑多少种方案，何时该行动？"},
       "summary": {
-        "en": "Change one attribute in a prompt and compare the resulting images. The evaluation measures whether the requested change appears and how much variation remains among valid images.",
-        "zh": "每次只改动提示词中的一个属性，再比较生成图像。评测既检查指定的改动是否出现，也衡量符合提示词的图像之间还保留多少差异。"
+        "en": "MPCoT explores several possible plans in parallel, then combines their latent representations to choose an action. AVA-VLA uses the confidence of its intermediate state to decide whether to keep reasoning or start moving.",
+        "zh": "MPCoT 在潜空间中同时推演多种方案，将它们的表示加权融合后生成动作。AVA-VLA 则根据中间状态的置信度，决定是继续推理，还是开始行动。"
       },
-      "validation": {
-        "en": "The CPU simulation covered 11 settings and three seeds. Separate checks used randomly initialized SD3 components. Full-scale SD3.5 Medium training is pending.",
-        "zh": "CPU 模拟器覆盖了 11 种设置和 3 个随机种子，另用随机初始化的小型 SD3 组件验证训练与导出。正式的 SD3.5 Medium 训练尚待运行。"
+      "image": {
+        "src": "assets/projects/mpcot.webp",
+        "alt": {"en": "Enlarge the MPCoT diagram showing parallel reasoning paths merging before the model generates a robot action.", "zh": "放大查看 MPCoT 方法图，图中多条并行推理路径在机器人生成动作前汇合。"}
       },
-      "source": "projects/responseguard",
-      "report": "projects/responseguard/docs/Smoke运行报告.md"
+      "links": [
+        {"name": {"en": "MPCoT paper", "zh": "MPCoT 论文"}, "url": "https://arxiv.org/abs/2606.06245"},
+        {"name": {"en": "MPCoT code", "zh": "MPCoT 源码"}, "url": "https://github.com/Scout-UCAS/MPCoT"},
+        {"name": {"en": "AVA-VLA paper", "zh": "AVA-VLA 论文"}, "url": "https://proceedings.mlr.press/v306/lei26e.html"}
+      ]
     }
   ],
   "news": [

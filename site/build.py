@@ -4,13 +4,11 @@ import json
 from html import escape
 from pathlib import Path
 from string import Template
-from urllib.parse import quote
 
 
 HERE = Path(__file__).resolve().parent
 DOCS = HERE.parent / "docs"
 SITE = "https://scout-ucas.github.io/"
-REPO = "https://github.com/Scout-UCAS/scout-ucas.github.io"
 
 LABELS = {
     "en": {
@@ -19,13 +17,11 @@ LABELS = {
         "description": "Lianlei Shan’s academic homepage. Research, publications and software on latent reasoning, vision–language–action models and computer vision.",
         "skip": "Skip to content", "nav_label": "Main navigation",
         "dark": "Switch to dark theme", "light": "Switch to light theme",
-        "research_title": "Research", "projects_title": "Research software",
+        "research_title": "Research", "projects_title": "Research projects",
         "nav_projects": "Projects", "news_title": "News", "publications_title": "Selected publications",
         "nav_publications": "Publications", "all_publications": "All publications on Google Scholar",
         "email_label": "Email", "portrait_alt": "Portrait of Lianlei Shan",
-        "code": "Code", "report": "Experiment report", "paper": "Paper", "preprint": "Preprint",
-        "executor": "Arithmetic executor", "readouts": "Expected readouts", "swap": "swap",
-        "blue": "Blue pencil", "red": "Red pencil", "simulator": "CPU simulator · matched seed",
+        "code": "Code", "paper": "Paper", "preprint": "Preprint",
         "figure": "View figure for", "credits": "Figure credits", "top": "Back to top"
     },
     "zh": {
@@ -38,9 +34,7 @@ LABELS = {
         "nav_projects": "项目", "news_title": "近期动态", "publications_title": "代表论文",
         "nav_publications": "论文", "all_publications": "在 Google Scholar 查看全部论文",
         "email_label": "邮件联系", "portrait_alt": "Lianlei Shan 的头像",
-        "code": "源码", "report": "实验报告", "paper": "论文原文", "preprint": "预印本",
-        "executor": "算术执行器", "readouts": "预期读出", "swap": "交换",
-        "blue": "蓝色铅笔", "red": "红色铅笔", "simulator": "CPU 模拟器 · 相同评测种子",
+        "code": "源码", "paper": "论文原文", "preprint": "预印本",
         "figure": "查看论文配图", "credits": "配图来源", "top": "回到顶部"
     }
 }
@@ -50,36 +44,20 @@ def link(url, label):
     return f'<a href="{escape(url, quote=True)}">{escape(label)}</a>'
 
 
-def project_figure(project_id, base, labels):
-    if project_id == "ct-rl":
-        return f"""
-        <figure class="project-figure arithmetic">
-          <figcaption>{labels['executor']}</figcaption>
-          <div class="registers"><code>(2, 3)</code><span class="operator">{labels['swap']}</span><code>(3, 2)</code></div>
-          <div class="readouts"><span>{labels['readouts']}</span><code>left = 3</code><code>diff = 1</code></div>
-        </figure>"""
-    return f"""
-        <figure class="project-figure image-pair">
-          <figcaption>{labels['simulator']}</figcaption>
-          <div class="samples">
-            <div><img src="{base}assets/responseguard-blue.png" alt="" width="64" height="64"><span>{labels['blue']}</span></div>
-            <div><img src="{base}assets/responseguard-red.png" alt="" width="64" height="64"><span>{labels['red']}</span></div>
-          </div>
-        </figure>"""
-
-
-def project_card(project, lang, base, labels):
-    source = f"{REPO}/tree/main/{quote(project['source'])}"
-    report = f"{REPO}/blob/main/{quote(project['report'])}"
+def project_card(project, lang, base):
+    image = project["image"]
+    image_url = escape(base + image["src"], quote=True)
+    resources = " ".join(link(entry["url"], entry["name"][lang]) for entry in project["links"])
     return f"""
       <article class="project" id="{escape(project['id'])}">
-        {project_figure(project['id'], base, labels)}
+        <a class="project-figure" href="{image_url}">
+          <img src="{image_url}" alt="{escape(image['alt'][lang], quote=True)}" loading="lazy">
+        </a>
         <div class="project-copy">
-          <h3>{escape(project['name'])}</h3>
-          <p class="subtitle">{escape(project['subtitle'][lang])}</p>
+          <h3>{escape(project['name'][lang])}</h3>
+          <p class="question">{escape(project['question'][lang])}</p>
           <p>{escape(project['summary'][lang])}</p>
-          <p class="validation">{escape(project['validation'][lang])}</p>
-          <div class="resource-links">{link(source, labels['code'])}{link(report, labels['report'])}</div>
+          <div class="resource-links">{resources}</div>
         </div>
       </article>"""
 
@@ -144,7 +122,7 @@ def build():
             scholar=escape(profile["scholar"] + ("&hl=zh-CN" if lang == "zh" else "&hl=en")),
             github=escape(profile["github"]), nav="".join(link("#" + section, labels[key]) for section, key in nav),
             research_items="\n".join(research),
-            project_items="".join(project_card(p, lang, base, labels) for p in content["projects"]),
+            project_items="".join(project_card(p, lang, base) for p in content["projects"]),
             news_items="".join(news_row(item, lang) for item in content["news"]),
             paper_items="".join(paper_row(p, lang, base, profile["name"], labels) for p in content["papers"])
         )
