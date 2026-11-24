@@ -119,6 +119,16 @@
       "code": "https://github.com/ltpo2025/LTPO"
     },
     {
+      "id": "geogrambench",
+      "title": "GeoGramBench: Benchmarking the Geometric Program Reasoning in Modern LLMs",
+      "authors": ["Shixian Luo", "Zezhou Zhu", "Yu Yuan", "Yuncheng Yang", "Lianlei Shan", "Yong Wu"],
+      "venue": "ICLR", "year": 2026,
+      "summary": {"en": "GeoGramBench pairs 500 geometry problems with the code that draws each diagram. One problem asks the model to find the volume of the octahedron formed by joining the centers of a rectangular prism’s faces.", "zh": "GeoGramBench 用 500 道配有绘图代码的几何题评估语言模型的空间推理能力。例如，给出一个长方体的绘图代码，模型要算出连接六个面中心所形成的八面体的体积。"},
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f030c22135eb94ede7043a39878e1842-Abstract-Conference.html",
+      "code": "https://github.com/LiAuto-DSR/GeoGramBench",
+      "preprint": "https://arxiv.org/abs/2505.17653"
+    },
+    {
       "id": "flexdataset",
       "title": "FlexDataset: Crafting Annotated Dataset Generation for Diverse Applications",
       "authors": ["Ellen Yi-Ge", "Leo Shawn"],

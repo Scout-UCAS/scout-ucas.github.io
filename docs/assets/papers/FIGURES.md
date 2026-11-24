@@ -36,6 +36,12 @@ Liangliang Dong, Lianlei Shan, and Shuaimin Li, *Self-SoftCoT: A Self-Consistent
 
 Wengao Ye, Yan Liang, and Lianlei Shan, *Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization* (ICLR 2026). Figure 1 shows how a reward derived from the frozen model’s output updates the latent thought embeddings before answer generation. The thumbnail was rendered from the authors’ SVG. The arXiv paper lists CC BY 4.0. [Original SVG](https://github.com/ltpo2025/LTPO/blob/0dad738afbad2ee0b95ac2e1a090f124e9b3a186/img/LTPO.svg) · [Figure 1 and caption](https://arxiv.org/html/2510.04182v4#S2.F1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
+## GeoGramBench
+
+[geogrambench.webp](./geogrambench.webp) · 720 × 407 px
+
+Shixian Luo, Zezhou Zhu, Yu Yuan, Yuncheng Yang, Lianlei Shan, and Yong Wu, *GeoGramBench: Benchmarking the Geometric Program Reasoning in Modern LLMs* (ICLR 2026). The project figure shows six problems at three levels of geometric complexity, each with drawing code and its diagram. The thumbnail is a resized WebP of the authors’ figure. [Original PNG](https://github.com/LiAuto-DSR/GeoGramBench/blob/39ae5f66198552e76f64916be1dae5e72498ca1c/figures/geogrambench_example.png) · [Figure 4 and caption](https://arxiv.org/html/2505.17653v2#S4.F4) · [Repository license](https://github.com/LiAuto-DSR/GeoGramBench/blob/39ae5f66198552e76f64916be1dae5e72498ca1c/LICENSE) · [ICLR proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f030c22135eb94ede7043a39878e1842-Abstract-Conference.html)
+
 ## F2Net
 
 [f2net.webp](./f2net.webp) · 720 × 343 px
