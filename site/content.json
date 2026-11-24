@@ -32,13 +32,6 @@
         "en": "I study how robot policies turn visual observations and instructions into actions, from choosing among several internal plans to deciding when to stop deliberating.",
         "zh": "我研究机器人如何将视觉观测和语言指令转化为动作，包括怎样比较多个内部计划，以及何时结束推理并执行动作。"
       }
-    },
-    {
-      "name": {"en": "Visual perception", "zh": "视觉感知"},
-      "summary": {
-        "en": "Aerial scenes contain details that can disappear when an image is resized. I study how segmentation models can preserve those details while using the wider scene to interpret them.",
-        "zh": "航拍图像缩小后，一条窄路就可能消失。我研究分割模型怎样保留这样的局部细节，同时利用更大范围的场景信息判断它们属于哪一类。"
-      }
     }
   ],
   "projects": [
