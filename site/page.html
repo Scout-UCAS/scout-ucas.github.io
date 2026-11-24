@@ -39,8 +39,10 @@
   <main id="main" class="shell">
     <section class="hero" aria-labelledby="profile-name">
       <div class="hero-copy">
-        <p class="focus">$focus</p>
-        <h1 id="profile-name">$name</h1>
+        <header class="profile-heading">
+          <p class="focus">$focus</p>
+          <h1 id="profile-name">$name</h1>
+        </header>
         $introduction
         <p class="bio">$biography</p>
         <div class="profile-links">
@@ -52,8 +54,8 @@
       <a class="portrait-wrap" href="${base}assets/wall-e.jpg" aria-label="$portrait_full">
         <img class="portrait" src="${base}assets/wall-e.jpg"
              srcset="${base}assets/profile.jpg?v=wall-e 500w, ${base}assets/wall-e.jpg 1920w"
-             sizes="(max-width: 39rem) 5.25rem, (max-width: 48rem) 10.5rem, 16.5rem"
-             alt="$portrait_alt" width="256" height="256" fetchpriority="high">
+             sizes="(max-width: 39rem) clamp(6.25rem, 30vw, 7rem), (max-width: 48rem) 13.5rem, clamp(17.75rem, 30vw, 22rem)"
+             alt="$portrait_alt" width="352" height="352" fetchpriority="high">
       </a>
     </section>
     <section class="section" id="research" aria-labelledby="research-title">

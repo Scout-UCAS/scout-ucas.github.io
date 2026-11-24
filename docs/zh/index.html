@@ -39,8 +39,10 @@
   <main id="main" class="shell">
     <section class="hero" aria-labelledby="profile-name">
       <div class="hero-copy">
-        <p class="focus">多模态学习 · 强化学习</p>
-        <h1 id="profile-name">Lianlei Shan</h1>
+        <header class="profile-heading">
+          <p class="focus">多模态学习 · 强化学习</p>
+          <h1 id="profile-name">Lianlei Shan</h1>
+        </header>
         <p class="lead">我研究模型如何结合语言和图像进行推理。例如，接到“拿出柜子最里面的杯子”这样的指令时，机器人要根据物体的相对位置找到目标，还要判断是否需要先移开前排的碗碟。</p>
         <p class="lead">我的目标是构建具有泛化能力的具身智能基座模型。我希望机器人面对新物体、新环境或新任务时，能够组合运用从人的示范和实际操作中学到的技能，并根据行动结果调整下一步动作。</p>
         <p class="bio">我在中国科学院大学获得计算机科学博士学位，之后在清华大学开展博士后研究。</p>
@@ -53,8 +55,8 @@
       <a class="portrait-wrap" href="../assets/wall-e.jpg" aria-label="查看瓦力的高清照片">
         <img class="portrait" src="../assets/wall-e.jpg"
              srcset="../assets/profile.jpg?v=wall-e 500w, ../assets/wall-e.jpg 1920w"
-             sizes="(max-width: 39rem) 5.25rem, (max-width: 48rem) 10.5rem, 16.5rem"
-             alt="瓦力站在碎石上，举起双臂" width="256" height="256" fetchpriority="high">
+             sizes="(max-width: 39rem) clamp(6.25rem, 30vw, 7rem), (max-width: 48rem) 13.5rem, clamp(17.75rem, 30vw, 22rem)"
+             alt="瓦力站在碎石上，举起双臂" width="352" height="352" fetchpriority="high">
       </a>
     </section>
     <section class="section" id="research" aria-labelledby="research-title">
