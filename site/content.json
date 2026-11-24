@@ -10,8 +10,8 @@
       "zh": "多模态学习 · 强化学习"
     },
     "introduction": {
-      "en": "I study how models reason with language and images, and how a robot can tell when it has reasoned enough to act.",
-      "zh": "我研究模型如何利用语言和图像进行推理，以及机器人如何判断何时可以结束推理、开始行动。"
+      "en": "I study how models draw on both language and images to reason. I’m especially interested in how robots decide whether to keep reasoning or take their next action.",
+      "zh": "我研究模型如何结合语言与图像进行推理，尤其关注机器人如何判断当前的推理是否足以指导下一步行动。"
     },
     "biography": {
       "en": "I earned my PhD in computer science at the University of Chinese Academy of Sciences and carried out postdoctoral research at Tsinghua University.",
