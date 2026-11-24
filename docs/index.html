@@ -24,7 +24,7 @@
   <header class="masthead">
     <div class="shell masthead-inner">
       <a class="wordmark" href="#top">Lianlei Shan</a>
-      <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#projects">Projects</a><a href="#news">News</a><a href="#publications">Publications</a></nav>
+      <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#projects">Vision</a><a href="#news">News</a><a href="#publications">Publications</a></nav>
       <div class="settings">
         <a class="language" href="zh/" lang="zh-CN" hreflang="zh-CN">中文</a>
         <button class="theme" type="button" hidden aria-label="Switch to dark theme" data-dark="Switch to dark theme" data-light="Switch to light theme">
@@ -39,7 +39,7 @@
         <p class="focus">Multimodal learning · Reinforcement learning</p>
         <h1 id="profile-name">Lianlei Shan</h1>
         <p class="lead">I study how models reason with language and images, and how a robot can tell when it has reasoned enough to act.</p>
-        <p class="bio">I earned my PhD in computer science at the University of Chinese Academy of Sciences and carried out postdoctoral research at Tsinghua University. My earlier work focused on semantic segmentation in high-resolution aerial images.</p>
+        <p class="bio">I earned my PhD in computer science at the University of Chinese Academy of Sciences and carried out postdoctoral research at Tsinghua University.</p>
         <div class="profile-links">
           <a class="pill pill-primary" href="https://scholar.google.com/citations?user=V5YWfWgAAAAJ&amp;hl=en">Google Scholar</a>
           <a class="pill" href="https://github.com/Scout-UCAS">GitHub</a>
@@ -57,29 +57,15 @@
 <article><h3>Visual perception</h3><p>Aerial scenes contain details that can disappear when an image is resized. I study how segmentation models can preserve those details while using the wider scene to interpret them.</p></article></div>
     </section>
     <section class="section" id="projects" aria-labelledby="projects-title">
-      <h2 id="projects-title">Research projects</h2>
+      <h2 id="projects-title">Research vision</h2>
       <div class="project-grid">
       <article class="project" id="embodied-pretraining">
-        <a class="project-figure" href="assets/projects/game-pretraining.webp">
-          <img src="assets/projects/game-pretraining.webp" alt="Enlarge two training samples showing gameplay frames at five time offsets alongside counts of recorded inputs." loading="lazy">
-        </a>
-        <div class="project-copy">
-          <h3>Pretraining embodied foundation models</h3>
-          <p class="question">What can a robot learn from human gameplay?</p>
-          <p>We align gameplay footage with keyboard and mouse inputs to pretrain InternVLA-A1.5. The model learns to anticipate both the player’s next inputs and how the scene will change. We then fine-tune it on robot demonstrations and test transfer on 40 simulated manipulation tasks in LIBERO.</p>
-          <div class="resource-links"><a href="https://arxiv.org/abs/2611.13819">Pretraining paper</a> <a href="https://arxiv.org/html/2611.13819v1#A3">Task-level results</a></div>
-        </div>
+        <h3>Pretraining embodied foundation models</h3>
+        <p>I want to pretrain models that learn from watching people and from a robot’s own attempts. My aim is for a robot to connect an instruction to the scene in front of it and anticipate how its actions will change that scene. In an unfamiliar room, it could then draw on that experience to work out how to use a new tool.</p>
       </article>
       <article class="project" id="frontier-research">
-        <a class="project-figure" href="assets/projects/mpcot.webp">
-          <img src="assets/projects/mpcot.webp" alt="Enlarge the MPCoT diagram showing parallel reasoning paths merging before the model generates a robot action." loading="lazy">
-        </a>
-        <div class="project-copy">
-          <h3>Frontier research</h3>
-          <p class="question">How many plans should a robot consider, and when should it act?</p>
-          <p>MPCoT explores several possible plans in parallel, then combines their latent representations to choose an action. AVA-VLA uses the confidence of its intermediate state to decide whether to keep reasoning or start moving.</p>
-          <div class="resource-links"><a href="https://arxiv.org/abs/2606.06245">MPCoT paper</a> <a href="https://github.com/Scout-UCAS/MPCoT">MPCoT code</a> <a href="https://proceedings.mlr.press/v306/lei26e.html">AVA-VLA paper</a></div>
-        </div>
+        <h3>Frontier research</h3>
+        <p>I’m interested in how robots decide what to do when something unexpected happens. If a cup is missing from its usual spot, should a robot look more closely, search elsewhere, or ask someone? I’d like it to recognize what information it needs, revise its plan as it finds new clues, and remember what worked for next time.</p>
       </article></div>
     </section>
     <section class="section" id="news" aria-labelledby="news-title">

@@ -17,8 +17,8 @@ LABELS = {
         "description": "Lianlei Shan’s academic homepage. Research, publications and software on latent reasoning, vision–language–action models and computer vision.",
         "skip": "Skip to content", "nav_label": "Main navigation",
         "dark": "Switch to dark theme", "light": "Switch to light theme",
-        "research_title": "Research", "projects_title": "Research projects",
-        "nav_projects": "Projects", "news_title": "News", "publications_title": "Selected publications",
+        "research_title": "Research", "projects_title": "Research vision",
+        "nav_projects": "Vision", "news_title": "News", "publications_title": "Selected publications",
         "nav_publications": "Publications", "all_publications": "All publications on Google Scholar",
         "email_label": "Email", "portrait_alt": "Portrait of Lianlei Shan",
         "code": "Code", "paper": "Paper", "preprint": "Preprint",
@@ -30,8 +30,8 @@ LABELS = {
         "description": "Lianlei Shan 的学术主页。研究方向包括潜空间推理、视觉语言动作模型和计算机视觉，附代表论文、研究代码与实验记录。",
         "skip": "跳到正文", "nav_label": "主导航",
         "dark": "切换为深色主题", "light": "切换为浅色主题",
-        "research_title": "研究方向", "projects_title": "研究项目",
-        "nav_projects": "项目", "news_title": "近期动态", "publications_title": "代表论文",
+        "research_title": "研究方向", "projects_title": "研究愿景",
+        "nav_projects": "愿景", "news_title": "近期动态", "publications_title": "代表论文",
         "nav_publications": "论文", "all_publications": "在 Google Scholar 查看全部论文",
         "email_label": "邮件联系", "portrait_alt": "Lianlei Shan 的头像",
         "code": "源码", "paper": "论文原文", "preprint": "预印本",
@@ -44,21 +44,11 @@ def link(url, label):
     return f'<a href="{escape(url, quote=True)}">{escape(label)}</a>'
 
 
-def project_card(project, lang, base):
-    image = project["image"]
-    image_url = escape(base + image["src"], quote=True)
-    resources = " ".join(link(entry["url"], entry["name"][lang]) for entry in project["links"])
+def project_card(project, lang):
     return f"""
       <article class="project" id="{escape(project['id'])}">
-        <a class="project-figure" href="{image_url}">
-          <img src="{image_url}" alt="{escape(image['alt'][lang], quote=True)}" loading="lazy">
-        </a>
-        <div class="project-copy">
-          <h3>{escape(project['name'][lang])}</h3>
-          <p class="question">{escape(project['question'][lang])}</p>
-          <p>{escape(project['summary'][lang])}</p>
-          <div class="resource-links">{resources}</div>
-        </div>
+        <h3>{escape(project['name'][lang])}</h3>
+        <p>{escape(project['summary'][lang])}</p>
       </article>"""
 
 
@@ -122,7 +112,7 @@ def build():
             scholar=escape(profile["scholar"] + ("&hl=zh-CN" if lang == "zh" else "&hl=en")),
             github=escape(profile["github"]), nav="".join(link("#" + section, labels[key]) for section, key in nav),
             research_items="\n".join(research),
-            project_items="".join(project_card(p, lang, base) for p in content["projects"]),
+            project_items="".join(project_card(p, lang) for p in content["projects"]),
             news_items="".join(news_row(item, lang) for item in content["news"]),
             paper_items="".join(paper_row(p, lang, base, profile["name"], labels) for p in content["papers"])
         )

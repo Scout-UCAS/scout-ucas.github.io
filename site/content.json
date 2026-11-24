@@ -13,8 +13,8 @@
       "zh": "我研究模型如何利用语言和图像进行推理，以及机器人如何判断何时可以结束推理、开始行动。"
     },
     "biography": {
-      "en": "I earned my PhD in computer science at the University of Chinese Academy of Sciences and carried out postdoctoral research at Tsinghua University. My earlier work focused on semantic segmentation in high-resolution aerial images.",
-      "zh": "我在中国科学院大学获得计算机科学博士学位，之后在清华大学开展博士后研究。早期工作主要研究高分辨率航拍图像的语义分割。"
+      "en": "I earned my PhD in computer science at the University of Chinese Academy of Sciences and carried out postdoctoral research at Tsinghua University.",
+      "zh": "我在中国科学院大学获得计算机科学博士学位，之后在清华大学开展博士后研究。"
     }
   },
   "research": [
@@ -44,37 +44,18 @@
     {
       "id": "embodied-pretraining",
       "name": {"en": "Pretraining embodied foundation models", "zh": "具身大脑模型的预训练"},
-      "question": {"en": "What can a robot learn from human gameplay?", "zh": "机器人能从玩家的操作中学到什么？"},
       "summary": {
-        "en": "We align gameplay footage with keyboard and mouse inputs to pretrain InternVLA-A1.5. The model learns to anticipate both the player’s next inputs and how the scene will change. We then fine-tune it on robot demonstrations and test transfer on 40 simulated manipulation tasks in LIBERO.",
-        "zh": "我们将游戏画面与玩家的键盘和鼠标操作按时间对齐，用这些记录预训练 InternVLA-A1.5，让模型预测接下来的操作和画面变化。随后用机器人示范进行微调，在 LIBERO 的 40 项仿真操作任务上检验迁移效果。"
-      },
-      "image": {
-        "src": "assets/projects/game-pretraining.webp",
-        "alt": {"en": "Enlarge two training samples showing gameplay frames at five time offsets alongside counts of recorded inputs.", "zh": "放大查看两段游戏的训练样本，图中按五个时间点排列画面，并列出对应的操作事件数。"}
-      },
-      "links": [
-        {"name": {"en": "Pretraining paper", "zh": "预训练论文"}, "url": "https://arxiv.org/abs/2611.13819"},
-        {"name": {"en": "Task-level results", "zh": "逐任务评测结果"}, "url": "https://arxiv.org/html/2611.13819v1#A3"}
-      ]
+        "en": "I want to pretrain models that learn from watching people and from a robot’s own attempts. My aim is for a robot to connect an instruction to the scene in front of it and anticipate how its actions will change that scene. In an unfamiliar room, it could then draw on that experience to work out how to use a new tool.",
+        "zh": "我希望用人的示范和机器人自己的尝试来预训练具身模型，让机器人能把指令和眼前的场景联系起来，预判自己的动作会带来什么变化。我期待它走进陌生的房间时，也能借助已有经验摸索出使用新工具的方法。"
+      }
     },
     {
       "id": "frontier-research",
       "name": {"en": "Frontier research", "zh": "前沿探索"},
-      "question": {"en": "How many plans should a robot consider, and when should it act?", "zh": "机器人要考虑多少种方案，何时该行动？"},
       "summary": {
-        "en": "MPCoT explores several possible plans in parallel, then combines their latent representations to choose an action. AVA-VLA uses the confidence of its intermediate state to decide whether to keep reasoning or start moving.",
-        "zh": "MPCoT 在潜空间中同时推演多种方案，将它们的表示加权融合后生成动作。AVA-VLA 则根据中间状态的置信度，决定是继续推理，还是开始行动。"
-      },
-      "image": {
-        "src": "assets/projects/mpcot.webp",
-        "alt": {"en": "Enlarge the MPCoT diagram showing parallel reasoning paths merging before the model generates a robot action.", "zh": "放大查看 MPCoT 方法图，图中多条并行推理路径在机器人生成动作前汇合。"}
-      },
-      "links": [
-        {"name": {"en": "MPCoT paper", "zh": "MPCoT 论文"}, "url": "https://arxiv.org/abs/2606.06245"},
-        {"name": {"en": "MPCoT code", "zh": "MPCoT 源码"}, "url": "https://github.com/Scout-UCAS/MPCoT"},
-        {"name": {"en": "AVA-VLA paper", "zh": "AVA-VLA 论文"}, "url": "https://proceedings.mlr.press/v306/lei26e.html"}
-      ]
+        "en": "I’m interested in how robots decide what to do when something unexpected happens. If a cup is missing from its usual spot, should a robot look more closely, search elsewhere, or ask someone? I’d like it to recognize what information it needs, revise its plan as it finds new clues, and remember what worked for next time.",
+        "zh": "我想探索机器人遇到意外时如何作出判断。比如，杯子不在原处，它该再仔细看一眼、换个地方找，还是开口问人？我希望它能判断自己还缺什么信息，根据新线索调整计划，并记住哪些做法值得下次再试。"
+      }
     }
   ],
   "news": [

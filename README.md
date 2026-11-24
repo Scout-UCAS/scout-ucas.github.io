@@ -11,7 +11,7 @@ Each project has its own Python environment, training configurations, tests and 
 
 ## Editing the homepage
 
-The profile, projects, news and selected papers share a bilingual content file. Each paper links to its proceedings entry or preprint. [Content](site/content.json) · [Layout](site/page.html) · [Styles](docs/styles.css)
+The profile, research vision, news and selected papers share a bilingual content file. Each paper links to its proceedings entry or preprint. [Content](site/content.json) · [Layout](site/page.html) · [Styles](docs/styles.css)
 
 After editing the content or template, run the following commands from the repository root to rebuild and preview both pages.
 
@@ -26,5 +26,5 @@ GitHub Pages serves the committed `docs/` directory on `main`.
 
 - The display name, research interests and photograph come from the supplied [Google Scholar profile](https://scholar.google.com/citations?user=V5YWfWgAAAAJ).
 - The biographical details appear in an author's biography in *Physical Communication*. The professional contact address also appears in the ACL paper. [Author biography](https://www.sciencedirect.com/science/article/pii/S1874490726002429) · [ACL paper](https://aclanthology.org/2026.acl-long.1496.pdf)
-- The project cards feature gameplay pretraining samples and the MPCoT robot policy. Project and publication figures link to a larger view. [Figure credits](docs/assets/papers/FIGURES.md)
+- The selected publication thumbnails link to larger views of the figures. [Figure credits](docs/assets/papers/FIGURES.md)
 - The site layout was inspired by [Yingdong Hu’s academic homepage](https://yingdong-hu.github.io/).

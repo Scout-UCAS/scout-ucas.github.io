@@ -24,7 +24,7 @@
   <header class="masthead">
     <div class="shell masthead-inner">
       <a class="wordmark" href="#top">Lianlei Shan</a>
-      <nav aria-label="主导航"><a href="#research">研究方向</a><a href="#projects">项目</a><a href="#news">近期动态</a><a href="#publications">论文</a></nav>
+      <nav aria-label="主导航"><a href="#research">研究方向</a><a href="#projects">愿景</a><a href="#news">近期动态</a><a href="#publications">论文</a></nav>
       <div class="settings">
         <a class="language" href="../" lang="en" hreflang="en">EN</a>
         <button class="theme" type="button" hidden aria-label="切换为深色主题" data-dark="切换为深色主题" data-light="切换为浅色主题">
@@ -39,7 +39,7 @@
         <p class="focus">多模态学习 · 强化学习</p>
         <h1 id="profile-name">Lianlei Shan</h1>
         <p class="lead">我研究模型如何利用语言和图像进行推理，以及机器人如何判断何时可以结束推理、开始行动。</p>
-        <p class="bio">我在中国科学院大学获得计算机科学博士学位，之后在清华大学开展博士后研究。早期工作主要研究高分辨率航拍图像的语义分割。</p>
+        <p class="bio">我在中国科学院大学获得计算机科学博士学位，之后在清华大学开展博士后研究。</p>
         <div class="profile-links">
           <a class="pill pill-primary" href="https://scholar.google.com/citations?user=V5YWfWgAAAAJ&amp;hl=zh-CN">Google Scholar</a>
           <a class="pill" href="https://github.com/Scout-UCAS">GitHub</a>
@@ -57,29 +57,15 @@
 <article><h3>视觉感知</h3><p>航拍图像缩小后，一条窄路就可能消失。我研究分割模型怎样保留这样的局部细节，同时利用更大范围的场景信息判断它们属于哪一类。</p></article></div>
     </section>
     <section class="section" id="projects" aria-labelledby="projects-title">
-      <h2 id="projects-title">研究项目</h2>
+      <h2 id="projects-title">研究愿景</h2>
       <div class="project-grid">
       <article class="project" id="embodied-pretraining">
-        <a class="project-figure" href="../assets/projects/game-pretraining.webp">
-          <img src="../assets/projects/game-pretraining.webp" alt="放大查看两段游戏的训练样本，图中按五个时间点排列画面，并列出对应的操作事件数。" loading="lazy">
-        </a>
-        <div class="project-copy">
-          <h3>具身大脑模型的预训练</h3>
-          <p class="question">机器人能从玩家的操作中学到什么？</p>
-          <p>我们将游戏画面与玩家的键盘和鼠标操作按时间对齐，用这些记录预训练 InternVLA-A1.5，让模型预测接下来的操作和画面变化。随后用机器人示范进行微调，在 LIBERO 的 40 项仿真操作任务上检验迁移效果。</p>
-          <div class="resource-links"><a href="https://arxiv.org/abs/2611.13819">预训练论文</a> <a href="https://arxiv.org/html/2611.13819v1#A3">逐任务评测结果</a></div>
-        </div>
+        <h3>具身大脑模型的预训练</h3>
+        <p>我希望用人的示范和机器人自己的尝试来预训练具身模型，让机器人能把指令和眼前的场景联系起来，预判自己的动作会带来什么变化。我期待它走进陌生的房间时，也能借助已有经验摸索出使用新工具的方法。</p>
       </article>
       <article class="project" id="frontier-research">
-        <a class="project-figure" href="../assets/projects/mpcot.webp">
-          <img src="../assets/projects/mpcot.webp" alt="放大查看 MPCoT 方法图，图中多条并行推理路径在机器人生成动作前汇合。" loading="lazy">
-        </a>
-        <div class="project-copy">
-          <h3>前沿探索</h3>
-          <p class="question">机器人要考虑多少种方案，何时该行动？</p>
-          <p>MPCoT 在潜空间中同时推演多种方案，将它们的表示加权融合后生成动作。AVA-VLA 则根据中间状态的置信度，决定是继续推理，还是开始行动。</p>
-          <div class="resource-links"><a href="https://arxiv.org/abs/2606.06245">MPCoT 论文</a> <a href="https://github.com/Scout-UCAS/MPCoT">MPCoT 源码</a> <a href="https://proceedings.mlr.press/v306/lei26e.html">AVA-VLA 论文</a></div>
-        </div>
+        <h3>前沿探索</h3>
+        <p>我想探索机器人遇到意外时如何作出判断。比如，杯子不在原处，它该再仔细看一眼、换个地方找，还是开口问人？我希望它能判断自己还缺什么信息，根据新线索调整计划，并记住哪些做法值得下次再试。</p>
       </article></div>
     </section>
     <section class="section" id="news" aria-labelledby="news-title">
