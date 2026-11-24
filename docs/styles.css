@@ -81,7 +81,7 @@ h1 { font-size: clamp(3.35rem, 6.6vw, 5.2rem); line-height: 1.03; letter-spacing
 .pill-primary { background: var(--tint); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 23%, var(--paper)); }
 .pill:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
 .portrait-wrap { justify-self: center; width: min(100%, 16.5rem); padding: .55rem; border: 1px solid var(--line); border-radius: .85rem; background: white; }
-.portrait { width: 100%; border-radius: .5rem; }
+.portrait { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: .5rem; }
 .section { border-top: 1px solid var(--line); padding-block: 2.2rem 3rem; }
 .section, #research [id], .paper { scroll-margin-top: 5.3rem; }
 h2 { font-size: clamp(2rem, 3.4vw, 2.65rem); line-height: 1.18; letter-spacing: -.045em; margin-bottom: 1.4rem; }

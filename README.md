@@ -24,7 +24,7 @@ GitHub Pages serves the committed `docs/` directory on `main`.
 
 ## Sources and credits
 
-- The display name, research interests and photograph come from the supplied [Google Scholar profile](https://scholar.google.com/citations?user=V5YWfWgAAAAJ).
+- The display name and research interests come from the supplied [Google Scholar profile](https://scholar.google.com/citations?user=V5YWfWgAAAAJ).
 - The biographical details appear in an author's biography in *Physical Communication*. The professional contact address also appears in the ACL paper. [Author biography](https://www.sciencedirect.com/science/article/pii/S1874490726002429) · [ACL paper](https://aclanthology.org/2026.acl-long.1496.pdf)
-- The selected publication thumbnails link to larger views of the figures. [Figure credits](docs/assets/papers/FIGURES.md)
+- The homepage avatar is a photograph of WALL·E by Ravi Shah. The avatar and the selected publication thumbnails link to larger images. [Image credits](docs/assets/papers/FIGURES.md)
 - The site layout was inspired by [Yingdong Hu’s academic homepage](https://yingdong-hu.github.io/).

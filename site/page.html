@@ -13,9 +13,12 @@
   <meta property="og:type" content="profile">
   <meta property="og:title" content="$title">
   <meta property="og:description" content="$description">
-  <meta property="og:image" content="https://scout-ucas.github.io/assets/profile.jpg">
+  <meta property="og:image" content="https://scout-ucas.github.io/assets/wall-e.jpg">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="1280">
+  <meta property="og:image:alt" content="$portrait_alt">
   <meta property="og:url" content="$canonical">
-  <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="${base}favicon.ico">
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="${base}favicon.ico?v=wall-e">
   <script src="${base}theme.js"></script>
   <link rel="stylesheet" href="${base}styles.css">
 </head>
@@ -46,9 +49,12 @@
           <a class="pill" href="mailto:$email">$email_label</a>
         </div>
       </div>
-      <div class="portrait-wrap">
-        <img class="portrait" src="${base}assets/profile.jpg" alt="$portrait_alt" width="256" height="251" fetchpriority="high">
-      </div>
+      <a class="portrait-wrap" href="${base}assets/wall-e.jpg" aria-label="$portrait_full">
+        <img class="portrait" src="${base}assets/wall-e.jpg"
+             srcset="${base}assets/profile.jpg?v=wall-e 500w, ${base}assets/wall-e.jpg 1920w"
+             sizes="(max-width: 39rem) 5.25rem, (max-width: 48rem) 10.5rem, 16.5rem"
+             alt="$portrait_alt" width="256" height="256" fetchpriority="high">
+      </a>
     </section>
     <section class="section" id="research" aria-labelledby="research-title">
       <header id="projects">

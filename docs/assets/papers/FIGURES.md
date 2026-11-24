@@ -1,6 +1,10 @@
-# Figure credits
+# Image credits
 
-The selected publication thumbnails are 720 pixels wide. The archived project figures retain their original dimensions. All figures preserve their proportions, with transparent areas rendered on white.
+The selected publication thumbnails are 720 pixels wide. The archived project figures retain their original dimensions. The research figures preserve their proportions, with transparent areas rendered on white.
+
+## Homepage avatar
+
+Ravi Shah photographed a WALL·E figure raising its arms in *Day 99 - WALL\*E*. The original photograph measures 3,888 × 2,592 pixels. The homepage displays a square crop and links to a 1,920 × 1,280 version. The browser tab icon uses a closer crop. [Photographer’s original](https://www.flickr.com/photos/ravi-shah/20765827616/) · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Day_99_-_WALL%2AE_%2820765827616%29.jpg) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
 
 ## Game-enhanced pretraining
 

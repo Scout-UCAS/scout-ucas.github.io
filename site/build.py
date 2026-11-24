@@ -19,10 +19,11 @@ LABELS = {
         "dark": "Switch to dark theme", "light": "Switch to light theme",
         "research_title": "Research", "news_title": "News", "publications_title": "Selected publications",
         "nav_publications": "Publications", "all_publications": "All publications on Google Scholar",
-        "email_label": "Email", "portrait_alt": "Portrait of Lianlei Shan",
+        "email_label": "Email", "portrait_alt": "WALL·E standing on rocks with both arms raised",
+        "portrait_full": "Open the high-resolution WALL·E photograph",
         "code": "Code", "paper": "Paper", "preprint": "Preprint", "project": "Project page", "oral": "Oral presentation",
         "conference_abstract": "Conference abstract", "model": "Model weights",
-        "figure": "View figure for", "credits": "Figure credits", "top": "Back to top"
+        "figure": "View figure for", "credits": "Image credits", "top": "Back to top"
     },
     "zh": {
         "title": "Lianlei Shan | 学术主页",
@@ -32,10 +33,11 @@ LABELS = {
         "dark": "切换为深色主题", "light": "切换为浅色主题",
         "research_title": "研究内容", "news_title": "近期动态", "publications_title": "代表论文",
         "nav_publications": "论文", "all_publications": "在 Google Scholar 查看全部论文",
-        "email_label": "邮件联系", "portrait_alt": "Lianlei Shan 的头像",
+        "email_label": "邮件联系", "portrait_alt": "瓦力站在碎石上，举起双臂",
+        "portrait_full": "查看瓦力的高清照片",
         "code": "源码", "paper": "论文原文", "preprint": "预印本", "project": "项目页", "oral": "口头报告",
         "conference_abstract": "会议摘要", "model": "模型权重",
-        "figure": "查看论文配图", "credits": "配图来源", "top": "回到顶部"
+        "figure": "查看论文配图", "credits": "图片来源", "top": "回到顶部"
     }
 }
 
