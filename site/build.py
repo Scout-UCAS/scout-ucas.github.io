@@ -1,6 +1,7 @@
 """Render the English and Chinese homepages with the Python standard library."""
 
 import json
+from hashlib import sha256
 from html import escape
 from pathlib import Path
 from string import Template
@@ -99,6 +100,7 @@ def paper_row(paper, lang, base, profile_names, labels):
 def build():
     content = json.loads((HERE / "content.json").read_text(encoding="utf-8"))
     template = Template((HERE / "page.html").read_text(encoding="utf-8"))
+    stylesheet_version = sha256((DOCS / "styles.css").read_bytes()).hexdigest()[:12]
     profile = content["profile"]
     profile_names = {profile["name"], *profile.get("publication_aliases", [])}
     for lang, labels in LABELS.items():
@@ -107,7 +109,7 @@ def build():
         output.parent.mkdir(parents=True, exist_ok=True)
         nav = [("research", "research_title"), ("news", "news_title"), ("publications", "nav_publications")]
         html = template.substitute(
-            labels, base=base, name=escape(profile["name"]),
+            labels, base=base, name=escape(profile["name"]), stylesheet_version=stylesheet_version,
             canonical=SITE + ("zh/" if lang == "zh" else ""),
             focus=escape(profile["focus"][lang]),
             introduction="\n        ".join(
