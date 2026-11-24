@@ -10,8 +10,8 @@
       "zh": "多模态学习 · 强化学习"
     },
     "introduction": {
-      "en": "I study how models draw on both language and images to reason. I’m especially interested in how robots decide whether to keep reasoning or take their next action.",
-      "zh": "我研究模型如何结合语言与图像进行推理，尤其关注机器人如何判断当前的推理是否足以指导下一步行动。"
+      "en": "I study how models combine language and visual evidence to reason about a scene. To follow an instruction like “take the cup from the back of the cabinet,” a robot needs to identify the cup by its position and decide whether to move the dishes in front of it first.\n\nMy goal is to build embodied foundation models that generalize to unfamiliar objects, environments, and tasks. I want robots to combine skills learned from human demonstrations and their own experience, then adjust their next move based on the outcome of each action.",
+      "zh": "我研究模型如何结合语言和图像进行推理。例如，接到“拿出柜子最里面的杯子”这样的指令时，机器人要根据物体的相对位置找到目标，还要判断是否需要先移开前排的碗碟。\n\n我的目标是构建具有泛化能力的具身智能基座模型。我希望机器人面对新物体、新环境或新任务时，能够组合运用从人的示范和实际操作中学到的技能，并根据行动结果调整下一步动作。"
     },
     "biography": {
       "en": "I earned my PhD in computer science at the University of Chinese Academy of Sciences and carried out postdoctoral research at Tsinghua University.",

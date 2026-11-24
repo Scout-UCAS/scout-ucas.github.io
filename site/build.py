@@ -112,7 +112,11 @@ def build():
         html = template.substitute(
             labels, base=base, name=escape(profile["name"]),
             canonical=SITE + ("zh/" if lang == "zh" else ""),
-            focus=escape(profile["focus"][lang]), introduction=escape(profile["introduction"][lang]),
+            focus=escape(profile["focus"][lang]),
+            introduction="\n        ".join(
+                f'<p class="lead">{escape(paragraph)}</p>'
+                for paragraph in profile["introduction"][lang].split("\n\n")
+            ),
             biography=escape(profile["biography"][lang]), email=escape(profile["email"]),
             scholar=escape(profile["scholar"] + ("&hl=zh-CN" if lang == "zh" else "&hl=en")),
             github=escape(profile["github"]), nav="".join(link("#" + section, labels[key]) for section, key in nav),

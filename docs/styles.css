@@ -74,6 +74,7 @@ nav a, .language { color: var(--body); font-size: .91rem; }
 h1 { font-size: clamp(3.35rem, 6.6vw, 5.2rem); line-height: 1.03; letter-spacing: -.06em; margin-bottom: 1.25rem; }
 .hero-copy { max-width: 44rem; }
 .lead { color: var(--ink); font-size: clamp(1.13rem, 1.55vw, 1.35rem); line-height: 1.55; letter-spacing: -.012em; }
+.lead + .lead { margin-top: .75rem; }
 .bio { margin-top: .85rem; max-width: 63ch; line-height: 1.7; }
 .profile-links { margin-top: 1.45rem; gap: .55rem; flex-wrap: wrap; }
 .pill { display: inline-flex; align-items: center; justify-content: center; min-height: 2.45rem; padding: .37rem 1rem; border: 1px solid var(--line); border-radius: 2rem; color: var(--ink); font-size: .9rem; font-weight: 500; text-decoration: none; }
