@@ -14,11 +14,10 @@ LABELS = {
     "en": {
         "title": "Lianlei Shan | Research",
         "html_lang": "en", "other_lang": "zh-CN", "other_url": "zh/", "other_name": "中文",
-        "description": "Lianlei Shan’s academic homepage. Research, publications and software on latent reasoning, vision–language–action models and computer vision.",
+        "description": "Lianlei Shan’s research on multimodal reasoning and embodied foundation models, with news and selected publications.",
         "skip": "Skip to content", "nav_label": "Main navigation",
         "dark": "Switch to dark theme", "light": "Switch to light theme",
-        "research_title": "Research", "projects_title": "Research vision",
-        "nav_projects": "Vision", "news_title": "News", "publications_title": "Selected publications",
+        "research_title": "Research", "news_title": "News", "publications_title": "Selected publications",
         "nav_publications": "Publications", "all_publications": "All publications on Google Scholar",
         "email_label": "Email", "portrait_alt": "Portrait of Lianlei Shan",
         "code": "Code", "paper": "Paper", "preprint": "Preprint", "project": "Project page", "oral": "Oral presentation",
@@ -28,11 +27,10 @@ LABELS = {
     "zh": {
         "title": "Lianlei Shan | 学术主页",
         "html_lang": "zh-CN", "other_lang": "en", "other_url": "../", "other_name": "EN",
-        "description": "Lianlei Shan 的学术主页。研究方向包括潜空间推理、视觉语言动作模型和计算机视觉，附代表论文、研究代码与实验记录。",
+        "description": "Lianlei Shan 的学术主页，介绍多模态推理与具身智能基座模型研究，收录近期动态和代表论文。",
         "skip": "跳到正文", "nav_label": "主导航",
         "dark": "切换为深色主题", "light": "切换为浅色主题",
-        "research_title": "研究方向", "projects_title": "研究愿景",
-        "nav_projects": "愿景", "news_title": "近期动态", "publications_title": "代表论文",
+        "research_title": "研究内容", "news_title": "近期动态", "publications_title": "代表论文",
         "nav_publications": "论文", "all_publications": "在 Google Scholar 查看全部论文",
         "email_label": "邮件联系", "portrait_alt": "Lianlei Shan 的头像",
         "code": "源码", "paper": "论文原文", "preprint": "预印本", "project": "项目页", "oral": "口头报告",
@@ -46,11 +44,13 @@ def link(url, label):
     return f'<a href="{escape(url, quote=True)}">{escape(label)}</a>'
 
 
-def project_card(project, lang):
+def research_topic(topic, lang):
+    topic_id = escape(topic["id"])
+    heading_id = escape(topic.get("heading_id", topic["id"] + "-title"))
     return f"""
-      <article class="project" id="{escape(project['id'])}">
-        <h3>{escape(project['name'][lang])}</h3>
-        <p>{escape(project['summary'][lang])}</p>
+      <article id="{topic_id}" aria-labelledby="{heading_id}">
+        <h3 id="{heading_id}">{escape(topic['name'][lang])}</h3>
+        <p>{escape(topic['summary'][lang])}</p>
       </article>"""
 
 
@@ -103,12 +103,7 @@ def build():
         base = "../" if lang == "zh" else ""
         output = DOCS / ("zh" if lang == "zh" else "") / "index.html"
         output.parent.mkdir(parents=True, exist_ok=True)
-        nav = [("research", "research_title"), ("projects", "nav_projects"),
-               ("news", "news_title"), ("publications", "nav_publications")]
-        research = (
-            f"<article><h3>{escape(item['name'][lang])}</h3><p>{escape(item['summary'][lang])}</p></article>"
-            for item in content["research"]
-        )
+        nav = [("research", "research_title"), ("news", "news_title"), ("publications", "nav_publications")]
         html = template.substitute(
             labels, base=base, name=escape(profile["name"]),
             canonical=SITE + ("zh/" if lang == "zh" else ""),
@@ -120,8 +115,7 @@ def build():
             biography=escape(profile["biography"][lang]), email=escape(profile["email"]),
             scholar=escape(profile["scholar"] + ("&hl=zh-CN" if lang == "zh" else "&hl=en")),
             github=escape(profile["github"]), nav="".join(link("#" + section, labels[key]) for section, key in nav),
-            research_items="\n".join(research),
-            project_items="".join(project_card(p, lang) for p in content["projects"]),
+            research_items="".join(research_topic(topic, lang) for topic in content["research"]),
             news_items="".join(news_row(item, lang) for item in content["news"]),
             paper_items="".join(paper_row(p, lang, base, profile_names, labels) for p in content["papers"])
         )

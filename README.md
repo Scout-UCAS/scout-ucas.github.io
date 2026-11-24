@@ -11,7 +11,7 @@ Each project has its own Python environment, training configurations, tests and 
 
 ## Editing the homepage
 
-The profile, research vision, news and selected papers share a bilingual content file. Each paper links to its proceedings entry or preprint. [Content](site/content.json) · [Layout](site/page.html) · [Styles](docs/styles.css)
+The profile, research topics, news and selected papers share a bilingual content file. Each paper links to its proceedings entry or preprint. [Content](site/content.json) · [Layout](site/page.html) · [Styles](docs/styles.css)
 
 After editing the content or template, run the following commands from the repository root to rebuild and preview both pages.
 

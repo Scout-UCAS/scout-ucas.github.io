@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <title>Lianlei Shan | 学术主页</title>
-  <meta name="description" content="Lianlei Shan 的学术主页。研究方向包括潜空间推理、视觉语言动作模型和计算机视觉，附代表论文、研究代码与实验记录。">
+  <meta name="description" content="Lianlei Shan 的学术主页，介绍多模态推理与具身智能基座模型研究，收录近期动态和代表论文。">
   <link rel="canonical" href="https://scout-ucas.github.io/zh/">
   <link rel="alternate" hreflang="en" href="https://scout-ucas.github.io/">
   <link rel="alternate" hreflang="zh-CN" href="https://scout-ucas.github.io/zh/">
   <link rel="alternate" hreflang="x-default" href="https://scout-ucas.github.io/">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Lianlei Shan | 学术主页">
-  <meta property="og:description" content="Lianlei Shan 的学术主页。研究方向包括潜空间推理、视觉语言动作模型和计算机视觉，附代表论文、研究代码与实验记录。">
+  <meta property="og:description" content="Lianlei Shan 的学术主页，介绍多模态推理与具身智能基座模型研究，收录近期动态和代表论文。">
   <meta property="og:image" content="https://scout-ucas.github.io/assets/profile.jpg">
   <meta property="og:url" content="https://scout-ucas.github.io/zh/">
   <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="../favicon.ico">
@@ -24,7 +24,7 @@
   <header class="masthead">
     <div class="shell masthead-inner">
       <a class="wordmark" href="#top">Lianlei Shan</a>
-      <nav aria-label="主导航"><a href="#research">研究方向</a><a href="#projects">愿景</a><a href="#news">近期动态</a><a href="#publications">论文</a></nav>
+      <nav aria-label="主导航"><a href="#research">研究内容</a><a href="#news">近期动态</a><a href="#publications">论文</a></nav>
       <div class="settings">
         <a class="language" href="../" lang="en" hreflang="en">EN</a>
         <button class="theme" type="button" hidden aria-label="切换为深色主题" data-dark="切换为深色主题" data-light="切换为浅色主题">
@@ -52,20 +52,17 @@
       </div>
     </section>
     <section class="section" id="research" aria-labelledby="research-title">
-      <h2 id="research-title">研究方向</h2>
-      <div class="research-grid"><article><h3>潜空间推理</h3><p>在写出答案之前，模型保留了哪些信息？我研究中间状态的训练和评测，特别关注同一份状态能否支持多个不同的后续问题。</p></article>
-<article><h3>视觉、语言与动作</h3><p>我研究机器人如何将视觉观测和语言指令转化为动作，包括怎样比较多个内部计划，以及何时结束推理并执行动作。</p></article></div>
-    </section>
-    <section class="section" id="projects" aria-labelledby="projects-title">
-      <h2 id="projects-title">研究愿景</h2>
-      <div class="project-grid">
-      <article class="project" id="embodied-pretraining">
-        <h3>具身大脑模型的预训练</h3>
-        <p>我希望用人的示范和机器人自己的尝试来预训练具身模型，让机器人能把指令和眼前的场景联系起来，预判自己的动作会带来什么变化。我期待它走进陌生的房间时，也能借助已有经验摸索出使用新工具的方法。</p>
+      <header id="projects">
+        <h2 id="research-title"><span id="projects-title">研究内容</span></h2>
+      </header>
+      <div class="research-grid">
+      <article id="multimodal-reasoning" aria-labelledby="multimodal-reasoning-title">
+        <h3 id="multimodal-reasoning-title">多模态推理</h3>
+        <p>我研究模型在作答前如何整合语言和图像线索，以及同一份中间表示能否支持不同的推断。例如，模型找到指令所指的物体后，能否继续判断它被什么遮挡？如果画面里的线索不足，我希望模型能判断还需要从哪个角度观察。</p>
       </article>
-      <article class="project" id="frontier-research">
-        <h3>前沿探索</h3>
-        <p>我想探索机器人遇到意外时如何作出判断。比如，杯子不在原处，它该再仔细看一眼、换个地方找，还是开口问人？我希望它能判断自己还缺什么信息，根据新线索调整计划，并记住哪些做法值得下次再试。</p>
+      <article id="embodied-pretraining" aria-labelledby="frontier-research">
+        <h3 id="frontier-research">具身智能基座模型</h3>
+        <p>我研究如何用人的示范和机器人与环境交互的经验预训练具身模型，让机器人能预测动作的后果、比较不同方案，并决定何时行动。面对陌生的工具，我希望它能根据每次尝试的结果调整计划，把学到的技能用到新的任务中。</p>
       </article></div>
     </section>
     <section class="section" id="news" aria-labelledby="news-title">

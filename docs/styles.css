@@ -83,17 +83,13 @@ h1 { font-size: clamp(3.35rem, 6.6vw, 5.2rem); line-height: 1.03; letter-spacing
 .portrait-wrap { justify-self: center; width: min(100%, 16.5rem); padding: .55rem; border: 1px solid var(--line); border-radius: .85rem; background: white; }
 .portrait { width: 100%; border-radius: .5rem; }
 .section { border-top: 1px solid var(--line); padding-block: 2.2rem 3rem; }
-.section, .project, .paper { scroll-margin-top: 5.3rem; }
+.section, #research [id], .paper { scroll-margin-top: 5.3rem; }
 h2 { font-size: clamp(2rem, 3.4vw, 2.65rem); line-height: 1.18; letter-spacing: -.045em; margin-bottom: 1.4rem; }
 h3 { font-size: 1.45rem; line-height: 1.23; letter-spacing: -.026em; }
 .research-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.4rem, 3vw, 2.65rem); }
 .research-grid article + article { border-left: 1px solid var(--line); padding-left: clamp(1.3rem, 2.5vw, 2.3rem); }
 .research-grid h3 { margin-bottom: .62rem; }
 .research-grid p, .news-list li { line-height: 1.62; }
-.project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.45rem; }
-.project { border: 1px solid var(--line); border-radius: .75rem; padding: clamp(1.15rem, 2.5vw, 1.65rem); }
-.project h3 { margin-bottom: .7rem; font-size: clamp(1.5rem, 2.4vw, 1.85rem); text-wrap: balance; }
-.project p { line-height: 1.7; }
 .resource-links { gap: 1rem; font-size: .9rem; font-weight: 500; flex-wrap: wrap; }
 .resource-links a, .text-link, .news-links a { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent); }
 .resource-links a:hover, .text-link:hover, .news-links a:hover { text-decoration-color: currentColor; }
@@ -128,7 +124,6 @@ html[lang="zh-CN"] h2, html[lang="zh-CN"] .research-grid h3 { letter-spacing: .0
   .hero { grid-template-columns: minmax(0, 1fr) 10.5rem; gap: 1.5rem; }
   .research-grid { gap: 1.05rem; }
   .research-grid article + article { padding-left: 1.05rem; }
-  .project-grid { gap: .85rem; }
 }
 @media (max-width: 39rem) {
   .shell { width: calc(100% - 2rem); }
@@ -143,9 +138,9 @@ html[lang="zh-CN"] h2, html[lang="zh-CN"] .research-grid h3 { letter-spacing: .0
   .portrait { border-radius: .35rem; }
   .lead { line-height: 1.5; }
   .section { padding-block: 1.75rem 2.1rem; }
-  .section, .project, .paper { scroll-margin-top: 6.6rem; }
-  .research-grid, .project-grid { grid-template-columns: 1fr; gap: 1rem; }
-  .research-grid article + article { border: 0; padding: .12rem 0 0; }
+  .section, #research [id], .paper { scroll-margin-top: 6.6rem; }
+  .research-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .research-grid article + article { border-left: 0; border-top: 1px solid var(--line); padding: 1rem 0 0; }
   .research-grid h3 { margin-bottom: .3rem; }
   .news-list li { grid-template-columns: 4.5rem minmax(0, 1fr); gap: .65rem; }
   .paper { grid-template-columns: 1fr; gap: .75rem; padding-block: 1.25rem; }
@@ -157,5 +152,5 @@ html[lang="zh-CN"] h2, html[lang="zh-CN"] .research-grid h3 { letter-spacing: .0
   .masthead, .skip, .footer a { display: none; }
   .shell { width: 100%; }
   .hero, .section { padding-block: 1rem; }
-  .paper, .project { break-inside: avoid; }
+  .paper, .research-grid article { break-inside: avoid; }
 }

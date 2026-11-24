@@ -20,35 +20,20 @@
   },
   "research": [
     {
-      "name": {"en": "Latent reasoning", "zh": "潜空间推理"},
+      "id": "multimodal-reasoning",
+      "name": {"en": "Multimodal reasoning", "zh": "多模态推理"},
       "summary": {
-        "en": "What does a model retain before it writes an answer? I work on training and testing intermediate states, including whether one state can support several follow-up questions.",
-        "zh": "在写出答案之前，模型保留了哪些信息？我研究中间状态的训练和评测，特别关注同一份状态能否支持多个不同的后续问题。"
+        "en": "I study how models bring language and visual clues together before answering, and whether the same intermediate state can support several inferences. Once a model locates the object named in an instruction, can it also tell what is blocking it? When the scene is ambiguous, I want to understand how the model could choose a more informative viewpoint.",
+        "zh": "我研究模型在作答前如何整合语言和图像线索，以及同一份中间表示能否支持不同的推断。例如，模型找到指令所指的物体后，能否继续判断它被什么遮挡？如果画面里的线索不足，我希望模型能判断还需要从哪个角度观察。"
       }
     },
-    {
-      "name": {"en": "Vision, language & action", "zh": "视觉、语言与动作"},
-      "summary": {
-        "en": "I study how robot policies turn visual observations and instructions into actions, from choosing among several internal plans to deciding when to stop deliberating.",
-        "zh": "我研究机器人如何将视觉观测和语言指令转化为动作，包括怎样比较多个内部计划，以及何时结束推理并执行动作。"
-      }
-    }
-  ],
-  "projects": [
     {
       "id": "embodied-pretraining",
-      "name": {"en": "Pretraining embodied foundation models", "zh": "具身大脑模型的预训练"},
+      "heading_id": "frontier-research",
+      "name": {"en": "Embodied foundation models", "zh": "具身智能基座模型"},
       "summary": {
-        "en": "I want to pretrain models that learn from watching people and from a robot’s own attempts. My aim is for a robot to connect an instruction to the scene in front of it and anticipate how its actions will change that scene. In an unfamiliar room, it could then draw on that experience to work out how to use a new tool.",
-        "zh": "我希望用人的示范和机器人自己的尝试来预训练具身模型，让机器人能把指令和眼前的场景联系起来，预判自己的动作会带来什么变化。我期待它走进陌生的房间时，也能借助已有经验摸索出使用新工具的方法。"
-      }
-    },
-    {
-      "id": "frontier-research",
-      "name": {"en": "Frontier research", "zh": "前沿探索"},
-      "summary": {
-        "en": "I’m interested in how robots decide what to do when something unexpected happens. If a cup is missing from its usual spot, should a robot look more closely, search elsewhere, or ask someone? I’d like it to recognize what information it needs, revise its plan as it finds new clues, and remember what worked for next time.",
-        "zh": "我想探索机器人遇到意外时如何作出判断。比如，杯子不在原处，它该再仔细看一眼、换个地方找，还是开口问人？我希望它能判断自己还缺什么信息，根据新线索调整计划，并记住哪些做法值得下次再试。"
+        "en": "I study how to pretrain embodied models on human demonstrations and robots’ own interactions so they can anticipate the effects of actions, compare plans, and decide when to act. When a robot encounters an unfamiliar tool, I want it to use the outcome of each attempt to revise its plan and carry what it learns into a new task.",
+        "zh": "我研究如何用人的示范和机器人与环境交互的经验预训练具身模型，让机器人能预测动作的后果、比较不同方案，并决定何时行动。面对陌生的工具，我希望它能根据每次尝试的结果调整计划，把学到的技能用到新的任务中。"
       }
     }
   ],

@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <title>Lianlei Shan | Research</title>
-  <meta name="description" content="Lianlei Shan’s academic homepage. Research, publications and software on latent reasoning, vision–language–action models and computer vision.">
+  <meta name="description" content="Lianlei Shan’s research on multimodal reasoning and embodied foundation models, with news and selected publications.">
   <link rel="canonical" href="https://scout-ucas.github.io/">
   <link rel="alternate" hreflang="en" href="https://scout-ucas.github.io/">
   <link rel="alternate" hreflang="zh-CN" href="https://scout-ucas.github.io/zh/">
   <link rel="alternate" hreflang="x-default" href="https://scout-ucas.github.io/">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Lianlei Shan | Research">
-  <meta property="og:description" content="Lianlei Shan’s academic homepage. Research, publications and software on latent reasoning, vision–language–action models and computer vision.">
+  <meta property="og:description" content="Lianlei Shan’s research on multimodal reasoning and embodied foundation models, with news and selected publications.">
   <meta property="og:image" content="https://scout-ucas.github.io/assets/profile.jpg">
   <meta property="og:url" content="https://scout-ucas.github.io/">
   <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="favicon.ico">
@@ -24,7 +24,7 @@
   <header class="masthead">
     <div class="shell masthead-inner">
       <a class="wordmark" href="#top">Lianlei Shan</a>
-      <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#projects">Vision</a><a href="#news">News</a><a href="#publications">Publications</a></nav>
+      <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#news">News</a><a href="#publications">Publications</a></nav>
       <div class="settings">
         <a class="language" href="zh/" lang="zh-CN" hreflang="zh-CN">中文</a>
         <button class="theme" type="button" hidden aria-label="Switch to dark theme" data-dark="Switch to dark theme" data-light="Switch to light theme">
@@ -52,20 +52,17 @@
       </div>
     </section>
     <section class="section" id="research" aria-labelledby="research-title">
-      <h2 id="research-title">Research</h2>
-      <div class="research-grid"><article><h3>Latent reasoning</h3><p>What does a model retain before it writes an answer? I work on training and testing intermediate states, including whether one state can support several follow-up questions.</p></article>
-<article><h3>Vision, language &amp; action</h3><p>I study how robot policies turn visual observations and instructions into actions, from choosing among several internal plans to deciding when to stop deliberating.</p></article></div>
-    </section>
-    <section class="section" id="projects" aria-labelledby="projects-title">
-      <h2 id="projects-title">Research vision</h2>
-      <div class="project-grid">
-      <article class="project" id="embodied-pretraining">
-        <h3>Pretraining embodied foundation models</h3>
-        <p>I want to pretrain models that learn from watching people and from a robot’s own attempts. My aim is for a robot to connect an instruction to the scene in front of it and anticipate how its actions will change that scene. In an unfamiliar room, it could then draw on that experience to work out how to use a new tool.</p>
+      <header id="projects">
+        <h2 id="research-title"><span id="projects-title">Research</span></h2>
+      </header>
+      <div class="research-grid">
+      <article id="multimodal-reasoning" aria-labelledby="multimodal-reasoning-title">
+        <h3 id="multimodal-reasoning-title">Multimodal reasoning</h3>
+        <p>I study how models bring language and visual clues together before answering, and whether the same intermediate state can support several inferences. Once a model locates the object named in an instruction, can it also tell what is blocking it? When the scene is ambiguous, I want to understand how the model could choose a more informative viewpoint.</p>
       </article>
-      <article class="project" id="frontier-research">
-        <h3>Frontier research</h3>
-        <p>I’m interested in how robots decide what to do when something unexpected happens. If a cup is missing from its usual spot, should a robot look more closely, search elsewhere, or ask someone? I’d like it to recognize what information it needs, revise its plan as it finds new clues, and remember what worked for next time.</p>
+      <article id="embodied-pretraining" aria-labelledby="frontier-research">
+        <h3 id="frontier-research">Embodied foundation models</h3>
+        <p>I study how to pretrain embodied models on human demonstrations and robots’ own interactions so they can anticipate the effects of actions, compare plans, and decide when to act. When a robot encounters an unfamiliar tool, I want it to use the outcome of each attempt to revise its plan and carry what it learns into a new task.</p>
       </article></div>
     </section>
     <section class="section" id="news" aria-labelledby="news-title">
