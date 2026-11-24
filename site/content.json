@@ -136,15 +136,6 @@
       "oral_program": "https://aaai.org/wp-content/uploads/2025/02/AAAI-25-Main-Track-Oral-Talks-Schedule-2.22.pdf#page=13"
     },
     {
-      "id": "calnet",
-      "title": "Incremental Few Shot Semantic Segmentation via Class-agnostic Mask Proposal and Language-driven Classifier",
-      "authors": ["Leo Shan", "Wenzhang Zhou", "Grace Zhao"],
-      "venue": "ACM Multimedia", "year": 2023,
-      "summary": {"en": "CaLNet proposes masks independently of class labels, then combines language and visual features to classify each region. To recognize a new class, it updates only the classifier using a few labeled images.", "zh": "CaLNet 先生成与类别无关的候选掩码，再结合语言和视觉特征判断每个区域的类别。学习新类别时，只需用少量标注图像更新分类器。"},
-      "url": "https://doi.org/10.1145/3581783.3611783",
-      "conference_abstract": "https://www.sigmm.org/opentoc/MM2023-TOC#:~:text=Incremental%20Few%20Shot%20Semantic%20Segmentation%20via%20Class-agnostic%20Mask%20Proposal%20and%20Language-driven%20Classifier"
-    },
-    {
       "id": "dlr",
       "title": "Latent-Space Contrastive Reinforcement Learning for Stable and Efficient LLM Reasoning",
       "authors": ["Lianlei Shan", "Han Chen", "Yixuan Wang", "Zhenjie Liu", "Wei Li"],
